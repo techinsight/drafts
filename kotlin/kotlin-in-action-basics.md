@@ -59,12 +59,12 @@ fun compare(a: Int, b: Int): Int = if (a > b) a else b
 ```kotlin
 fun compare(a: Int, b: Int) = if (a > b) a else b
 ```
-即省略函数返回类型。那么会有疑问，为什么函数可以不要返回值类型？？作为一门静态语言，Kotlin应该要求所有的表达式应该在编译期间就有类型？事实上，Kotlin的每个变量和表达式独有类型，每个函数也都有返回类型。而对表达式函数体来说，编译器会分析作为函数体的表达式
+即省略函数返回类型。那么会有疑问，为什么函数可以不要返回值类型？？作为一门静态语言，Kotlin应该要求所有的表达式应该在编译期间就有类型？事实上，Kotlin的每个变量和表达式独有类型，每个函数也都有返回类型。而对表达式函数体来说，编译器会分析作为函数体的表达式，并把它的类型作为函数的返回类型，即使没有显示地显示出来。这种分析通常
 
 #### 变量
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTIwMTczODUsLTE2NzY4MTg3NDAsOD
-YwNDQ1MTQ2LDE4ODQxNzA4NzBdfQ==
+eyJoaXN0b3J5IjpbLTUyMjA4Mjg5MCwtMTE1MjAxNzM4NSwtMT
+Y3NjgxODc0MCw4NjA0NDUxNDYsMTg4NDE3MDg3MF19
 -->
