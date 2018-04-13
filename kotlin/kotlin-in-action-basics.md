@@ -195,9 +195,11 @@ Kotlin中有一点与Java不同的是：Kotlin文件的包层级结构可以不�
 ### 枚举和“when”
 #### 枚举
 
-Kotlin中的枚举声明需要使用两个关键字：enum class。这也是Kotlin中唯一使用两个关键字声明
+Kotlin中的枚举声明需要使用两个关键字：enum class。这也是Kotlin中唯一使用两个关键字声明类的地方。
+
+Kotlin中的enum是一个<font color=red>软关键字</font>。即
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjYwMDI5ODMsMTMwOTQ1NTA1MCwtMT
+eyJoaXN0b3J5IjpbLTE1MjA2NDAxMjUsMTMwOTQ1NTA1MCwtMT
 YxNDU2NDIyLDEyNjg5NjE1MTMsMTM5Mzk2MjAzMSw2MDIzNzQz
 NDIsNzg2NzM0MzY5LDExNjkwNzY5NjVdfQ==
 -->
