@@ -55,12 +55,16 @@ fun compare(a: Int, b: Int): Int = if (a > b) a else b
 ```
 如果函数体在花括号中，这个函数是代码块体函数。
 
-
+这里的compare函数还可以进一步简化，如下:
+```kotlin
+fun compare(a: Int, b: Int) = if (a > b) a else b
+```
+即省略函数返回类型
 
 #### 变量
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyNjYxODcyLC0xNjc2ODE4NzQwLDg2MD
-Q0NTE0NiwxODg0MTcwODcwXX0=
+eyJoaXN0b3J5IjpbLTEzNzkwMDk0ODUsLTE2NzY4MTg3NDAsOD
+YwNDQ1MTQ2LDE4ODQxNzA4NzBdfQ==
 -->
