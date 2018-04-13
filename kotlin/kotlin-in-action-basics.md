@@ -116,8 +116,9 @@ var声明的变量虽然是可变的，但是变量的类型是不可变的。 �
 var count = 1
 count = "hello"
 ```
-这段变量声明是不合法的，变量count的类型在初始化为1的时候已经确认了是Int类型，再去给其赋值为String类型，这是编译器不会
+这段变量声明是不合法的，变量count的类型在初始化为1的时候已经确认了是Int类型，再去给其赋值为String类型，这是编译器回给出错误提示。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzODQ3Nzk1LDExNjkwNzY5NjVdfQ==
+eyJoaXN0b3J5IjpbLTYwMjk3MTA5LDExNjkwNzY5NjVdfQ==
 -->
