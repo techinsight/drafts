@@ -167,10 +167,13 @@ class Person(val name: String)
 
 我们知道Java中的属性是由字段及其对应的getter，setter方法组成。Kotlin中<font color=red>属性是头等的语言特性</font>，其完全地取代了字段和对应的访问器。
 
+在Kotlin中声明一个属性跟声明一个变量使用同样的关键字val和var。声明val的属性是只读的，var属性是可变的。
 
+```kontlin
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTEzODExNywxMjY4OTYxNTEzLDEzOT
+eyJoaXN0b3J5IjpbMTk2OTMzODc0NywxMjY4OTYxNTEzLDEzOT
 M5NjIwMzEsNjAyMzc0MzQyLDc4NjczNDM2OSwxMTY5MDc2OTY1
 XX0=
 -->
