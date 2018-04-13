@@ -135,11 +135,14 @@ fun main(args: Array<String>) {
 字符串模板可以有更加复杂的表达方式——${表达式语句}
 可以将上述代码进行一定的修改
 ```kotlin
-
+fun main(args: Array<String>) {
+    println("Hello ${if (args.size > 0) args[0] else "Kotlin"}!")
+}
 ```
 
+这样的写法也是对的，其中可以看到花括号中又有一对引号，在Kotlin
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTUxNzY1MSwxMTY5MDc2OTY1XX0=
+eyJoaXN0b3J5IjpbMTgzMjk5MDY1MiwxMTY5MDc2OTY1XX0=
 -->
