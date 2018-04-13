@@ -146,10 +146,20 @@ fun main(args: Array<String>) {
 先看看Java中的声明方式。
 ```java
 public class Person {
-    private String 
+    private String name;
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTQwMjQxLDEzOTM5NjIwMzEsNjAyMz
-c0MzQyLDc4NjczNDM2OSwxMTY5MDc2OTY1XX0=
+eyJoaXN0b3J5IjpbMTQ5MTA2MDIyMiwxMzkzOTYyMDMxLDYwMj
+M3NDM0Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
 -->
