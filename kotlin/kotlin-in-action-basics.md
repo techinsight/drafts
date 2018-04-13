@@ -192,9 +192,12 @@ Kotlin中有一点与Java不同的是：Kotlin文件的包层级结构可以不�
 
 但在具体实现过程中，遵循包层级结构与目录层级结构一直是比较好的实践，尤其是在程序中兼有Java和Kotlin程序文件。
 
-### 枚举和“”“”
+### 枚举和“when”
+#### 枚举
+
+Kotlin中的枚举声明需要使用两个关键字：enum class。这也是Kotlin中唯一使用两个关键字声明
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODQwNjgyOCwxMzA5NDU1MDUwLC0xNj
-E0NTY0MjIsMTI2ODk2MTUxMywxMzkzOTYyMDMxLDYwMjM3NDM0
-Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
+eyJoaXN0b3J5IjpbLTEwNjYwMDI5ODMsMTMwOTQ1NTA1MCwtMT
+YxNDU2NDIyLDEyNjg5NjE1MTMsMTM5Mzk2MjAzMSw2MDIzNzQz
+NDIsNzg2NzM0MzY5LDExNjkwNzY5NjVdfQ==
 -->
