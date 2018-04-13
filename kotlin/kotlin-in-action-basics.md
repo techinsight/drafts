@@ -80,9 +80,11 @@ val number
 number = 4
 ```
 上边这样的声明方式，编译器会提示错误
-
+```
+Error: This vairable
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0NjA4NzM1LC0xNzczMDg5MjQ5LC0xMT
-UyMDE3Mzg1LC0xNjc2ODE4NzQwLDg2MDQ0NTE0NiwxODg0MTcw
-ODcwXX0=
+eyJoaXN0b3J5IjpbLTE0NzcyOTQwNzUsLTE3NzMwODkyNDksLT
+ExNTIwMTczODUsLTE2NzY4MTg3NDAsODYwNDQ1MTQ2LDE4ODQx
+NzA4NzBdfQ==
 -->
