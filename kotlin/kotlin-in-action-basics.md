@@ -94,7 +94,11 @@ Kotlin中的变量可分为可变变量和不可变量：
 
 默认情况下，Kotlin中尽可能的将变量声明为val，只在需要的时候换成var。
 
-另外，声明了val变量的代码块中，如果编译器分析后可以确保
+另外，声明了val变量的代码块中，如果编译器分析后可以确保变量在整个执行过程中只会有唯一一次的赋值行为，那么也是可以的。
+```kotlin
+val average: Int
+if (){}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjk5OTgwNF19
+eyJoaXN0b3J5IjpbLTEyMTgzMDIwOTBdfQ==
 -->
