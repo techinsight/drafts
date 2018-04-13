@@ -161,7 +161,9 @@ public class Person {
 ```kotlin
 class Person(name: String)
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzkwNzU3MSwxMzkzOTYyMDMxLDYwMj
+eyJoaXN0b3J5IjpbMTI2ODk2MTUxMywxMzkzOTYyMDMxLDYwMj
 M3NDM0Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
 -->
