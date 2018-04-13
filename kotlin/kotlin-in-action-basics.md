@@ -165,8 +165,10 @@ class Person(val name: String)
 
 #### 属性
 
+我们知道Java中的属性是由字段及其对应的getter，setter方法组成。Kotlin中<font color=red>sh</font>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDkwNTAwMzYsMTI2ODk2MTUxMywxMz
+eyJoaXN0b3J5IjpbLTE2NzY3Mzc2NjcsMTI2ODk2MTUxMywxMz
 kzOTYyMDMxLDYwMjM3NDM0Miw3ODY3MzQzNjksMTE2OTA3Njk2
 NV19
 -->
