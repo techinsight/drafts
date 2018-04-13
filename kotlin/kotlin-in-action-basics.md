@@ -26,10 +26,15 @@ Kotlin在服务器应用程序上也可以运行的很好，全面支持所有�
 
 ### 函数和变量
 #### 函数
-首先来看一段代码：
-```ko
+首先看著名的hello world代码：
+```kotlin
+fun main(args: Array<String>) {
+    println("Hello World!")
+}
 ```
+
+这里给出了最基本的函数声明
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODU2MDM4MSw4NjA0NDUxNDYsMTg4ND
-E3MDg3MF19
+eyJoaXN0b3J5IjpbLTIxMTUxMTkyMzYsODYwNDQ1MTQ2LDE4OD
+QxNzA4NzBdfQ==
 -->
