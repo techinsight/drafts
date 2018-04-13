@@ -202,11 +202,15 @@ Kotlin中的enum是一个<font color=red>软关键字</font>。即enum只有出�
 枚举类不只是值得列表，可以为其声明方法。
 ```kotlin
 enum class Color(val r: Int, val g: Int, val b: Int) {
-	    RED(255, 0, 0), GREEN(0, 255, 0), BLUE(0, 0, 255);
+    RED(255, 0, 0), GREEN(0, 255, 0), BLUE(0, 0, 255);
+
+    fun rgb = (r * 256 + g) * 256 + b
 }
 ```
+
+这里也有唯一一个Kotlin中使用分号的dif
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI3NjA0NjgsMTMwOTQ1NTA1MCwtMT
-YxNDU2NDIyLDEyNjg5NjE1MTMsMTM5Mzk2MjAzMSw2MDIzNzQz
-NDIsNzg2NzM0MzY5LDExNjkwNzY5NjVdfQ==
+eyJoaXN0b3J5IjpbMTY0OTk3MDg4MiwxMzA5NDU1MDUwLC0xNj
+E0NTY0MjIsMTI2ODk2MTUxMywxMzkzOTYyMDMxLDYwMjM3NDM0
+Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
 -->
