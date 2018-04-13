@@ -111,8 +111,14 @@ programs.add("Kotlin")
 ```
 
 val关键字目前就是这么些注意的内容，再来谈谈var。
-var声明的变量虽然是可变的，但是变量的类型是不可变的。 编译器只会根据变量初始化器
+var声明的变量虽然是可变的，但是变量的类型是不可变的。 编译器只会根据变量初始化器来推导变量的类型，在确认类型之后不会再考虑后续赋值操作。
+```kotlin
+var count = 1
+count = "hello"
+```
+
+zhe
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTAzNjEwMiwxMTY5MDc2OTY1XX0=
+eyJoaXN0b3J5IjpbLTY5MDk4NzkxMCwxMTY5MDc2OTY1XX0=
 -->
