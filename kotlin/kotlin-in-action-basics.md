@@ -105,9 +105,13 @@ if (isMain) {
 ```
 
 另外还有与Java类似的是，val引用本身是不可变的，但其指向的对象是可以改变的。
-```
+```kotlin
+val programs = arrayListOf("Java")
+programs.add("Kotlin")
 ```
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzkzMjc4XX0=
+eyJoaXN0b3J5IjpbMTE2OTA3Njk2NV19
 -->
