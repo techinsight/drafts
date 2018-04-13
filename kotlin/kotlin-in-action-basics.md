@@ -140,9 +140,9 @@ fun main(args: Array<String>) {
 }
 ```
 
-这样的写法也是对的，其中可以看到花括号中又有一对引号，在Kotlin
+这样的写法也是对的，其中可以看到花括号中又有一对引号，在Kotlin中可以在双引号中嵌套双引号，但是双引号需要是在
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjk5MDY1MiwxMTY5MDc2OTY1XX0=
+eyJoaXN0b3J5IjpbLTU4MTIzNDYyNiwxMTY5MDc2OTY1XX0=
 -->
