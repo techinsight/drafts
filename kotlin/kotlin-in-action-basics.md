@@ -157,9 +157,8 @@ public class Person {
     }
 }
 ```
-
-
+这是最典型的的JavaBean类。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTA2MDIyMiwxMzkzOTYyMDMxLDYwMj
+eyJoaXN0b3J5IjpbMTg2MDc2MjM1MCwxMzkzOTYyMDMxLDYwMj
 M3NDM0Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
 -->
