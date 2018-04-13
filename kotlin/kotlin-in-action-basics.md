@@ -45,8 +45,10 @@ fun compare(a: Int, b: Int): Int {
 }
 ```
 
-在函数后边紧跟着函数返回类型，返回类型与申明
+在函数后边紧跟着函数返回类型，返回类型与函数声明之间用冒号分隔。
+
+这里可以看到，if是一个表达式，而不是语句。语句与表达式的区别在于，表达式有
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzE3NTIxOTUsODYwNDQ1MTQ2LDE4OD
-QxNzA4NzBdfQ==
+eyJoaXN0b3J5IjpbLTY0NjA3MzQzOCw4NjA0NDUxNDYsMTg4ND
+E3MDg3MF19
 -->
