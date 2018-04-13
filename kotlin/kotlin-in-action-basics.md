@@ -36,8 +36,8 @@ fun main(args: Array<String>) {
 这里给出了最基本的函数声明。
 - 关键字fun用来声明一个函数。
 - 参数类型写在变量之后。
-- 
+- Kotlin中每行代码结尾省率分号
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjU1Nzk1NSw4NjA0NDUxNDYsMTg4ND
-E3MDg3MF19
+eyJoaXN0b3J5IjpbLTIwMTU4Mzg0ODIsODYwNDQ1MTQ2LDE4OD
+QxNzA4NzBdfQ==
 -->
