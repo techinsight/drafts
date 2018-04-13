@@ -177,10 +177,12 @@ Kotlin中在声明一个属性的时候，同时也就声明了访问器。Kotli
 先看看看如何来判断一个矩形是否是正方形的程序。
 
 ```kotlin
-class 
+class Rectangle(val height: Int, val width: Int) {
+    fun isSquare() = if (height == width) 
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3MDE3MzIsLTE2MTQ1NjQyMiwxMjY4OT
-YxNTEzLDEzOTM5NjIwMzEsNjAyMzc0MzQyLDc4NjczNDM2OSwx
-MTY5MDc2OTY1XX0=
+eyJoaXN0b3J5IjpbMTExNjkwOTk0LC0xNjE0NTY0MjIsMTI2OD
+k2MTUxMywxMzkzOTYyMDMxLDYwMjM3NDM0Miw3ODY3MzQzNjks
+MTE2OTA3Njk2NV19
 -->
