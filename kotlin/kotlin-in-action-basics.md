@@ -125,12 +125,15 @@ Type mismatch: Infer type is String but Int was expected
 先看一段简单的代码
 ```kotlin
 fun main(args: Array<String>) {
-    val langage
+    val language = if (args.size > 0) args[0] else "Kotlin"
+    println("Hello $language")
 }
 ```
+
+zhe
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyODgwNDk0LDExNjkwNzY5NjVdfQ==
+eyJoaXN0b3J5IjpbLTM3NjA3MzIyOCwxMTY5MDc2OTY1XX0=
 -->
