@@ -111,8 +111,8 @@ programs.add("Kotlin")
 ```
 
 val关键字目前就是这么些注意的内容，再来谈谈var。
-var声明的binalian
+var声明的变量虽然是可变的，但是变量的类型是不可变的。 编译器只会根据变量初始化器
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1NTAwMzA4LDExNjkwNzY5NjVdfQ==
+eyJoaXN0b3J5IjpbMTY0OTAzNjEwMiwxMTY5MDc2OTY1XX0=
 -->
