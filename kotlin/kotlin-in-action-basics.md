@@ -161,10 +161,10 @@ public class Person {
 ```kotlin
 class Person(val name: String)
 ```
-使用Kotlin声明这样一个类，就只有一行。Kotlin中这种类（只有数据没有其他代码）被称为<font color=red>值对象</font>。
+使用Kotlin声明这样一个类，就只有一行。Kotlin中这种类（只有数据没有其他代码）被称为<font color=red>值对象</font>。同样也应该注意到了，Java声明中的public访问修饰符到Kotlin对应的声明中就不见了，这是因为Kotlin中public是默认的
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTIxNTIyNywxMjY4OTYxNTEzLDEzOT
+eyJoaXN0b3J5IjpbLTI1MzUwOTUyNCwxMjY4OTYxNTEzLDEzOT
 M5NjIwMzEsNjAyMzc0MzQyLDc4NjczNDM2OSwxMTY5MDc2OTY1
 XX0=
 -->
