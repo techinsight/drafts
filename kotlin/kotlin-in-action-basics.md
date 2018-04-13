@@ -171,9 +171,9 @@ class Person(val name: String)
 ```kotlin
 class Person(val name: Strinig, var isMerried: Boolean)
 ```
-Kotlin中在声明一个属性的时候，同时也就声明了访问器。Kotlin中访问器的默认实现很简单
+Kotlin中在声明一个属性的时候，同时也就声明了访问器。Kotlin中访问器的默认实现很简单，创建一个存储值得字段，以及getter和setter方法。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3Njk4MTMxLDEyNjg5NjE1MTMsMTM5Mz
-k2MjAzMSw2MDIzNzQzNDIsNzg2NzM0MzY5LDExNjkwNzY5NjVd
-fQ==
+eyJoaXN0b3J5IjpbLTE2MTQ1NjQyMiwxMjY4OTYxNTEzLDEzOT
+M5NjIwMzEsNjAyMzc0MzQyLDc4NjczNDM2OSwxMTY5MDc2OTY1
+XX0=
 -->
