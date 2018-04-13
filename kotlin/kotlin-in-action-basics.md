@@ -18,9 +18,11 @@ Kotlin在服务器应用程序上也可以运行的很好，全面支持所有�
 
 <table><tr><td bgcolor=#A9A9A9>
 - 声明函数、变量、类、枚举以及属性
-- Kotlin中的控制接
+<br/>- Kotlin中的控制结构
+<br/>- 智能转换
+<br>
 </td></tr></table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDI1NTYwNSw4NjA0NDUxNDYsMTg4ND
+eyJoaXN0b3J5IjpbMTQ2ODM3NDU0Nyw4NjA0NDUxNDYsMTg4ND
 E3MDg3MF19
 -->
