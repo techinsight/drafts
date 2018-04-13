@@ -104,8 +104,10 @@ if (isMain) {
 }
 ```
 
-
+另外还有与Java类似的是，val引用本身是不可变的，但其指向的对象是可以改变的。
+```
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzYwNTcxNV19
+eyJoaXN0b3J5IjpbLTIzNzkzMjc4XX0=
 -->
