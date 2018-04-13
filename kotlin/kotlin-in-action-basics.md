@@ -17,12 +17,15 @@ Kotlin在服务器应用程序上也可以运行的很好，全面支持所有�
 它是免费和开源的，全面支持主流的IDE和构建系统。
 
 <table><tr><td bgcolor=#A9A9A9>
-- 声明函数、变量、类、枚举以及属性
+本文内容：
+<br/>- 声明函数、变量、类、枚举以及属性
 <br/>- Kotlin中的控制结构
 <br/>- 智能转换
-<br>
+<br/>- 抛出和异常处理
 </td></tr></table>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODM3NDU0Nyw4NjA0NDUxNDYsMTg4ND
+eyJoaXN0b3J5IjpbMTE5MDk3Mjg0NCw4NjA0NDUxNDYsMTg4ND
 E3MDg3MF19
 -->
