@@ -130,10 +130,10 @@ fun main(args: Array<String>) {
 }
 ```
 
-这段代码中可以看到，变量language前边有$符号，这种写法就是需要说的Kotlin中的新特性，
+这段代码中可以看到，变量language前边有$符号，这种写法就是需要说的Kotlin中的新特性，字符串模板。字符串模板的作用即是可以在程序的字符串中引用变量。这种表达写法相当于在Java中使用Strn
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDA4ODM4NSwxMTY5MDc2OTY1XX0=
+eyJoaXN0b3J5IjpbMTQ4MDI5MTkzMywxMTY5MDc2OTY1XX0=
 -->
