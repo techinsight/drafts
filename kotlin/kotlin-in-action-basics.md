@@ -91,6 +91,8 @@ Error: This vairable must either have a type annotation or be initialized.
 Kotlin中的变量可分为可变变量和不可变量：
   - val —— 不可变引用。val声明的变量赋值之后不可更改。与Java的final对应。
   - var —— 可变引用。var声明的变量的值可变。与Java中的一般的变量相当。
+
+Kotlin中尽可能的将变量声明va
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI3Nzk3NjddfQ==
+eyJoaXN0b3J5IjpbLTQzODczNjE4OF19
 -->
