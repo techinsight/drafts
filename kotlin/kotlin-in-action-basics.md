@@ -74,8 +74,15 @@ val literal = "Hello World!"
 
 <font color=red size=4>但是不是所有的情况都可以省略变量类型，最直接的情况就是在没有对变量进行初始化的情况下，这个时候就需要在声明中加上变量的类型。</font>
 
-如果没有对变量
+例如：
+```kotlin
+val number
+number = 4
+```
+上边这样的声明方式，编译器会提示错误
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzMwODkyNDksLTExNTIwMTczODUsLT
-E2NzY4MTg3NDAsODYwNDQ1MTQ2LDE4ODQxNzA4NzBdfQ==
+eyJoaXN0b3J5IjpbNTU0NjA4NzM1LC0xNzczMDg5MjQ5LC0xMT
+UyMDE3Mzg1LC0xNjc2ODE4NzQwLDg2MDQ0NTE0NiwxODg0MTcw
+ODcwXX0=
 -->
