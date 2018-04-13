@@ -66,9 +66,10 @@ fun compare(a: Int, b: Int) = if (a > b) a else b
 例如：
 ```kotlin
 val number = 3
-val 
+val literal = "Hello World!"
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjE3MDQ0MywtMTE1MjAxNzM4NSwtMT
-Y3NjgxODc0MCw4NjA0NDUxNDYsMTg4NDE3MDg3MF19
+eyJoaXN0b3J5IjpbLTE0Mjg4OTkzMzgsLTExNTIwMTczODUsLT
+E2NzY4MTg3NDAsODYwNDQ1MTQ2LDE4ODQxNzA4NzBdfQ==
 -->
