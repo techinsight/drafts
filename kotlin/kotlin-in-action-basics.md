@@ -198,8 +198,13 @@ Kotlin中有一点与Java不同的是：Kotlin文件的包层级结构可以不�
 Kotlin中的枚举声明需要使用两个关键字：enum class。这也是Kotlin中唯一使用两个关键字声明类的地方。
 
 Kotlin中的enum是一个<font color=red>软关键字</font>。即enum只有出现在class之前才有意义，平时使用可以当做一般名称使用。
+
+枚举类不只是值得列表，可以为其声明方法。
+```kotlin
+enum class Color(val r: I) {}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU3ODE1ODQsMTMwOTQ1NTA1MCwtMT
-YxNDU2NDIyLDEyNjg5NjE1MTMsMTM5Mzk2MjAzMSw2MDIzNzQz
-NDIsNzg2NzM0MzY5LDExNjkwNzY5NjVdfQ==
+eyJoaXN0b3J5IjpbMjE0NjU1OTAwNywxMzA5NDU1MDUwLC0xNj
+E0NTY0MjIsMTI2ODk2MTUxMywxMzkzOTYyMDMxLDYwMjM3NDM0
+Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
 -->
