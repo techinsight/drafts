@@ -201,10 +201,12 @@ Kotlin中的enum是一个<font color=red>软关键字</font>。即enum只有出�
 
 枚举类不只是值得列表，可以为其声明方法。
 ```kotlin
-enum class Color(val r: I) {}
+enum class Color(val r: Int, val g: Int, val b: Int) {
+	    RED(255, 0, 0), GREEN(0, 255, 0), BLUE(0, 0, 255);
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjU1OTAwNywxMzA5NDU1MDUwLC0xNj
-E0NTY0MjIsMTI2ODk2MTUxMywxMzkzOTYyMDMxLDYwMjM3NDM0
-Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
+eyJoaXN0b3J5IjpbLTEzNDI3NjA0NjgsMTMwOTQ1NTA1MCwtMT
+YxNDU2NDIyLDEyNjg5NjE1MTMsMTM5Mzk2MjAzMSw2MDIzNzQz
+NDIsNzg2NzM0MzY5LDExNjkwNzY5NjVdfQ==
 -->
