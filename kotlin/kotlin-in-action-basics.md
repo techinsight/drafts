@@ -97,8 +97,14 @@ Kotlin中的变量可分为可变变量和不可变量：
 另外，声明了val变量的代码块中，如果编译器分析后可以确保变量在整个执行过程中只会有唯一一次的赋值行为，那么也是可以的。
 ```kotlin
 val average: Int
-if (){}
+if (isMain) {
+    average = 8
+} else {
+    average = 5
+}
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTgzMDIwOTBdfQ==
+eyJoaXN0b3J5IjpbLTE3NTk1NzI2NzNdfQ==
 -->
