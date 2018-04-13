@@ -190,9 +190,11 @@ class Rectangle(val height: Int, val width: Int) {
 
 Kotlin中有一点与Java不同的是：Kotlin文件的包层级结构可以不遵循目录结构。及Kotlin文件中package语句的包声明与程序的工程目录结构可以不一致。且多个类可以放置在一个Kotlin文件中，文件名任意。
 
-但在具体实现过程中，遵循包层级
+但在具体实现过程中，遵循包层级结构与目录层级结构一直是比较好的实践，尤其是在程序中兼有Java和Kotlin程序文件。
+
+### 枚举和“”“”
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzNTYxMjg4LDEzMDk0NTUwNTAsLTE2MT
-Q1NjQyMiwxMjY4OTYxNTEzLDEzOTM5NjIwMzEsNjAyMzc0MzQy
-LDc4NjczNDM2OSwxMTY5MDc2OTY1XX0=
+eyJoaXN0b3J5IjpbLTU0ODQwNjgyOCwxMzA5NDU1MDUwLC0xNj
+E0NTY0MjIsMTI2ODk2MTUxMywxMzkzOTYyMDMxLDYwMjM3NDM0
+Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
 -->
