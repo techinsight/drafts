@@ -81,10 +81,12 @@ number = 4
 ```
 上边这样的声明方式，编译器会提示错误
 ```
-Error: This vairable
+Error: This vairable must either have a type annotation or be initialized.
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzcyOTQwNzUsLTE3NzMwODkyNDksLT
-ExNTIwMTczODUsLTE2NzY4MTg3NDAsODYwNDQ1MTQ2LDE4ODQx
-NzA4NzBdfQ==
+eyJoaXN0b3J5IjpbMTU2MzI2NTQwMSwtMTc3MzA4OTI0OSwtMT
+E1MjAxNzM4NSwtMTY3NjgxODc0MCw4NjA0NDUxNDYsMTg4NDE3
+MDg3MF19
 -->
