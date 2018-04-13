@@ -142,8 +142,14 @@ fun main(args: Array<String>) {
 这样的写法也是对的，其中可以看到花括号中又有一对引号。在Kotlin中可以在双引号中嵌套双引号，但需要在表达式内部（即在花括号内）。
 
 ### 类和属性
-但凡了解Java的开发人员对这个
+但凡了解Java的开发人员对这两个概念不会陌生。下来看看Kotlin中如何来声明类的。
+先看看Java中的声明方式。
+```java
+public class Person {
+    private String 
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTExMjA4NCwxMzkzOTYyMDMxLDYwMj
-M3NDM0Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
+eyJoaXN0b3J5IjpbMTcyMTQwMjQxLDEzOTM5NjIwMzEsNjAyMz
+c0MzQyLDc4NjczNDM2OSwxMTY5MDc2OTY1XX0=
 -->
