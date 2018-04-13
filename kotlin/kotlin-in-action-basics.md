@@ -110,8 +110,9 @@ val programs = arrayListOf("Java")
 programs.add("Kotlin")
 ```
 
-val关键字需要zhuy
+val关键字目前就是这么些注意的内容，再来谈谈var。
+var声明的binalian
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjk2MTA3OSwxMTY5MDc2OTY1XX0=
+eyJoaXN0b3J5IjpbNzE1NTAwMzA4LDExNjkwNzY5NjVdfQ==
 -->
