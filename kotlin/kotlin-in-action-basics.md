@@ -59,12 +59,12 @@ fun compare(a: Int, b: Int): Int = if (a > b) a else b
 ```kotlin
 fun compare(a: Int, b: Int) = if (a > b) a else b
 ```
-即省略函数返回类型
+即省略函数返回类型。那么会有疑问，为什么函数可以不要返回值类型？？
 
 #### 变量
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzkwMDk0ODUsLTE2NzY4MTg3NDAsOD
-YwNDQ1MTQ2LDE4ODQxNzA4NzBdfQ==
+eyJoaXN0b3J5IjpbMjEwMzQyNDc5LC0xNjc2ODE4NzQwLDg2MD
+Q0NTE0NiwxODg0MTcwODcwXX0=
 -->
