@@ -130,10 +130,10 @@ fun main(args: Array<String>) {
 }
 ```
 
-zhe
+这段代码中可以看到，变量language前边有$符号，这种写法就是需要说的Kotlin中的新特性，
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjA3MzIyOCwxMTY5MDc2OTY1XX0=
+eyJoaXN0b3J5IjpbLTczMDA4ODM4NSwxMTY5MDc2OTY1XX0=
 -->
