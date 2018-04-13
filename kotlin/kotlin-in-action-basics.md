@@ -84,9 +84,11 @@ number = 4
 Error: This vairable must either have a type annotation or be initialized.
 ```
 
+这就说明了Kotlin中变量声明要么一开始就进行初始化而不加类型，要么不进行初始化但必须要加上变量类型。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzI2NTQwMSwtMTc3MzA4OTI0OSwtMT
-E1MjAxNzM4NSwtMTY3NjgxODc0MCw4NjA0NDUxNDYsMTg4NDE3
-MDg3MF19
+eyJoaXN0b3J5IjpbLTExMTYzNjAwNzYsLTE3NzMwODkyNDksLT
+ExNTIwMTczODUsLTE2NzY4MTg3NDAsODYwNDQ1MTQ2LDE4ODQx
+NzA4NzBdfQ==
 -->
