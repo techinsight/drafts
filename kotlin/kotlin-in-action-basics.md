@@ -70,8 +70,8 @@ val number = 3
 val literal = "Hello World!"
 ```
 
-可以看到这里的变量声明也
+可以看到这里的变量声明也没有加上类型声明，为何？这个原理跟表达式函数体一样，编译器会分析表达式值得类型，并把它de
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzMzMDgwNjIsLTExNTIwMTczODUsLT
-E2NzY4MTg3NDAsODYwNDQ1MTQ2LDE4ODQxNzA4NzBdfQ==
+eyJoaXN0b3J5IjpbODg4NjY3MjMyLC0xMTUyMDE3Mzg1LC0xNj
+c2ODE4NzQwLDg2MDQ0NTE0NiwxODg0MTcwODcwXX0=
 -->
