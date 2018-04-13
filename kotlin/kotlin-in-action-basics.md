@@ -16,8 +16,8 @@ Kotlin在服务器应用程序上也可以运行的很好，全面支持所有�
 
 它是免费和开源的，全面支持主流的IDE和构建系统。
 
-<table><tr></tr></table>
+<table><tr><td bgcolor=></td></tr></table>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTMwMzgxNiw4NjA0NDUxNDYsMTg4ND
-E3MDg3MF19
+eyJoaXN0b3J5IjpbLTE1NTE3Nzg1NjgsODYwNDQ1MTQ2LDE4OD
+QxNzA4NzBdfQ==
 -->
