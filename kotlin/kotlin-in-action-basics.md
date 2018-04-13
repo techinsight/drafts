@@ -88,9 +88,10 @@ Error: This vairable must either have a type annotation or be initialized.
 
 因为如果不能提供可以赋给这个变量的值得信息，编译器就无法推导出它的类型，进而无法知道变量的类型。
 
-
+Kotlin中的变量可分为可变变量和不可变量：
+  - val —— bukebian
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTYwMTg3MSwtMTc3MzA4OTI0OSwtMT
-E1MjAxNzM4NSwtMTY3NjgxODc0MCw4NjA0NDUxNDYsMTg4NDE3
-MDg3MF19
+eyJoaXN0b3J5IjpbMTc2NzU3MDkwNywxNDg1NjAxODcxLC0xNz
+czMDg5MjQ5LC0xMTUyMDE3Mzg1LC0xNjc2ODE4NzQwLDg2MDQ0
+NTE0NiwxODg0MTcwODcwXX0=
 -->
