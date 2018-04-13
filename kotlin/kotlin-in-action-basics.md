@@ -47,8 +47,10 @@ fun compare(a: Int, b: Int): Int {
 
 在函数后边紧跟着函数返回类型，返回类型与函数声明之间用冒号分隔。
 
-这里可以看到，if是一个表达式，而不是语句。语句与表达式的区别在于，表达式有值，语句并没有自己的值。
+这里可以看到，if是一个表达式，而不是语句。语句与表达式的区别在于，表达式有值，语句并没有自己的值。在Kotlin中，除了循环（for, while, do..while）之外，大多数控制结构都是表达式。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzY5MTg0MTEsODYwNDQ1MTQ2LDE4OD
-QxNzA4NzBdfQ==
+eyJoaXN0b3J5IjpbNTEyNTk0NDU0LDg2MDQ0NTE0NiwxODg0MT
+cwODcwXX0=
 -->
