@@ -132,10 +132,14 @@ fun main(args: Array<String>) {
 
 这段代码中可以看到，变量language前边有$符号，这种写法就是需要说的Kotlin中的新特性，字符串模板。字符串模板的作用即是可以在程序的字符串中引用变量。这种表达写法相当于在Java中使用StringBuilder方式的append()方法，或者是Java中"Hello " + language + "!"写法。但是相比之下，Kotlin的写法可读性更好。
 
-字符串模板可以有更加复杂的表达方式。
+字符串模板可以有更加复杂的表达方式——${表达式语句}
+可以将上述代码进行一定的修改
+```kotlin
+
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzQwNjYxNywxMTY5MDc2OTY1XX0=
+eyJoaXN0b3J5IjpbLTgzOTUxNzY1MSwxMTY5MDc2OTY1XX0=
 -->
