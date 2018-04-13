@@ -157,8 +157,11 @@ public class Person {
     }
 }
 ```
-这是最典型的的JavaBean类。
+这是最典型的的JavaBean类。再看看对应的Kotlin是怎么声明的。
+```kotlin
+class Person(name: String)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDc2MjM1MCwxMzkzOTYyMDMxLDYwMj
+eyJoaXN0b3J5IjpbLTM3NzkwNzU3MSwxMzkzOTYyMDMxLDYwMj
 M3NDM0Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
 -->
