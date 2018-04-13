@@ -70,8 +70,12 @@ val number = 3
 val literal = "Hello World!"
 ```
 
-可以看到这里的变量声明也没有加上类型声明，为何？这个原理跟表达式函数体一样，编译器会分析表达式值得类型，并把它de
+可以看到这里的变量声明也没有加上类型声明，为何？这个原理跟表达式函数体一样，编译器会分析表达式值得类型，并把它的类型作为变量的类型。
+
+<font color=red>但是不是所有的情况都可以</font>
+
+如果没有对变量
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4NjY3MjMyLC0xMTUyMDE3Mzg1LC0xNj
-c2ODE4NzQwLDg2MDQ0NTE0NiwxODg0MTcwODcwXX0=
+eyJoaXN0b3J5IjpbLTQ3ODc3MjI2MSwtMTE1MjAxNzM4NSwtMT
+Y3NjgxODc0MCw4NjA0NDUxNDYsMTg4NDE3MDg3MF19
 -->
