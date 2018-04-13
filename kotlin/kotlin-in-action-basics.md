@@ -63,13 +63,15 @@ fun compare(a: Int, b: Int) = if (a > b) a else b
 
 #### 变量
 了解Java的开发人员度知道，java在声明变量的时候会以类型开始。Kotlin中不需要这么麻烦，许多的变量声明的类型都可以省略。Kotlin中变量的声明是以关键字开始，变量名称最后加上类型（不加也可以）。
+
 例如：
 ```kotlin
 val number = 3
 val literal = "Hello World!"
 ```
 
+可以看到这里的变量声明也
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjg4OTkzMzgsLTExNTIwMTczODUsLT
+eyJoaXN0b3J5IjpbLTExNzMzMDgwNjIsLTExNTIwMTczODUsLT
 E2NzY4MTg3NDAsODYwNDQ1MTQ2LDE4ODQxNzA4NzBdfQ==
 -->
