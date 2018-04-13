@@ -118,10 +118,12 @@ count = "hello"
 ```
 这段变量声明是不合法的，变量count的类型在初始化为1的时候已经确认了是Int类型，再去给其赋值为String类型，这是编译器回给出错误提示。
 ```
-Type mismatch: Infer type is String but Int was expected.
+Type mismatch: Infer type is String but Int was expected
 ```
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwODQ4MTExLDExNjkwNzY5NjVdfQ==
+eyJoaXN0b3J5IjpbMjEyODc1NTM3MSwxMTY5MDc2OTY1XX0=
 -->
