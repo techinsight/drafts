@@ -55,10 +55,12 @@ fun compare(a: Int, b: Int): Int = if (a > b) a else b
 ```
 如果函数体在花括号中，这个函数是代码块体函数。
 
+
+
 #### 变量
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzY4MTg3NDAsODYwNDQ1MTQ2LDE4OD
-QxNzA4NzBdfQ==
+eyJoaXN0b3J5IjpbMzQyNjYxODcyLC0xNjc2ODE4NzQwLDg2MD
+Q0NTE0NiwxODg0MTcwODcwXX0=
 -->
