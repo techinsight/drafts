@@ -24,8 +24,12 @@ Kotlin在服务器应用程序上也可以运行的很好，全面支持所有�
 <br/>- 抛出和异常处理
 </td></tr></table>
 
-
+### 函数和变量
+#### 函数
+首先来看一段代码：
+```ko
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDk3Mjg0NCw4NjA0NDUxNDYsMTg4ND
+eyJoaXN0b3J5IjpbMTY2ODU2MDM4MSw4NjA0NDUxNDYsMTg4ND
 E3MDg3MF19
 -->
