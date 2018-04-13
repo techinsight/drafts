@@ -178,11 +178,14 @@ Kotlin中在声明一个属性的时候，同时也就声明了访问器。Kotli
 
 ```kotlin
 class Rectangle(val height: Int, val width: Int) {
-    fun isSquare() = if (height == width) 
+    val isSquare: Boolean
+        get() {
+           return (height == width)
+        }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjkwOTk0LC0xNjE0NTY0MjIsMTI2OD
-k2MTUxMywxMzkzOTYyMDMxLDYwMjM3NDM0Miw3ODY3MzQzNjks
-MTE2OTA3Njk2NV19
+eyJoaXN0b3J5IjpbMTMwOTQ1NTA1MCwtMTYxNDU2NDIyLDEyNj
+g5NjE1MTMsMTM5Mzk2MjAzMSw2MDIzNzQzNDIsNzg2NzM0MzY5
+LDExNjkwNzY5NjVdfQ==
 -->
