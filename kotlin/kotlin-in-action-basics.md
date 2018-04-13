@@ -146,9 +146,9 @@ fun main(args: Array<String>) {
 先看看Java中的声明方式。
 ```java
 public class Person {
-    private String name;
+    private final String name;
     
-    public void setName(String name) {
+    public Person(String name) {
         this.name = name;
     }
 
@@ -159,11 +159,12 @@ public class Person {
 ```
 这是最典型的的JavaBean类。再看看对应的Kotlin是怎么声明的。
 ```kotlin
-class Person(name: String)
+class Person(val name: String)
 ```
-
+使用Kotlin声明这样一个类，就只有一行。Kotlin中这种类（z）
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODk2MTUxMywxMzkzOTYyMDMxLDYwMj
-M3NDM0Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
+eyJoaXN0b3J5IjpbLTE0Mjc0MTU3MzcsMTI2ODk2MTUxMywxMz
+kzOTYyMDMxLDYwMjM3NDM0Miw3ODY3MzQzNjksMTE2OTA3Njk2
+NV19
 -->
