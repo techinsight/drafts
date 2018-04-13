@@ -161,10 +161,10 @@ public class Person {
 ```kotlin
 class Person(val name: String)
 ```
-使用Kotlin声明这样一个类，就只有一行。Kotlin中这种类（z）
+使用Kotlin声明这样一个类，就只有一行。Kotlin中这种类（只有数据没有其他代码）被称为<font color=red>值对象</font>。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc0MTU3MzcsMTI2ODk2MTUxMywxMz
-kzOTYyMDMxLDYwMjM3NDM0Miw3ODY3MzQzNjksMTE2OTA3Njk2
-NV19
+eyJoaXN0b3J5IjpbMTM4MTIxNTIyNywxMjY4OTYxNTEzLDEzOT
+M5NjIwMzEsNjAyMzc0MzQyLDc4NjczNDM2OSwxMTY5MDc2OTY1
+XX0=
 -->
