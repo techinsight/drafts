@@ -92,7 +92,9 @@ Kotlin中的变量可分为可变变量和不可变量：
   - val —— 不可变引用。val声明的变量赋值之后不可更改。与Java的final对应。
   - var —— 可变引用。var声明的变量的值可变。与Java中的一般的变量相当。
 
-Kotlin中尽可能的将变量声明va
+默认情况下，Kotlin中尽可能的将变量声明为val，只在需要的时候换成var。
+
+另外，声明了val变量的代码块中，如果编译器分析后可以确保
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODczNjE4OF19
+eyJoaXN0b3J5IjpbMTkyMjk5OTgwNF19
 -->
