@@ -70,13 +70,13 @@ date: 2018-04-11 08:19:00
    - 注意需要对齐，内边据或者边框的区域。
 
 首先，识别更大的元素。在这里，四个元素在同一列中：一个图片，两行和一个文本块。
-![](/images/flutter-asset-images/flutter-building-layouts/flutter-lakes-diagram.png)
+![](https://flutter.io/tutorials/layout/images/lakes-diagram.png)
 
 接下来，图解每行。第一行，我们称其Title Section，有3个子组件：一列文本区域，一个星型图标，及一个数字。第一列子组件包含2行文本。且第一列占有较大空间，因此需要将两行文本放在Expanded组件中。
-![](/images/flutter/flutter-building-layouts/flutter-title-section-diagram.png)
+![](https://flutter.io/tutorials/layout/images/title-section-diagram.png)
 
 第二行，我们称其Button section，同样有3个子组件：由三列组成，且每列均由一个图标和文本组成。
-![](/images/flutter/flutter-building-layouts/flutter-button-section-diagram.png)
+![](https://flutter.io/tutorials/layout/images/button-section-diagram.png)
 
 在图解了布局之后，再从细节到整体来实现这个布局就容易了。为了让嵌套的代码看起来不那么混乱，我们将一些实现置于变量和函数中。
 
@@ -373,6 +373,6 @@ class MyApp extends StatelessWidget {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU5MTkxODMsLTE0MDkzNTc5MSwtMT
-U4NTkxOTE4MywtMTQwOTM1NzkxXX0=
+eyJoaXN0b3J5IjpbLTEzOTk1NzY2NzcsLTE1ODU5MTkxODMsLT
+E0MDkzNTc5MSwtMTU4NTkxOTE4MywtMTQwOTM1NzkxXX0=
 -->
