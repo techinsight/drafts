@@ -174,7 +174,7 @@ class Person(val name: Strinig, var isMerried: Boolean)
 Kotlin中在声明一个属性的时候，同时也就声明了访问器。Kotlin中访问器的默认实现很简单，创建一个存储值得字段，以及getter和setter方法。同样可以自定义访问器，及自己的getter和setter方法。
 
 #### 自定义访问器
-先看看看如何来判断一个矩形是否是正方形的程序。
+先看看如何来判断一个矩形是否是正方形的程序。
 
 ```kotlin
 class Rectangle(val height: Int, val width: Int) {
@@ -184,8 +184,11 @@ class Rectangle(val height: Int, val width: Int) {
         }
 }
 ```
+
+#### 目录和包
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTQ1NTA1MCwtMTYxNDU2NDIyLDEyNj
-g5NjE1MTMsMTM5Mzk2MjAzMSw2MDIzNzQzNDIsNzg2NzM0MzY5
-LDExNjkwNzY5NjVdfQ==
+eyJoaXN0b3J5IjpbMTE0MzYyNjY5LDEzMDk0NTUwNTAsLTE2MT
+Q1NjQyMiwxMjY4OTYxNTEzLDEzOTM5NjIwMzEsNjAyMzc0MzQy
+LDc4NjczNDM2OSwxMTY5MDc2OTY1XX0=
 -->
