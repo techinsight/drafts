@@ -53,9 +53,8 @@ fun compare(a: Int, b: Int): Int {
 ```kotlin
 fun compare(a: Int, b: Int): Int = if (a > b) a else b
 ```
-
-ruo
+如果函数体在花括号中，这个函数是代码块体函数。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5NzM3MTc4LDg2MDQ0NTE0NiwxODg0MT
-cwODcwXX0=
+eyJoaXN0b3J5IjpbLTg3ODQ4NjU0Myw4NjA0NDUxNDYsMTg4ND
+E3MDg3MF19
 -->
