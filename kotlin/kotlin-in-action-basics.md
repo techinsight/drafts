@@ -188,9 +188,11 @@ class Rectangle(val height: Int, val width: Int) {
 #### 目录和包
 与Java一样，Kotlin源码布局同样包含了包的概念。每个Kotlin文件都以一个package语句开始，接着是import语句（Kotlin中import的可以是类，也可以是函数）。
 
-Kotlin中有一点与Java不同的是：Kotlin文件可以任意取名，其包层级结构可以不遵循目录结构。及Kotlin文件中package语句的包声明与程序de
+Kotlin中有一点与Java不同的是：Kotlin文件的包层级结构可以不遵循目录结构。及Kotlin文件中package语句的包声明与程序的工程目录结构可以不一致。且多个类可以放置在一个Kotlin文件中，文件名任意。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTk5MDAwNywxMzA5NDU1MDUwLC0xNj
+eyJoaXN0b3J5IjpbMTUxMTk1ODE1NCwxMzA5NDU1MDUwLC0xNj
 E0NTY0MjIsMTI2ODk2MTUxMywxMzkzOTYyMDMxLDYwMjM3NDM0
 Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
 -->
