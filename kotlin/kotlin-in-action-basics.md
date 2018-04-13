@@ -40,9 +40,13 @@ fun main(args: Array<String>) {
 
 再看一段函数声明：
 ```kotlin
-fun compare()
+fun compare(a: Int, b: Int): Int {
+    return if (a > b) a else b
+}
 ```
+
+在函数后边紧跟着函数返回类型，返回类型与申明
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE4Nzg0Miw4NjA0NDUxNDYsMTg4ND
-E3MDg3MF19
+eyJoaXN0b3J5IjpbLTIwNzE3NTIxOTUsODYwNDQ1MTQ2LDE4OD
+QxNzA4NzBdfQ==
 -->
