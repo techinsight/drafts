@@ -121,9 +121,10 @@ count = "hello"
 Type mismatch: Infer type is String but Int was expected
 ```
 
+顺便提下，Kotlin中的字符串格式化
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODc1NTM3MSwxMTY5MDc2OTY1XX0=
+eyJoaXN0b3J5IjpbLTE2NDczNzc0OTMsMTE2OTA3Njk2NV19
 -->
