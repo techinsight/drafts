@@ -423,11 +423,11 @@ new Image.asset('images/myimage.jpg', fit: BoxFit.cover)
 new Icon(Icons.star, color: Colors.red[500])
 ```
 3. 在布局组件中添加这个可见组件
-    布局组件分两种：单个子组件的布局组件有一个*child*属性
+    布局组件分两种：单个子组件的布局组件有一个*child*属性（如Center，Container）；多个子组件的布局组件拥有*children*属性（）
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTc2Mjg2MiwyMDA1MjI0Mzk5LDYwND
+eyJoaXN0b3J5IjpbMTY3Mjk5NzI2MCwyMDA1MjI0Mzk5LDYwND
 IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
