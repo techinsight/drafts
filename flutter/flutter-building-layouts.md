@@ -385,8 +385,11 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 
 第二张图显示了可见组件。
 
-看看图解
+看看图解：
+![](https://flutter.io/tutorials/layout/images/sample-flutter-layout.png)
+
+图中多数
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTMzNTAyMiw2MDQyMDYwNzMsNjA0Mj
-A2MDczXX0=
+eyJoaXN0b3J5IjpbLTExODQ2NzU1MzQsNjA0MjA2MDczLDYwND
+IwNjA3M119
 -->
