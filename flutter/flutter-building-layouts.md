@@ -382,8 +382,11 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 
 通过组织这些简单组件来完成复杂的布局。如下图中三列，没列均有一个图标和一个文本组成。
 ![](https://flutter.io/tutorials/layout/images/lakes-icons.png)  ![](https://flutter.io/tutorials/layout/images/lakes-icons-visual.png)
-第二张
+
+第二张图显示了可见组件。
+
+看看图解
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzOTYyNzc3LDYwNDIwNjA3Myw2MDQyMD
-YwNzNdfQ==
+eyJoaXN0b3J5IjpbMTcyOTMzNTAyMiw2MDQyMDYwNzMsNjA0Mj
+A2MDczXX0=
 -->
