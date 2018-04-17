@@ -397,9 +397,12 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 - app也是组件
 - 创建组件并添加到布局
 - 要在设备上展示组件，必须将组件添加到app组件
-- Material组件库的[Scaffold](https://docs.flutter.io/flutter/material/Scaffold-class.html)使用，它提供了默认的banner，背景色，并且提供了添加drawers，snac kbars，
+- Material组件库的[Scaffold](https://docs.flutter.io/flutter/material/Scaffold-class.html)使用，它提供了默认的banner，背景色，并且提供了添加drawers，snack bars和底部sheets的APIs
+- 如果愿意，可以只使用标准组件库中的组件完成app
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTYyMTQ1NSwyMDA1MjI0Mzk5LDYwND
+eyJoaXN0b3J5IjpbMjA0NzYwMDI2NSwyMDA1MjI0Mzk5LDYwND
 IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
