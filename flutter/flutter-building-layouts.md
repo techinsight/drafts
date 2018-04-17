@@ -408,12 +408,20 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 2. 创建一个组件来持有这个对象。
 
 看看创建实例代码
+创建文本
 ```dart
 new Text('Hello World', style: new TextStyle(ftontSize: 32.0))
 ```
 
+创建图片
+```dart
+new Image.asset('images/myimage.jpg', fit: BoxFit.cover)
+```
+
+创建
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzNTkwNzg1LDIwMDUyMjQzOTksNjA0Mj
-A2MDczLDYwNDIwNjA3M119
+eyJoaXN0b3J5IjpbMjA5NzE0Njc1NiwyMDA1MjI0Mzk5LDYwND
+IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
