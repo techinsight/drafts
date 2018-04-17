@@ -378,8 +378,8 @@ class MyApp extends StatelessWidget {
 - 布局（layout）和UI均称为组件
 - 复杂UI由简单的组件组成
 
-Flutter中核心的概念就是组建（Widget）——包括啦哟
+Flutter中核心的概念就是组建（Widget）——包括layout和widget。例如：图片，图标，文本等这些可见的元素是组件，同样
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTAzNjU5ODAsNjA0MjA2MDczLDYwND
-IwNjA3M119
+eyJoaXN0b3J5IjpbMTcxMDczODAwMSw2MDQyMDYwNzMsNjA0Mj
+A2MDczXX0=
 -->
