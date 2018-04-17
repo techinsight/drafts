@@ -431,8 +431,8 @@ new Icon(Icons.star, color: Colors.red[500])
  ```
 
 4. 在页面上展示组件
-    Flutter app本身就是一个组件，且多数组件有一个[build()]()方法
+    Flutter app本身就是一个组件，且多数组件有一个[build()](https://docs.flutter.io/flutter/widgets/StatelessWidget/build.html)方法。在build方法中声明组件即是在设备上显示
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDgwOTE4MCwyMDA1MjI0Mzk5LDYwND
-IwNjA3Myw2MDQyMDYwNzNdfQ==
+eyJoaXN0b3J5IjpbLTE4MDU0MTMzMDgsMjAwNTIyNDM5OSw2MD
+QyMDYwNzMsNjA0MjA2MDczXX0=
 -->
