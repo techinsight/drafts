@@ -403,9 +403,10 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 这部分内容就说说如何创建一个组件并且显示。
 只需要几步就可以在屏幕上显示一个文本，图标或者图片。
 
-1. 
+1. 选择一个布局来存储这个对象。
+    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTE1OTIzNSwyMDA1MjI0Mzk5LDYwND
+eyJoaXN0b3J5IjpbMTM1NDkwODAyMiwyMDA1MjI0Mzk5LDYwND
 IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
