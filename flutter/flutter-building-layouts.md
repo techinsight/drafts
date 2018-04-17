@@ -372,8 +372,12 @@ class MyApp extends StatelessWidget {
 ```
 
 ### <span id="9">Flutter布局原理</span>
+**What’s the point?**
 
+-   Widgets are classes used to build UIs.
+-   Widgets are used for both layout and UI elements.
+-   Compose simple widgets to build complex widgets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0MjA2MDczXX0=
+eyJoaXN0b3J5IjpbLTYzNDk1NzA3NSw2MDQyMDYwNzNdfQ==
 -->
