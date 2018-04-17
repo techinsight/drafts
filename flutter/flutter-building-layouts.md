@@ -408,12 +408,12 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 2. 创建一个组件来持有这个对象。
 
 看看创建实例代码
-  创建文本
+   创建文本
 ```dart
 new Text('Hello World', style: new TextStyle(ftontSize: 32.0))
 ```
 
-  创建图片
+   创建图片
 ```dart
 new Image.asset('images/myimage.jpg', fit: BoxFit.cover)
 ```
@@ -427,11 +427,11 @@ new Icon(Icons.star, color: Colors.red[500])
    
    下边这段代码在Center中添加Text
  ```dart
- new Center(child: )
+ new Center(child: new Text('Hello World', style: new TextStyle(ftontSize: 32.0)))
  ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NzE1NDYsMjAwNTIyNDM5OSw2MDQyMD
-YwNzMsNjA0MjA2MDczXX0=
+eyJoaXN0b3J5IjpbLTkwNTA4Mzg1NSwyMDA1MjI0Mzk5LDYwND
+IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
