@@ -381,8 +381,9 @@ class MyApp extends StatelessWidget {
 Flutter中核心的概念就是组建（Widget）——包括layout和widget。例如：图片，图标，文本等这些可见的元素是组件，同样不可见的元素如行（Row），列（Column），网格（Grid）也是组件。
 
 通过组织这些简单组件来完成复杂的布局。如下图中三列，没列均有一个图标和一个文本组成。
-
+![](https://flutter.io/tutorials/layout/images/lakes-icons.png)  ![](https://flutter.io/tutorials/layout/images/lakes-icons-visual.png)
+第二张
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU4NjE0NDgsNjA0MjA2MDczLDYwND
-IwNjA3M119
+eyJoaXN0b3J5IjpbNDIzOTYyNzc3LDYwNDIwNjA3Myw2MDQyMD
+YwNzNdfQ==
 -->
