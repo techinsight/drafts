@@ -397,9 +397,9 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 - app也是组件
 - 创建组件并添加到布局
 - 要在设备上展示组件，必须将组件添加到app组件
-- 
+- Material组件库的[Scaffold](https://docs.flutter.io/flutter/material/Scaffold-class.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODk3NDAwOCwyMDA1MjI0Mzk5LDYwND
-IwNjA3Myw2MDQyMDYwNzNdfQ==
+eyJoaXN0b3J5IjpbOTQzMTEwOTgzLDIwMDUyMjQzOTksNjA0Mj
+A2MDczLDYwNDIwNjA3M119
 -->
