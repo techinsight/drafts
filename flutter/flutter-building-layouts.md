@@ -375,8 +375,11 @@ class MyApp extends StatelessWidget {
 
 **重点**
 - Flutter中组件（Widget）都是类（class），即有这些类来组成UI
-- 布局（layout）和组件（）
+- 布局（layout）和UI均称为组件
+- 复杂UI由简单的组件组成
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDc4ODY0OTYsNjA0MjA2MDczLDYwND
-IwNjA3M119
+eyJoaXN0b3J5IjpbMTc3MzAzOTMwMCw2MDQyMDYwNzMsNjA0Mj
+A2MDczXX0=
 -->
