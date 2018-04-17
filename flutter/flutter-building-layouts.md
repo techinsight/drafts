@@ -400,9 +400,9 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 - Material组件库的[Scaffold](https://docs.flutter.io/flutter/material/Scaffold-class.html)使用，它提供了默认的banner，背景色，并且提供了添加drawers，snack bars和底部sheets的APIs
 - 如果愿意，可以只使用标准组件库中的组件完成app
 
-
+这部分内容就说说如何创建一个组件并且
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzYwMDI2NSwyMDA1MjI0Mzk5LDYwND
+eyJoaXN0b3J5IjpbLTI1ODI4MDQ1NywyMDA1MjI0Mzk5LDYwND
 IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
