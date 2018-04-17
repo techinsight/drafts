@@ -430,8 +430,9 @@ new Icon(Icons.star, color: Colors.red[500])
  new Center(child: new Text('Hello World', style: new TextStyle(ftontSize: 32.0)))
  ```
 
-
+4. 在页面上展示组件
+   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTA4Mzg1NSwyMDA1MjI0Mzk5LDYwND
+eyJoaXN0b3J5IjpbMjA0MDUwODAyMSwyMDA1MjI0Mzk5LDYwND
 IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
