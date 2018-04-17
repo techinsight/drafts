@@ -30,7 +30,7 @@ date: 2018-04-11 08:19:00
   * [Step 4：实现文本区域](#6)
   * [Step 5：实现图片区域](#7)
   * [Step 6：整合](#8)
-- [Flutter布局方法](#9)
+- [Flutter布局原理](#9)
 - [布局一个组件](#10)
 - [横向及竖向布局多个组件](#11)
   * [组件对齐方式](#12)
@@ -371,7 +371,9 @@ class MyApp extends StatelessWidget {
 }
 ```
 
+### <span id="9">Flutter布局原理</span>
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk1NzY2NzddfQ==
+eyJoaXN0b3J5IjpbNjA0MjA2MDczXX0=
 -->
