@@ -373,7 +373,9 @@ class MyApp extends StatelessWidget {
 
 ### <span id="9">Flutter布局原理</span>
 
-
+**重点**
+- Flutter中组建（Widget）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0MjA2MDczLDYwNDIwNjA3M119
+eyJoaXN0b3J5IjpbLTQ0NjMyNDI1Miw2MDQyMDYwNzMsNjA0Mj
+A2MDczXX0=
 -->
