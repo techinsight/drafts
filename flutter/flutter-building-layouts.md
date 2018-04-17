@@ -431,8 +431,8 @@ new Icon(Icons.star, color: Colors.red[500])
  ```
 
 4. 在页面上展示组件
-   
+    Flutter app本身就是一个组件，且多数组件有一个[build()]()方法
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDUwODAyMSwyMDA1MjI0Mzk5LDYwND
+eyJoaXN0b3J5IjpbMTg1MDgwOTE4MCwyMDA1MjI0Mzk5LDYwND
 IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
