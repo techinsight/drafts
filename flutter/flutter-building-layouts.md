@@ -422,11 +422,12 @@ new Image.asset('images/myimage.jpg', fit: BoxFit.cover)
 ```dart
 new Icon(Icons.star, color: Colors.red[500])
 ```
-3. 
+3. 在布局组件中添加这个可见组件
+    所以
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDcwMzM5NCwyMDA1MjI0Mzk5LDYwND
+eyJoaXN0b3J5IjpbLTk1MzM1NjY0NSwyMDA1MjI0Mzk5LDYwND
 IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
