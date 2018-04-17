@@ -418,10 +418,15 @@ new Text('Hello World', style: new TextStyle(ftontSize: 32.0))
 new Image.asset('images/myimage.jpg', fit: BoxFit.cover)
 ```
 
-创建
+创建图标
+```dart
+new Icon(Icons.star, color: Colors.red[500])
+```
+3. 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzE0Njc1NiwyMDA1MjI0Mzk5LDYwND
+eyJoaXN0b3J5IjpbMTMzNDcwMzM5NCwyMDA1MjI0Mzk5LDYwND
 IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
