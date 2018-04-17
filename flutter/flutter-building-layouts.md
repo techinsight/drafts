@@ -393,8 +393,10 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 这个示例中所有的文本组件均放置于Container组件中。而整个行（Row）也放置于一个Container组件中并添加了边距。
 
 ### <span id="10">布局一个组件</span>
+**重点**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNTIyNDM5OSw2MDQyMDYwNzMsNjA0Mj
-A2MDczXX0=
+eyJoaXN0b3J5IjpbMTMyMzQ2MzM5MSwyMDA1MjI0Mzk5LDYwND
+IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
