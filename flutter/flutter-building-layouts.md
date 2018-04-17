@@ -388,8 +388,10 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 看看图解：
 ![](https://flutter.io/tutorials/layout/images/sample-flutter-layout.png)
 
-图中多数是与预期的一样，那么粉红色的Container组件是干嘛的？Container组件可以用来定制组件样式，添加那边
+图中多数是与预期的一样，那么粉红色的Container组件是干嘛的？Container组件可以用来定制组件样式，添加内边距，外边距，边框和背景色等。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5MjAxMjEyLDYwNDIwNjA3Myw2MDQyMD
+eyJoaXN0b3J5IjpbMzQ0NDQ2NTQ0LDYwNDIwNjA3Myw2MDQyMD
 YwNzNdfQ==
 -->
