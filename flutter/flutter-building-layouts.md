@@ -433,8 +433,22 @@ new Icon(Icons.star, color: Colors.red[500])
 4. 在页面上展示组件
     Flutter app本身就是一个组件，且多数组件有一个[build()](https://docs.flutter.io/flutter/widgets/StatelessWidget/build.html)方法。在build方法中声明组件即是在设备上显示。
 对 Material风格的app来说，在*body*属性值上直接设置Center组件值即可。
-
+```dart
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text(widget.title),
+      ),
+      body: new Center(
+        child: new Text('Hello World', style: new TextStyle(fontSize: 32.0)),
+      ),
+    );
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzY2NTg1NywyMDA1MjI0Mzk5LDYwND
-IwNjA3Myw2MDQyMDYwNzNdfQ==
+eyJoaXN0b3J5IjpbNzQ0MzAzODA3LDIwMDUyMjQzOTksNjA0Mj
+A2MDczLDYwNDIwNjA3M119
 -->
