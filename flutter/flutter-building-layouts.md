@@ -404,9 +404,11 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 只需要几步就可以在屏幕上显示一个文本，图标或者图片。
 
 1. 选择一个布局来存储这个对象。
-    从[layout widgets](https://flutter.io/widgets/)中选择一个布局组建
+    基于布局样式，如边距，对齐方式等限制条件，从[layout widgets](https://flutter.io/widgets/)中选择一个布局组件。
+
+2。 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTE5NjM0NTQsMjAwNTIyNDM5OSw2MD
-QyMDYwNzMsNjA0MjA2MDczXX0=
+eyJoaXN0b3J5IjpbMjE0NTU5MzUyNiwyMDA1MjI0Mzk5LDYwND
+IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
