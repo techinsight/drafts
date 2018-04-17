@@ -394,9 +394,11 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 
 ### <span id="10">布局一个组件</span>
 **重点**
-
+- app也是组件
+- 创建组件并添加到布局
+- 要在设备
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzQ2MzM5MSwyMDA1MjI0Mzk5LDYwND
+eyJoaXN0b3J5IjpbMTM1NzEyMjQzNiwyMDA1MjI0Mzk5LDYwND
 IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
