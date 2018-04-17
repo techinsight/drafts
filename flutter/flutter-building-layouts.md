@@ -405,10 +405,10 @@ Flutter中核心的概念就是组建（Widget）——包括layout和widget。�
 
 1. 选择一个布局来存储这个对象。
     基于布局样式，如边距，对齐方式等限制条件，从[layout widgets](https://flutter.io/widgets/)中选择一个布局组件。
+2. 创建一个组件来持有这个对象。
 
-2。 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTU5MzUyNiwyMDA1MjI0Mzk5LDYwND
+eyJoaXN0b3J5IjpbLTk0MTI4MTY1NywyMDA1MjI0Mzk5LDYwND
 IwNjA3Myw2MDQyMDYwNzNdfQ==
 -->
