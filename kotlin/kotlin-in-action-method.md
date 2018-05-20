@@ -20,18 +20,14 @@ Kotlin针对这种情况，则提供了提成函数的定义，即无需将函�
 
 如下的示例代码：
 ```Kotlin
-package test
-
-fun <T> Collection<T>.joinToString(
-        separator: String = ", ",
-        prefix: String = "",
-        postfix: String = ""
-): String {
-    ...
+package kt  
+  
+fun sayHelloWorld() {  
+    println("hello world!")  
 }
 ```
-
+z
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTI4NDMwMywxNjUzMzA0MDgwLC0xNj
-A1NzUwNTA1LC03NTY0MzA4ODJdfQ==
+eyJoaXN0b3J5IjpbMTM3OTcxMDIzLDEyODEyODQzMDMsMTY1Mz
+MwNDA4MCwtMTYwNTc1MDUwNSwtNzU2NDMwODgyXX0=
 -->
