@@ -50,10 +50,19 @@ fun main(args: Array<String>) {
 
 这里可以看到，顶层函数像类一样被直接导入，然后直接调用即可。
 若从Java中来调用这个Kotlin函数则需要导入类。
+```Java
+import static kt.TopMethodKt.sayHelloWorld;  
+  
+public class Main {  
+    public static void main(String[] args) {  
+        sayHelloWorld();  
+  }  
+}
 ```
-```
+
+ps: 这里是在Java中静态导入函数，一般很少这么写。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzQ2OTk2MiwxMTA4OTExMTc4LC0xMD
-QwMDY5OTg2LC0yNzkwMjA4NDksMTI4MTI4NDMwMywxNjUzMzA0
-MDgwLC0xNjA1NzUwNTA1LC03NTY0MzA4ODJdfQ==
+eyJoaXN0b3J5IjpbNDc4Mjg3MjA4LDExMDg5MTExNzgsLTEwND
+AwNjk5ODYsLTI3OTAyMDg0OSwxMjgxMjg0MzAzLDE2NTMzMDQw
+ODAsLTE2MDU3NTA1MDUsLTc1NjQzMDg4Ml19
 -->
