@@ -64,9 +64,10 @@ public class Main {
 
 这样就可能遇到这种情况：Kotlin中定义相对比较随意，kt文件直接命名为TopMethod等，Java中需要根据具体业务功能来命名方法所在的类。
 
-这种情况，可以通过修改文件类名方式解决。就需要通过标注<font color='red'>@JvmName</font>进行解决
+这种情况，可以通过修改文件类名方式解决。就需要通过标注<font color='red'>@JvmName</font>进行解决.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDI2NTYxNSwxMTA4OTExMTc4LC0xMD
-QwMDY5OTg2LC0yNzkwMjA4NDksMTI4MTI4NDMwMywxNjUzMzA0
-MDgwLC0xNjA1NzUwNTA1LC03NTY0MzA4ODJdfQ==
+eyJoaXN0b3J5IjpbODU1MDAxODU5LDExMDg5MTExNzgsLTEwND
+AwNjk5ODYsLTI3OTAyMDg0OSwxMjgxMjg0MzAzLDE2NTMzMDQw
+ODAsLTE2MDU3NTA1MDUsLTc1NjQzMDg4Ml19
 -->
