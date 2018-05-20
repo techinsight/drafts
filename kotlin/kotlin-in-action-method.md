@@ -75,11 +75,9 @@ fun sayHelloWorld() {
 ```
 
 然后重新编译，就会发现原来的TopMethodKt.class会变成Greet.class。
-![](/images/kotlin-in-action-basics-method/kotlin-in-action-method-prejvmname.png)
-
-![](/images/kotlin-in-action-basics-method/kotlion-in-action-method-jvmname.png)
+![原Kotlin文件编译后](/images/kotlin-in-action-basics-method/kotlin-in-action-method-prejvmname.png) ->![添加@JvmName标注编译后](/images/kotlin-in-action-basics-method/kotlion-in-action-method-jvmname.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDU4MDk1MCwxMzk2NjU2OTE4LDEzOD
+eyJoaXN0b3J5IjpbMTIwMTAwMDYwMiwxMzk2NjU2OTE4LDEzOD
 QxNzc3MTQsMTEwODkxMTE3OCwtMTA0MDA2OTk4NiwtMjc5MDIw
 ODQ5LDEyODEyODQzMDMsMTY1MzMwNDA4MCwtMTYwNTc1MDUwNS
 wtNzU2NDMwODgyXX0=
