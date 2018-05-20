@@ -60,9 +60,11 @@ public class Main {
 }
 ```
 
-另外由于Kotlin中顶层函数在编译后默认被放置在 [文件名Kt] 样式的类中，在Kotlin中调用没有任何问题，由于不需要前缀类方式的调用。若在Java中需要调用这个类，通常需要这个方法在一个与之相关的功能类名中，这样就可能遇到这种情况
+另外由于Kotlin中顶层函数在编译后默认被放置在 [文件名Kt] 样式的类中，在Kotlin中调用没有任何问题，由于不需要前缀类方式的调用。若在Java中需要调用这个类，通常需要这个方法在一个与之相关的功能类名中。
+
+这样就可能遇到这种情况：Kotlin中定义相对比较随意，kt文件直接命名为TopMethod等，Java中需要根据具体业务go
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDc3NTQyNiwxMTA4OTExMTc4LC0xMD
-QwMDY5OTg2LC0yNzkwMjA4NDksMTI4MTI4NDMwMywxNjUzMzA0
-MDgwLC0xNjA1NzUwNTA1LC03NTY0MzA4ODJdfQ==
+eyJoaXN0b3J5IjpbOTEwNzk3NTA3LDExMDg5MTExNzgsLTEwND
+AwNjk5ODYsLTI3OTAyMDg0OSwxMjgxMjg0MzAzLDE2NTMzMDQw
+ODAsLTE2MDU3NTA1MDUsLTc1NjQzMDg4Ml19
 -->
