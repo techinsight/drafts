@@ -48,9 +48,10 @@ fun main(args: Array<String>) {
 }
 ```
 
-
+这里可以看到，顶层函数像类一样被直接导入，然后直接调用即可。
+若从Java中来调用这个Kotlin函数则需要导入类。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxMzk0MzIwLC0xMDQwMDY5OTg2LC0yNz
-kwMjA4NDksMTI4MTI4NDMwMywxNjUzMzA0MDgwLC0xNjA1NzUw
-NTA1LC03NTY0MzA4ODJdfQ==
+eyJoaXN0b3J5IjpbMTEwODkxMTE3OCwtMTA0MDA2OTk4NiwtMj
+c5MDIwODQ5LDEyODEyODQzMDMsMTY1MzMwNDA4MCwtMTYwNTc1
+MDUwNSwtNzU2NDMwODgyXX0=
 -->
