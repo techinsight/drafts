@@ -39,9 +39,18 @@ public final class TopMethodKt {
 ```
 可以到，Kotlin文件TopMethod被编译成了TopMethodKt类，相应的顶层函数sayHelloWorld方法编程了静态方法。
 
-Kotlin中顶层函数调用非常简单，
+Kotlin中顶层函数调用非常简单
+```Kotlin
+import kt.sayHelloWorld  
+  
+fun main(args: Array<String>) {  
+    sayHelloWorld()  
+}
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAwNjk5ODYsLTI3OTAyMDg0OSwxMj
-gxMjg0MzAzLDE2NTMzMDQwODAsLTE2MDU3NTA1MDUsLTc1NjQz
-MDg4Ml19
+eyJoaXN0b3J5IjpbNDcxMzk0MzIwLC0xMDQwMDY5OTg2LC0yNz
+kwMjA4NDksMTI4MTI4NDMwMywxNjUzMzA0MDgwLC0xNjA1NzUw
+NTA1LC03NTY0MzA4ODJdfQ==
 -->
