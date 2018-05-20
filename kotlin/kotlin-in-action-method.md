@@ -37,9 +37,11 @@ public final class TopMethodKt {
   }  
 }
 ```
-可以到，Kotlin文件TopMethod被编译成了TopMethodKt类，相应的顶层函数sayHelloWorld方法bianchen
+可以到，Kotlin文件TopMethod被编译成了TopMethodKt类，相应的顶层函数sayHelloWorld方法编程了静态方法。
+
+Kotlin中顶层函数调用非常简单，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Njc5OTM4NiwtMjc5MDIwODQ5LDEyOD
-EyODQzMDMsMTY1MzMwNDA4MCwtMTYwNTc1MDUwNSwtNzU2NDMw
-ODgyXX0=
+eyJoaXN0b3J5IjpbLTEwNDAwNjk5ODYsLTI3OTAyMDg0OSwxMj
+gxMjg0MzAzLDE2NTMzMDQwODAsLTE2MDU3NTA1MDUsLTc1NjQz
+MDg4Ml19
 -->
