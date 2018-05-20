@@ -60,9 +60,9 @@ public class Main {
 }
 ```
 
-另外由于Kotlin中顶层函数在编译后默认被放置在 [文件名Kt] 样式的类中，在Kotlin中调用没有任何问题，由于不需要前缀类方式的调用。若在Java中拉力调用
+另外由于Kotlin中顶层函数在编译后默认被放置在 [文件名Kt] 样式的类中，在Kotlin中调用没有任何问题，由于不需要前缀类方式的调用。若在Java中拉力调用，则一般需要对应的见名知意的类名作为容器
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzYwMjkyMiwxMTA4OTExMTc4LC0xMD
-QwMDY5OTg2LC0yNzkwMjA4NDksMTI4MTI4NDMwMywxNjUzMzA0
-MDgwLC0xNjA1NzUwNTA1LC03NTY0MzA4ODJdfQ==
+eyJoaXN0b3J5IjpbMjUzMjk4MDYwLDExMDg5MTExNzgsLTEwND
+AwNjk5ODYsLTI3OTAyMDg0OSwxMjgxMjg0MzAzLDE2NTMzMDQw
+ODAsLTE2MDU3NTA1MDUsLTc1NjQzMDg4Ml19
 -->
