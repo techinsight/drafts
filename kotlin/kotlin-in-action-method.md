@@ -27,9 +27,19 @@ fun sayHelloWorld() {
 }
 ```
 这就是一个最基本的顶层函数的定义。相应的，它被编译成Java就编程了
+```Java
+package kt;  
+
+public final class TopMethodKt {  
+   public static final void sayHelloWorld() {  
+      String var0 = "hello world!";  
+      System.out.println(var0);  
+  }  
+}
 ```
+可以到，Kotlin文件
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDcxODc4OSwtMjc5MDIwODQ5LDEyOD
-EyODQzMDMsMTY1MzMwNDA4MCwtMTYwNTc1MDUwNSwtNzU2NDMw
-ODgyXX0=
+eyJoaXN0b3J5IjpbLTE2MzQ1ODA3NTQsLTI3OTAyMDg0OSwxMj
+gxMjg0MzAzLDE2NTMzMDQwODAsLTE2MDU3NTA1MDUsLTc1NjQz
+MDg4Ml19
 -->
