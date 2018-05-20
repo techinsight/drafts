@@ -60,9 +60,9 @@ public class Main {
 }
 ```
 
-另外
+另外由于Kotlin中顶层函数在编译后默认被放置在 [文件名Kt] 样式的类中，在
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjYxNjQ0ODksMTEwODkxMTE3OCwtMT
-A0MDA2OTk4NiwtMjc5MDIwODQ5LDEyODEyODQzMDMsMTY1MzMw
-NDA4MCwtMTYwNTc1MDUwNSwtNzU2NDMwODgyXX0=
+eyJoaXN0b3J5IjpbLTcyNTQ5NzYwMCwxMTA4OTExMTc4LC0xMD
+QwMDY5OTg2LC0yNzkwMjA4NDksMTI4MTI4NDMwMywxNjUzMzA0
+MDgwLC0xNjA1NzUwNTA1LC03NTY0MzA4ODJdfQ==
 -->
