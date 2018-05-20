@@ -26,8 +26,9 @@ fun sayHelloWorld() {
     println("hello world!")  
 }
 ```
-z
+这就是一个最基本的顶层函数的定义。相应的，它被编译成Java就编程了
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTcxMDIzLDEyODEyODQzMDMsMTY1Mz
-MwNDA4MCwtMTYwNTc1MDUwNSwtNzU2NDMwODgyXX0=
+eyJoaXN0b3J5IjpbLTI3OTAyMDg0OSwxMjgxMjg0MzAzLDE2NT
+MzMDQwODAsLTE2MDU3NTA1MDUsLTc1NjQzMDg4Ml19
 -->
