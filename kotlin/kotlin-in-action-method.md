@@ -37,9 +37,9 @@ public final class TopMethodKt {
   }  
 }
 ```
-可以到，Kotlin文件
+可以到，Kotlin文件TopMethod被编译成了TopMethodKt类，相应的顶层函数sayHelloWorld方法bianchen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQ1ODA3NTQsLTI3OTAyMDg0OSwxMj
-gxMjg0MzAzLDE2NTMzMDQwODAsLTE2MDU3NTA1MDUsLTc1NjQz
-MDg4Ml19
+eyJoaXN0b3J5IjpbMTQ4Njc5OTM4NiwtMjc5MDIwODQ5LDEyOD
+EyODQzMDMsMTY1MzMwNDA4MCwtMTYwNTc1MDUwNSwtNzU2NDMw
+ODgyXX0=
 -->
