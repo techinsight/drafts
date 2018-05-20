@@ -60,9 +60,9 @@ public class Main {
 }
 ```
 
-ps: 这里是在Java中静态导入函数，一般很少这么写。
+另外
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4Mjg3MjA4LDExMDg5MTExNzgsLTEwND
-AwNjk5ODYsLTI3OTAyMDg0OSwxMjgxMjg0MzAzLDE2NTMzMDQw
-ODAsLTE2MDU3NTA1MDUsLTc1NjQzMDg4Ml19
+eyJoaXN0b3J5IjpbLTEyMjYxNjQ0ODksMTEwODkxMTE3OCwtMT
+A0MDA2OTk4NiwtMjc5MDIwODQ5LDEyODEyODQzMDMsMTY1MzMw
+NDA4MCwtMTYwNTc1MDUwNSwtNzU2NDMwODgyXX0=
 -->
