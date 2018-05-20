@@ -16,9 +16,9 @@ author: 散人
 
 有时会遇到这样的情况，针对两个不同对象的处理方式相差无几，这样的方法定义不想依赖于具体的示例对象，这个时候一般的做法是将对应的方法定义到一个Util方法中。
 
-Kotlin针对这种情况，则提供了提成函数的定义，即
+Kotlin针对这种情况，则提供了提成函数的定义，即无需将函数定义到某一个类中。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzM3NjM5OCwxNjUzMzA0MDgwLC0xNj
+eyJoaXN0b3J5IjpbLTk1MjQ5NjA3NiwxNjUzMzA0MDgwLC0xNj
 A1NzUwNTA1LC03NTY0MzA4ODJdfQ==
 -->
