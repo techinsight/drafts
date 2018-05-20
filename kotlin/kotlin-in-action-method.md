@@ -18,9 +18,12 @@ author: 散人
 
 Kotlin针对这种情况，则提供了提成函数的定义，即无需将函数定义到某一个类中，直接定义在代码文件的顶层。
 
-如下的
+如下的示例代码：
+```Kotlin
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2ODcxMTk0LDE2NTMzMDQwODAsLTE2MD
+eyJoaXN0b3J5IjpbNDg0OTgyMDE0LDE2NTMzMDQwODAsLTE2MD
 U3NTA1MDUsLTc1NjQzMDg4Ml19
 -->
