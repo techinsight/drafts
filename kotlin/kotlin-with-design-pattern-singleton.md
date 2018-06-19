@@ -21,7 +21,12 @@ public class Singleton {
 }
 ```
 对应Kotlin实现：
+```Kotlin
+object Singleton
+```
+
+这里是最简单的实现方式，但是对于
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxODQ1MjE3LDcyMTM3MzMyNywtMjQ1Mz
-c4NzY1LDE1NTE1OTA3NjBdfQ==
+eyJoaXN0b3J5IjpbLTYwOTk0Nzg2OSw3MjEzNzMzMjcsLTI0NT
+M3ODc2NSwxNTUxNTkwNzYwXX0=
 -->
