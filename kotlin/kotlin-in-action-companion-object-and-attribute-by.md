@@ -74,12 +74,28 @@ fun main(args: Array<String>) {
 创建一个User对象，根据不同的参数来获取User属性name。
 学习过Java的程序员首先想到的只怕是通过不同的构造方法，传入不同参数类型来实现。相应的Kotlin中也可以采用此种方式去实现。
 ```Kotlin
+class User {
+    val name: String
 
+    constructor(name: String) {
+        this.name = name
+    }
+
+    constructor(id: Int) {
+        this.name = getNameBy(id)
+    }
+
+    private fun getNameBy(id: Int): String {
+        // ...
+        r
+    }
+}
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA2MDMxNzQsMTQyOTA2MDkyMywtMT
+eyJoaXN0b3J5IjpbLTE3NTc5NDk3MjEsMTQyOTA2MDkyMywtMT
 cxMjQ3NzY2OSwxODM2ODk2NjgyLDE1NDEzNTI5MjgsMTE4NjEy
 MzI0MSwxMjYzMzE0OTU1LDE3NDg4OTczMDksLTU5NzYwNjA4Ml
 19
