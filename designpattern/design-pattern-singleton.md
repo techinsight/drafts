@@ -75,9 +75,9 @@ public class Singleton {
   }  
 }
 ```
-当线程A调用getInstance()并执行到if语句判断INSTANCE == null时，线程B也执行到此处，而事前并为针对此种情况添加访问锁，那么最终在不同场景下可能得到意想不到的执行结果。
+当线程A调用getInstance()并执行到if语句判断INSTANCE == null时，线程B也执行到此处，而事前并为针对此种情况添加访问锁，最终出现两个线程初始化
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODc2NTUzMywtMTI5MTU3NTkyNSwtNj
-A5OTQ3ODY5LDcyMTM3MzMyNywtMjQ1Mzc4NzY1LDE1NTE1OTA3
-NjAsMTg4ODg5NTYyOF19
+eyJoaXN0b3J5IjpbMTE0NzAwNDAwNSwxNTA4NzY1NTMzLC0xMj
+kxNTc1OTI1LC02MDk5NDc4NjksNzIxMzczMzI3LC0yNDUzNzg3
+NjUsMTU1MTU5MDc2MCwxODg4ODk1NjI4XX0=
 -->
