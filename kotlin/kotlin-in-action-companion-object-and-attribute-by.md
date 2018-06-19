@@ -50,12 +50,12 @@ Process finished with exit code 0
 
 重点来了，标题是伴生对象，那么怎么来声明呢 ？
 
-在类中定义一个用特殊关键字标记的对象：companion。
+在类中定义一个用特殊关键字标记的对象：companion。companion修改是的对象，使得外部可以直接通过从欧盟
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTU3ODQ4LDE1NDEzNTI5MjgsMTE4Nj
+eyJoaXN0b3J5IjpbNDg3NTI0Mzg0LDE1NDEzNTI5MjgsMTE4Nj
 EyMzI0MSwxMjYzMzE0OTU1LDE3NDg4OTczMDksLTU5NzYwNjA4
 Ml19
 -->
