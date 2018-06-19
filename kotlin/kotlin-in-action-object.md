@@ -140,13 +140,14 @@ class User private constructor(val name: String) {
 fun main(args: Array<String>) {
     val user: User = User.Factory.createUserById(36)
     val user1: User = User.Factory.createUserByName("OK")
+    val user2: User = User.createUserById(54)
 }
 ```
-
+代码中可以看到，可以通过User.Factor
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODI4MzQ3NTMsMTIyNTc0NTM2NywtMT
-c5NTY0MDcwN119
+eyJoaXN0b3J5IjpbMjMwMjYyNTkwLDEyMjU3NDUzNjcsLTE3OT
+U2NDA3MDddfQ==
 -->
