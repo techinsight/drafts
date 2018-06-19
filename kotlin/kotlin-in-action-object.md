@@ -134,9 +134,7 @@ class User private constructor(val name: String) {
             // ...
             return ".."
         }
-
     }
-
 }
 ```
 
@@ -144,5 +142,5 @@ class User private constructor(val name: String) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjcxNTg2MywtMTc5NTY0MDcwN119
+eyJoaXN0b3J5IjpbMTIyNTc0NTM2NywtMTc5NTY0MDcwN119
 -->
