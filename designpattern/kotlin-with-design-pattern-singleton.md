@@ -75,9 +75,9 @@ public class Singleton {
   }  
 }
 ```
-当线程A调用getInstance()并执行到if语句判断INSTANCE == null时，线程B也执行到此处，而事前并为针对此种情况添加访问锁，那么最终在不同场景下可能得到意想不到的执行结果。
+当线程A调用getInstance()并执行到if语句判断INSTANCE == null时，线程B也执行到此处，而事前并为针对此种情况添加访问锁，最终出现两个县城
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODc2NTUzMywtMTI5MTU3NTkyNSwtNj
-A5OTQ3ODY5LDcyMTM3MzMyNywtMjQ1Mzc4NzY1LDE1NTE1OTA3
-NjBdfQ==
+eyJoaXN0b3J5IjpbODM4ODk5ODc2LDE1MDg3NjU1MzMsLTEyOT
+E1NzU5MjUsLTYwOTk0Nzg2OSw3MjEzNzMzMjcsLTI0NTM3ODc2
+NSwxNTUxNTkwNzYwXX0=
 -->
