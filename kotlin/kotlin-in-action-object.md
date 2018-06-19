@@ -178,9 +178,9 @@ view.setOnClickListener(
 
 这里object关键字后冒号以及接口名的组成方式即是Kotlin的对象表达式。对象表达式声明了一个类的同时创建了该来的一个实例。
 
-与Java的匿名内部类
+《佛你与Java的匿名内部类只能扩展一个类或实现一个接口不同，Kotlin中匿名对象可以实现多个接口或者不实现接口。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNDIwMTk2LDEyNjIwMjI5NDIsLTU0MD
+eyJoaXN0b3J5IjpbNzI2NDQzOTkwLDEyNjIwMjI5NDIsLTU0MD
 I2NDQ0OSwtNTkxMDEzMDM0LDI5MDQxNTQ3NSwxMjI1NzQ1MzY3
 LC0xNzk1NjQwNzA3XX0=
 -->
