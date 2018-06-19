@@ -181,7 +181,8 @@ view.setOnClickListener(
 <font color='red'>与Java的匿名内部类只能扩展一个类或实现一个接口不同，Kotlin中匿名对象可以实现多个接口或者不实现接口。</font>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTA5NzE0NzAsLTU0NDg2NjY4NywxMj
-YyMDIyOTQyLC01NDAyNjQ0NDksLTU5MTAxMzAzNCwyOTA0MTU0
-NzUsMTIyNTc0NTM2NywtMTc5NTY0MDcwN119
+eyJoaXN0b3J5IjpbLTE4OTIyNTc2ODEsLTIwNTA5NzE0NzAsLT
+U0NDg2NjY4NywxMjYyMDIyOTQyLC01NDAyNjQ0NDksLTU5MTAx
+MzAzNCwyOTA0MTU0NzUsMTIyNTc0NTM2NywtMTc5NTY0MDcwN1
+19
 -->
