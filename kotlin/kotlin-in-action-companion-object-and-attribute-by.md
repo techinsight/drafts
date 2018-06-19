@@ -46,11 +46,13 @@ Process finished with exit code 0
 ##### 伴生对象
 再来说本篇文章的重点，即伴生对象。伴生对象从功能上的另外一个描述：<font color='red'><b>它是工厂方法和静态成员的地盘</b></font>。
 
-与Java做一个比较，Kotlin本身是不支持static关键字的，即static关键字并不是Kotlin语言的一部分。作为替代方案，Kotlin提供了包级别函数（可以在大多数去取代Java的静态方法）和对象声明（取代）
+与Java做一个比较，Kotlin本身是不支持static关键字的，即static关键字并不是Kotlin语言的一部分。作为替代方案，Kotlin提供了包级别函数（可以在大多数情况下替代Java的静态方法）和对象声明（大多数情况下替代Java的静态方法及静态成员），多数情况下，还是推荐使用顶层函数。
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDg4ODkxNiwxMTg2MTIzMjQxLDEyNj
+eyJoaXN0b3J5IjpbMTU0MTM1MjkyOCwxMTg2MTIzMjQxLDEyNj
 MzMTQ5NTUsMTc0ODg5NzMwOSwtNTk3NjA2MDgyXX0=
 -->
