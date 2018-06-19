@@ -72,12 +72,12 @@ fun main(args: Array<String>) {
 
 下来看看工厂方法是如何来表现的呢？
 创建一个User对象，根据不同的参数来获取User属性name。
-有
+学习过Java的程序员首先想到的只怕是通过不同的构造方法，传入不同额参数类型
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDM4NjkxLC0xNzEyNDc3NjY5LDE4Mz
+eyJoaXN0b3J5IjpbLTE1NzM3OTA1LC0xNzEyNDc3NjY5LDE4Mz
 Y4OTY2ODIsMTU0MTM1MjkyOCwxMTg2MTIzMjQxLDEyNjMzMTQ5
 NTUsMTc0ODg5NzMwOSwtNTk3NjA2MDgyXX0=
 -->
