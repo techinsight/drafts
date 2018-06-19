@@ -53,10 +53,12 @@ class Singleton private constructor() {
 在《Java设计模式》(Steven John  Metsker, William C. Wake)一书中这样给出答案：
 
  1. 静态初始化时，没有足够信息对单例对象进行初始化。如工厂单例需要真正的工程类型才能建立起通信通道;
- 2. 延迟加载也和资源获取有关，如数据库连接，尤其是在一个特
+ 2. 延迟加载也和资源获取有关，如数据库连接，尤其是在一个特定的会话中，它包含的应用程序并不需要该单例对象时。
+
+换言之，采用延迟加载也有想对应的场景，
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk1MzEzOTQsOTkwNzU4NjkwLC0xMj
-kxNTc1OTI1LC02MDk5NDc4NjksNzIxMzczMzI3LC0yNDUzNzg3
-NjUsMTU1MTU5MDc2MF19
+eyJoaXN0b3J5IjpbMTIzMzYwMDY0OSw5OTA3NTg2OTAsLTEyOT
+E1NzU5MjUsLTYwOTk0Nzg2OSw3MjEzNzMzMjcsLTI0NTM3ODc2
+NSwxNTUxNTkwNzYwXX0=
 -->
