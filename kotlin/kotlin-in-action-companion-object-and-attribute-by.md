@@ -18,7 +18,7 @@ object关键字使用的几种不同的场景：
 - 伴生对象（可以持有工厂方法和其他与这个类相关，但在调用时不依赖于容器类的方法。他们的成员可以通过容器类的类名来访问即相当与Java中的静态成员形式）;
 - 对象表达式（Java的匿名内部类）;
 
-##### 单例类
+##### 单例
 先来看object关键字修饰下的类的形式。
 ```Kotlin
 object Factory
@@ -49,6 +49,6 @@ Process finished with exit code 0
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjEyMzI0MSwxMjYzMzE0OTU1LDE3ND
-g4OTczMDksLTU5NzYwNjA4Ml19
+eyJoaXN0b3J5IjpbMTA0ODU0ODY1NiwxMTg2MTIzMjQxLDEyNj
+MzMTQ5NTUsMTc0ODg5NzMwOSwtNTk3NjA2MDgyXX0=
 -->
