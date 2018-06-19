@@ -50,12 +50,12 @@ Process finished with exit code 0
 
 重点来了，标题是伴生对象，那么怎么来声明呢 ？
 
-在类中定义一个用特殊关键字标记的对象：companion。companion修饰的对象，使得外部可以直接通过companion容器类来访问这个对象（companion object）的是
+在类中定义一个用特殊关键字标记的对象：companion。companion修饰的对象，使得外部可以直接通过companion容器类来访问这个对象（companion object）的属性和方法，就像
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTc5Nzk0NTgsMTU0MTM1MjkyOCwxMT
+eyJoaXN0b3J5IjpbLTEzMjY3NDYyMjQsMTU0MTM1MjkyOCwxMT
 g2MTIzMjQxLDEyNjMzMTQ5NTUsMTc0ODg5NzMwOSwtNTk3NjA2
 MDgyXX0=
 -->
