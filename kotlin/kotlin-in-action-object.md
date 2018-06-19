@@ -165,9 +165,11 @@ class User private constructor(val name: String) {
 在调用的时候，可以直接使用User.loadFromJson(json)方式来调用，就像是User实现了JSONFactory接口一样。
 
 #### 对象表达式
-对象表达式就
+对象表达式就功能来说就是改变写法的匿名内部类。
+这种用法取代Java的匿名内部类的写法。
+熟悉Android 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDc0NTMxNiwtNTQwMjY0NDQ5LC01OT
-EwMTMwMzQsMjkwNDE1NDc1LDEyMjU3NDUzNjcsLTE3OTU2NDA3
-MDddfQ==
+eyJoaXN0b3J5IjpbLTE0MDk4ODg0NjksLTU0MDI2NDQ0OSwtNT
+kxMDEzMDM0LDI5MDQxNTQ3NSwxMjI1NzQ1MzY3LC0xNzk1NjQw
+NzA3XX0=
 -->
