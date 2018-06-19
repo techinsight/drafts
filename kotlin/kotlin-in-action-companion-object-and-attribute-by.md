@@ -15,9 +15,9 @@ author: 散人
 
 object关键字使用的几种不同的场景：
 - 用以声明一个单例类;
-- 伴生对象（可以持有工厂方法和其他与这个类相关，但在调用时不依赖于容器类的方法。他们的成员可以通过容器类的类名）;
+- 伴生对象（可以持有工厂方法和其他与这个类相关，但在调用时不依赖于容器类的方法。他们的成员可以通过容器类的类名来访问即相当与Java中的静态成员形式）;
 - 对象表达式（Java的匿名内部类）;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODA2MTM0NywxNzQ4ODk3MzA5LC01OT
-c2MDYwODJdfQ==
+eyJoaXN0b3J5IjpbLTE4NjExODA5NjksMTc0ODg5NzMwOSwtNT
+k3NjA2MDgyXX0=
 -->
