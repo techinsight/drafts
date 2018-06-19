@@ -158,27 +158,14 @@ class User private constructor(val name: String) {
             // ...
             return User("..")
         }
-
-        fun createUserByName(name: String): User {
-            return User(name)
-        }
-
-        fun createUserById(id: Int): User {
-            return User(getNameBy(id))
-        }
-
-        private fun getNameBy(id: Int): String {
-            // ...
-            return ".."
-        }
+        // ...
     }
-
 }
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU1MTQxMzU5LC01OTEwMTMwMzQsMjkwND
-E1NDc1LDEyMjU3NDUzNjcsLTE3OTU2NDA3MDddfQ==
+eyJoaXN0b3J5IjpbMTg2MTA0MjMxNiwtNTkxMDEzMDM0LDI5MD
+QxNTQ3NSwxMjI1NzQ1MzY3LC0xNzk1NjQwNzA3XX0=
 -->
