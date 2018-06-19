@@ -25,7 +25,7 @@ public class Singleton {
 object Singleton
 ```
 
-这里是最简单的实现方式，但对于不想一开始就创建对象，即延迟创建，
+这里是最简单的实现方式，但对于不想一开始就创建对象，即延迟加载（仅在），
 ```Java
 public class Singleton {  
     private static Singleton INSTANCE;  
@@ -106,5 +106,5 @@ class Singleton private constructor() {
 这样添加了锁之后，当线程A执行方法getIntance()时，线程B就发现方法被锁了，从而等待执行，当线程A执行完毕并释放锁LOCK时，线程才开始执行getInstance()方法。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTU0NzI0OTBdfQ==
+eyJoaXN0b3J5IjpbMjE0Mzk4MjM0LC0xNjk1NDcyNDkwXX0=
 -->
