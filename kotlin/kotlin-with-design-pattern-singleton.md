@@ -1,7 +1,11 @@
+title: 设计模式之单里
+tags:
+  - Kotlin
 
-
-
-> Written with [StackEdit](https://stackedit.io/).
+categories:
+  - Kotlin
+author: 散人
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMxMTQ2NDJdfQ==
+eyJoaXN0b3J5IjpbMTU0MDkzNzYyNywtMTMwMzExNDY0Ml19
 -->
