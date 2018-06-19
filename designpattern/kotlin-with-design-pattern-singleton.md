@@ -75,9 +75,9 @@ public class Singleton {
   }  
 }
 ```
-当线程A访问到
+当线程A调用getInstance()并执行到if语句判断INSTANC额
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjkwNjAyMDEsLTEyOTE1NzU5MjUsLT
-YwOTk0Nzg2OSw3MjEzNzMzMjcsLTI0NTM3ODc2NSwxNTUxNTkw
-NzYwXX0=
+eyJoaXN0b3J5IjpbMTQ3ODkyMDgxNywtMTI5MTU3NTkyNSwtNj
+A5OTQ3ODY5LDcyMTM3MzMyNywtMjQ1Mzc4NzY1LDE1NTE1OTA3
+NjBdfQ==
 -->
