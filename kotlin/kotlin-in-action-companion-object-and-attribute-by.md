@@ -72,12 +72,13 @@ fun main(args: Array<String>) {
 
 下来看看工厂方法是如何来表现的呢？
 创建一个User对象，根据不同的参数来获取User属性name。
-学习过Java的程序员首先想到的只怕是通过不同的构造方法，传入不同额参数类型
+学习过Java的程序员首先想到的只怕是通过不同的构造方法，传入不同参数类型来实现。相应的Kotlin中也可以采用此种方式去实现。
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzM3OTA1LC0xNzEyNDc3NjY5LDE4Mz
-Y4OTY2ODIsMTU0MTM1MjkyOCwxMTg2MTIzMjQxLDEyNjMzMTQ5
-NTUsMTc0ODg5NzMwOSwtNTk3NjA2MDgyXX0=
+eyJoaXN0b3J5IjpbMTQyOTA2MDkyMywtMTcxMjQ3NzY2OSwxOD
+M2ODk2NjgyLDE1NDEzNTI5MjgsMTE4NjEyMzI0MSwxMjYzMzE0
+OTU1LDE3NDg4OTczMDksLTU5NzYwNjA4Ml19
 -->
