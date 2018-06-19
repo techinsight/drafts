@@ -118,10 +118,31 @@ class User private constructor(val name: String) {
 
 #### 做为普通对象的伴生对象
 伴生对象是一个类声明中定义的普通对象。它同样有名字，可以继承类，实现接口及扩展函数和属性。
+拿上述的User的伴生对象为例，为其定义一个名字。
+```Kotlin
+class User private constructor(val name: String) {
+    companion object Factory {
+        fun createUserByName(name: String): User {
+            return User(name)
+        }
+
+        fun createUserById(id: Int): User {
+            return User(getNameBy(id))
+        }
+
+        private fun getNameBy(id: Int): String {
+            // ...
+            return ".."
+        }
+
+    }
+
+}
+```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjE0MDIwMywtMTc5NTY0MDcwN119
+eyJoaXN0b3J5IjpbMjA2NjcxNTg2MywtMTc5NTY0MDcwN119
 -->
