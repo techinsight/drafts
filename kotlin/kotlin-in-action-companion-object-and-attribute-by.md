@@ -65,15 +65,16 @@ fun main(args: Array<String>) {
     println(Factory.name)
 }
 ```
-可以看到Factory对象创建依然是普通类对象的创建方式，而对name成员的访问的形式使用的是类名. 方式访问，而不是具体实例
+可以看到Factory对象创建依然是普通类对象的创建方式，而对name成员的访问的形式使用的是类名. 方式访问，而不是具体实例factory.name方式访问。
 
-在标题开始，写到
+在标题开始，写到伴生对象的另外一种描述是：工厂方法和静态成员的地盘。
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5NDExODIyLDE4MzY4OTY2ODIsMTU0MT
+eyJoaXN0b3J5IjpbNTIwODA2NDE3LDE4MzY4OTY2ODIsMTU0MT
 M1MjkyOCwxMTg2MTIzMjQxLDEyNjMzMTQ5NTUsMTc0ODg5NzMw
 OSwtNTk3NjA2MDgyXX0=
 -->
