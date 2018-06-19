@@ -48,12 +48,14 @@ Process finished with exit code 0
 
 与Java做一个比较，Kotlin本身是不支持static关键字的，即static关键字并不是Kotlin语言的一部分。作为替代方案，Kotlin提供了包级别函数（可以在大多数情况下替代Java的静态方法）和对象声明（大多数情况下替代Java的静态方法及静态成员），多数情况下，还是推荐使用顶层函数。
 
-重点来了，
+重点来了，标题是伴生对象，那么怎么来声明呢 ？
+
+在类中定义一个用特殊关键字标记的对象：companion。
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDk1NDMwMzEsMTU0MTM1MjkyOCwxMT
-g2MTIzMjQxLDEyNjMzMTQ5NTUsMTc0ODg5NzMwOSwtNTk3NjA2
-MDgyXX0=
+eyJoaXN0b3J5IjpbMTE0MTU3ODQ4LDE1NDEzNTI5MjgsMTE4Nj
+EyMzI0MSwxMjYzMzE0OTU1LDE3NDg4OTczMDksLTU5NzYwNjA4
+Ml19
 -->
