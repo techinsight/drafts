@@ -168,9 +168,15 @@ class User private constructor(val name: String) {
 对象表达式就功能来说就是改变写法的匿名内部类。
 这种用法取代Java的匿名内部类的写法。
 熟悉Android的同志肯定了解UI事件监听写法。
+```Kotlin
+view.setOnClickListener(
+    object: OnClickListener {
+        
+    }
+);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjMxODg2MiwtNTQwMjY0NDQ5LC01OT
-EwMTMwMzQsMjkwNDE1NDc1LDEyMjU3NDUzNjcsLTE3OTU2NDA3
-MDddfQ==
+eyJoaXN0b3J5IjpbLTE0NzU3MjkzNjksLTU0MDI2NDQ0OSwtNT
+kxMDEzMDM0LDI5MDQxNTQ3NSwxMjI1NzQ1MzY3LC0xNzk1NjQw
+NzA3XX0=
 -->
