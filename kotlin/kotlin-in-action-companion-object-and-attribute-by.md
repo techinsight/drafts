@@ -14,8 +14,10 @@ author: 散人
 在正式谈伴生对象之前，要先提及Kotlin中的一个关键字“object”。这个关键字与Java中的Object类不同，Kotlin中object关键字用以修饰类，在声明类的同时创建一个实例（即该类的一个对象）。可以理解成Java中的静态单例。
 
 object关键字使用的几种不同的场景：
-- 用以声明一个单例类
+- 用以声明一个单例类;
+- 伴生对象;
+- 对象表达式（Java的匿名内部类）;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDEzMjAyMzgsMTc0ODg5NzMwOSwtNT
+eyJoaXN0b3J5IjpbLTE2NjkwODY0NzYsMTc0ODg5NzMwOSwtNT
 k3NjA2MDgyXX0=
 -->
