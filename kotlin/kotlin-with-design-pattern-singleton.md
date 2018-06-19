@@ -55,10 +55,10 @@ class Singleton private constructor() {
  1. 静态初始化时，没有足够信息对单例对象进行初始化。如工厂单例需要真正的工程类型才能建立起通信通道;
  2. 延迟加载也和资源获取有关，如数据库连接，尤其是在一个特定的会话中，它包含的应用程序并不需要该单例对象时。
 
-换言之，采用延迟加载也有相对应的场景，采用饿汉式加载方式在普通场景下均可以使用。
+换言之，采用延迟加载一般场景下均可以采用，而在某些场景下需要知道具体类型信息后才能创建对应对象时则必须采用，采用饿汉式加载方式在普通场景下均可以使用。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODUxMTM1NzcsOTkwNzU4NjkwLC0xMj
+eyJoaXN0b3J5IjpbLTE3NTMwMDIxNDcsOTkwNzU4NjkwLC0xMj
 kxNTc1OTI1LC02MDk5NDc4NjksNzIxMzczMzI3LC0yNDUzNzg3
 NjUsMTU1MTU5MDc2MF19
 -->
