@@ -12,7 +12,7 @@ author: 散人
 
 在我的前一篇文章[设计模式之单例模式]()中Kotlin实现中，有涉及到Kotlin中的伴生对象和属性委托的概念，这篇文章先来说说object（包括伴生对象）。
 
-#### object
+## object
 
 关键字“object”，这个关键字与Java中的Object类不同，Kotlin中object关键字用以修饰类，在声明类的同时创建一个实例（即该类的一个对象）。可以理解成Java中的静态单例。
 
@@ -21,7 +21,7 @@ object关键字使用的几种不同的场景：
 - 伴生对象（可以持有工厂方法和其他与这个类相关，但在调用时不依赖于容器类的方法。他们的成员可以通过容器类的类名来访问即相当与Java中的静态成员形式）;
 - 对象表达式（Java的匿名内部类）;
 
-##### 单例
+### 单例
 先来看object关键字修饰下的类的形式。
 ```Kotlin
 object Factory
@@ -46,7 +46,7 @@ Process finished with exit code 0
 ```
 在函数main()中可以看到，引用创建时，等号右则直接是类名。Kotlin中使用object关键字修饰的类将一个类声明及该类的唯一实例创建结合在一起，这个功能也叫对象声明。
 
-##### 伴生对象
+### 伴生对象
 再来说本篇文章的重点，即伴生对象。伴生对象从功能上的另外一个描述：<font color='red'><b>它是工厂方法和静态成员的地盘</b></font>。
 
 与Java做一个比较，Kotlin本身是不支持static关键字的，即static关键字并不是Kotlin语言的一部分。作为替代方案，Kotlin提供了包级别函数（可以在大多数情况下替代Java的静态方法）和对象声明（大多数情况下替代Java的静态方法及静态成员），多数情况下，还是推荐使用顶层函数。
@@ -116,10 +116,10 @@ class User private constructor(val name: String) {
 ```
 工厂方法非常有用，它可以返回声明这个方法的类的子类。但如果需要在后期扩展相关的类，那么使用多个构造方法将是更好的选择，因为伴生对象成员在子类中是不可以被重写的。
 
-###### 做为普通对象的伴生对象
-
+##### 做为普通对象的伴生对象
+伴生对象
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjUyMDM1MiwtMTc5NTY0MDcwN119
+eyJoaXN0b3J5IjpbLTYwNzk2MzA2MCwtMTc5NTY0MDcwN119
 -->
