@@ -148,12 +148,37 @@ fun main(args: Array<String>) {
 #### 伴生对象实现接口
 伴生对象跟其他对象声明一样，可以实现接口。其调用方式就是直接使用容器类来调用接口实现，就像容器类实现了相关接口一样。
 ```Kotlin
+interface JSONFactory<T> {
+    fun loadFromJson(json: String): T
+}
 
+class User private constructor(val name: String) {
+    companion object Factory: JSONFactory<User> {
+        override fun loadFromJson(json: String): User {
+            // ...
+            return User("..")
+        }
+
+        fun createUserByName(name: String): User {
+            return User(name)
+        }
+
+        fun createUserById(id: Int): User {
+            return User(getNameBy(id))
+        }
+
+        private fun getNameBy(id: Int): String {
+            // ...
+            return ".."
+        }
+    }
+
+}
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTAxMzAzNCwyOTA0MTU0NzUsMTIyNT
-c0NTM2NywtMTc5NTY0MDcwN119
+eyJoaXN0b3J5IjpbMzU1MTQxMzU5LC01OTEwMTMwMzQsMjkwND
+E1NDc1LDEyMjU3NDUzNjcsLTE3OTU2NDA3MDddfQ==
 -->
