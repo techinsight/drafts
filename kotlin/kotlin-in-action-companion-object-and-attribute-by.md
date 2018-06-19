@@ -111,12 +111,12 @@ class User private constructor(val name: String) {
     }
 }
 ```
-工厂方法
+工厂方法非常有用，它可以返回声明这个方法的类的子类。但如果需
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTgyMjI0NSwxMjI3NDcxOTM0LC04NT
-k5OTI3MjUsMTQyOTA2MDkyMywtMTcxMjQ3NzY2OSwxODM2ODk2
-NjgyLDE1NDEzNTI5MjgsMTE4NjEyMzI0MSwxMjYzMzE0OTU1LD
-E3NDg4OTczMDksLTU5NzYwNjA4Ml19
+eyJoaXN0b3J5IjpbLTE0MTc1NDg3MzYsMTIyNzQ3MTkzNCwtOD
+U5OTkyNzI1LDE0MjkwNjA5MjMsLTE3MTI0Nzc2NjksMTgzNjg5
+NjY4MiwxNTQxMzUyOTI4LDExODYxMjMyNDEsMTI2MzMxNDk1NS
+wxNzQ4ODk3MzA5LC01OTc2MDYwODJdfQ==
 -->
