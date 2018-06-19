@@ -40,7 +40,18 @@ public class Singleton {
   }  
 }
 ```
+对应Kotlin实现：
+```Kotlin
+class Singleton private constructor() {  
+    companion object {  
+        val INSTANCE: Singleton by lazy { Singleton() }  
+    }  
+}
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTE1NzU5MjUsLTYwOTk0Nzg2OSw3Mj
-EzNzMzMjcsLTI0NTM3ODc2NSwxNTUxNTkwNzYwXX0=
+eyJoaXN0b3J5IjpbOTkwNzU4NjkwLC0xMjkxNTc1OTI1LC02MD
+k5NDc4NjksNzIxMzczMzI3LC0yNDUzNzg3NjUsMTU1MTU5MDc2
+MF19
 -->
