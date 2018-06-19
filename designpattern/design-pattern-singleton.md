@@ -9,7 +9,9 @@ categories:
 ---
 
 单例模式应该是所有设计模式中最有名的设计模式了，原理简单：一个类型的实例在全局中只有一个对象，要调用这个实例的方法必须经由这个单例来完成。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTM3ODc2NSwxNTUxNTkwNzYwLDE4OD
-g4OTU2MjhdfQ==
+eyJoaXN0b3J5IjpbNzIxMzczMzI3LC0yNDUzNzg3NjUsMTU1MT
+U5MDc2MCwxODg4ODk1NjI4XX0=
 -->
