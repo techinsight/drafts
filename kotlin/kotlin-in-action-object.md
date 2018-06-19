@@ -136,11 +136,17 @@ class User private constructor(val name: String) {
         }
     }
 }
+
+fun main(args: Array<String>) {
+    val user: User = User.Factory.createUserById(36)
+    val user1: User = User.Factory.createUserByName("OK")
+}
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTc0NTM2NywtMTc5NTY0MDcwN119
+eyJoaXN0b3J5IjpbLTE3ODI4MzQ3NTMsMTIyNTc0NTM2NywtMT
+c5NTY0MDcwN119
 -->
