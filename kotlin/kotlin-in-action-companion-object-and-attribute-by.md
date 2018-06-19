@@ -44,11 +44,13 @@ Process finished with exit code 0
 在函数main()中可以看到，引用创建时，等号右则直接是类名。Kotlin中使用object关键字修饰的类将一个类声明及该类的唯一实例创建结合在一起，这个功能也叫对象声明。
 
 ##### 伴生对象
-再来说本篇文章的重点，即伴生对象。伴生对象从功能上有另外一个描述：<font color='red'><b>它是工厂方法和静态成员的地盘</b></font>。
+再来说本篇文章的重点，即伴生对象。伴生对象从功能上的另外一个描述：<font color='red'><b>它是工厂方法和静态成员的地盘</b></font>。
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODU0ODY1NiwxMTg2MTIzMjQxLDEyNj
-MzMTQ5NTUsMTc0ODg5NzMwOSwtNTk3NjA2MDgyXX0=
+eyJoaXN0b3J5IjpbLTIxMTY3NDA3NTEsMTE4NjEyMzI0MSwxMj
+YzMzE0OTU1LDE3NDg4OTczMDksLTU5NzYwNjA4Ml19
 -->
