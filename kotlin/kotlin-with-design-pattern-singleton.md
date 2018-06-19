@@ -52,10 +52,10 @@ class Singleton private constructor() {
 #### 为什么要延迟初始化呢？？
 在《Java设计模式》(Steven John  Metsker, William C. Wake)一书中这样给出答案：
 
- 1. List item
+ 1. 静态初始化时，没有足够信息对单例对象进行初始化。如工厂单例需要真正的工程类型才能建立起通信通道;
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjA0MTY1OCw5OTA3NTg2OTAsLTEyOT
+eyJoaXN0b3J5IjpbMTcwNTMyMDcyMiw5OTA3NTg2OTAsLTEyOT
 E1NzU5MjUsLTYwOTk0Nzg2OSw3MjEzNzMzMjcsLTI0NTM3ODc2
 NSwxNTUxNTkwNzYwXX0=
 -->
