@@ -92,12 +92,14 @@ class User {
 }
 ```
 
-可以使用相同逻辑，但使用工厂
+可以使用相同逻辑，但使用工厂方法来实现。
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3NjY4OTUwLDE0MjkwNjA5MjMsLTE3MT
-I0Nzc2NjksMTgzNjg5NjY4MiwxNTQxMzUyOTI4LDExODYxMjMy
-NDEsMTI2MzMxNDk1NSwxNzQ4ODk3MzA5LC01OTc2MDYwODJdfQ
-==
+eyJoaXN0b3J5IjpbLTg1OTk5MjcyNSwxNDI5MDYwOTIzLC0xNz
+EyNDc3NjY5LDE4MzY4OTY2ODIsMTU0MTM1MjkyOCwxMTg2MTIz
+MjQxLDEyNjMzMTQ5NTUsMTc0ODg5NzMwOSwtNTk3NjA2MDgyXX
+0=
 -->
