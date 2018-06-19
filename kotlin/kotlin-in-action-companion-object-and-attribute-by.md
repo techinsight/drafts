@@ -46,11 +46,11 @@ Process finished with exit code 0
 ##### 伴生对象
 再来说本篇文章的重点，即伴生对象。伴生对象从功能上的另外一个描述：<font color='red'><b>它是工厂方法和静态成员的地盘</b></font>。
 
-
+与Java做一个比较，Kotlin本身是没有static关键字的，及
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTY3NDA3NTEsMTE4NjEyMzI0MSwxMj
-YzMzE0OTU1LDE3NDg4OTczMDksLTU5NzYwNjA4Ml19
+eyJoaXN0b3J5IjpbMTkzOTQwNTkxLDExODYxMjMyNDEsMTI2Mz
+MxNDk1NSwxNzQ4ODk3MzA5LC01OTc2MDYwODJdfQ==
 -->
