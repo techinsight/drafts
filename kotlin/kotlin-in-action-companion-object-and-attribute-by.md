@@ -93,13 +93,30 @@ class User {
 ```
 
 可以使用相同逻辑，但使用工厂方法来实现。
+```Kotlin
+class User private constructor(val name: String) {
+    companion object {
+        fun createUserByName(name: String): User {
+            return User(name)
+        }
 
+        fun createUserById(id: Int): User {
+            return User(getNameBy(id))
+        }
+
+        private fun getNameBy(id: Int): String {
+            // ...
+            return ".."
+        }
+    }
+}
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTk5MjcyNSwxNDI5MDYwOTIzLC0xNz
-EyNDc3NjY5LDE4MzY4OTY2ODIsMTU0MTM1MjkyOCwxMTg2MTIz
-MjQxLDEyNjMzMTQ5NTUsMTc0ODg5NzMwOSwtNTk3NjA2MDgyXX
-0=
+eyJoaXN0b3J5IjpbMTIyNzQ3MTkzNCwtODU5OTkyNzI1LDE0Mj
+kwNjA5MjMsLTE3MTI0Nzc2NjksMTgzNjg5NjY4MiwxNTQxMzUy
+OTI4LDExODYxMjMyNDEsMTI2MzMxNDk1NSwxNzQ4ODk3MzA5LC
+01OTc2MDYwODJdfQ==
 -->
