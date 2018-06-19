@@ -68,13 +68,15 @@ fun main(args: Array<String>) {
 可以看到Factory对象创建依然是普通类对象的创建方式，而对name成员的访问的形式使用的是类名. 方式访问，而不是具体实例factory.name方式访问。
 
 在标题开始，写到伴生对象的另外一种描述是：工厂方法和静态成员的地盘。
+静态成员的地盘这个描述相信通过上述的示例已经可以看出一二。
 
+下来看看工厂方法是如何来表现的呢？
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwODA2NDE3LDE4MzY4OTY2ODIsMTU0MT
-M1MjkyOCwxMTg2MTIzMjQxLDEyNjMzMTQ5NTUsMTc0ODg5NzMw
-OSwtNTk3NjA2MDgyXX0=
+eyJoaXN0b3J5IjpbLTE3MTI0Nzc2NjksMTgzNjg5NjY4MiwxNT
+QxMzUyOTI4LDExODYxMjMyNDEsMTI2MzMxNDk1NSwxNzQ4ODk3
+MzA5LC01OTc2MDYwODJdfQ==
 -->
