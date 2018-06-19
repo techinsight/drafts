@@ -49,9 +49,9 @@ class Singleton private constructor() {
 }
 ```
 
-
+为什么
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNzU4NjkwLC0xMjkxNTc1OTI1LC02MD
+eyJoaXN0b3J5IjpbMjA2ODQ1ODA4LC0xMjkxNTc1OTI1LC02MD
 k5NDc4NjksNzIxMzczMzI3LC0yNDUzNzg3NjUsMTU1MTU5MDc2
 MF19
 -->
