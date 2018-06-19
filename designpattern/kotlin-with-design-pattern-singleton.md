@@ -103,10 +103,10 @@ class Singleton private constructor() {
 }
 ```
 
-这样添加了锁之后，当
+这样添加了锁之后，当线程A执行方法getIntance()时，线程B就发现方法被锁了，从而等待执行，当线程
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwOTU3ODIsNDkwNTE4NzI1LDQ2MjY3OT
-k1NywxNTA4NzY1NTMzLC0xMjkxNTc1OTI1LC02MDk5NDc4Njks
-NzIxMzczMzI3LC0yNDUzNzg3NjUsMTU1MTU5MDc2MF19
+eyJoaXN0b3J5IjpbODM0NzYyMDY1LDQ5MDUxODcyNSw0NjI2Nz
+k5NTcsMTUwODc2NTUzMywtMTI5MTU3NTkyNSwtNjA5OTQ3ODY5
+LDcyMTM3MzMyNywtMjQ1Mzc4NzY1LDE1NTE1OTA3NjBdfQ==
 -->
