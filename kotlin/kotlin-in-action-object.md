@@ -179,8 +179,9 @@ view.setOnClickListener(
 这里object关键字后冒号以及接口名的组成方式即是Kotlin的对象表达式。对象表达式声明了一个类的同时创建了该来的一个实例。
 
 <font color='red'>与Java的匿名内部类只能扩展一个类或实现一个接口不同，Kotlin中匿名对象可以实现多个接口或者不实现接口。</font>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDg2NjY4NywxMjYyMDIyOTQyLC01ND
-AyNjQ0NDksLTU5MTAxMzAzNCwyOTA0MTU0NzUsMTIyNTc0NTM2
-NywtMTc5NTY0MDcwN119
+eyJoaXN0b3J5IjpbLTIwNTA5NzE0NzAsLTU0NDg2NjY4NywxMj
+YyMDIyOTQyLC01NDAyNjQ0NDksLTU5MTAxMzAzNCwyOTA0MTU0
+NzUsMTIyNTc0NTM2NywtMTc5NTY0MDcwN119
 -->
