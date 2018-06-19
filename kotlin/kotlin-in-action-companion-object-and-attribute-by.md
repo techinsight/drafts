@@ -11,8 +11,8 @@ author: 散人
 
 #### 伴生对象
 
-在正式谈伴生对象之前，要先提及Kotlin中的一个关键字“object”。这个关键字与Java中的Object类不同，Kotlin中object关键字用以修饰类，在声明类的
+在正式谈伴生对象之前，要先提及Kotlin中的一个关键字“object”。这个关键字与Java中的Object类不同，Kotlin中object关键字用以修饰类，在声明类的同时创建一个实例（即该类的一个对象）。可以理解成Java中的静态
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA3MDM5OCwxNzQ4ODk3MzA5LC01OT
-c2MDYwODJdfQ==
+eyJoaXN0b3J5IjpbNDY2MTk4OTk0LDE3NDg4OTczMDksLTU5Nz
+YwNjA4Ml19
 -->
