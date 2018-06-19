@@ -48,11 +48,12 @@ Process finished with exit code 0
 
 与Java做一个比较，Kotlin本身是不支持static关键字的，即static关键字并不是Kotlin语言的一部分。作为替代方案，Kotlin提供了包级别函数（可以在大多数情况下替代Java的静态方法）和对象声明（大多数情况下替代Java的静态方法及静态成员），多数情况下，还是推荐使用顶层函数。
 
-
+重点来了，
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTM1MjkyOCwxMTg2MTIzMjQxLDEyNj
-MzMTQ5NTUsMTc0ODg5NzMwOSwtNTk3NjA2MDgyXX0=
+eyJoaXN0b3J5IjpbLTE3NDk1NDMwMzEsMTU0MTM1MjkyOCwxMT
+g2MTIzMjQxLDEyNjMzMTQ5NTUsMTc0ODg5NzMwOSwtNTk3NjA2
+MDgyXX0=
 -->
