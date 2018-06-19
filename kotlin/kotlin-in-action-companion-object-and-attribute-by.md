@@ -52,7 +52,20 @@ Process finished with exit code 0
 
 在类中定义一个用特殊关键字标记的对象：companion。companion修饰的对象，使得外部可以直接通过companion容器类来访问这个对象（companion object）的属性和方法，就像Java中对静态方法和静态成员的访问形式，不需要再通过具体实例来访问。
 
-下来看下Factory类的另外一个写法，并同样打印Factory成员那么
+下来看下Factory类的另外一个写法，并同样打印Factory成员name的值。
+```Kotlin
+class Factory {
+    companion object {
+        const val name: String = "object single"
+    }
+}
+
+fun main(args: Array<String>) {
+    val factorySingle : Factory = Factory()
+    println(Factory.name)
+}
+```
+可以看到Factory对象创建依然是普
 
 在标题开始，写到
 
@@ -60,7 +73,7 @@ Process finished with exit code 0
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzc5MzMyMDAsMTgzNjg5NjY4MiwxNT
-QxMzUyOTI4LDExODYxMjMyNDEsMTI2MzMxNDk1NSwxNzQ4ODk3
-MzA5LC01OTc2MDYwODJdfQ==
+eyJoaXN0b3J5IjpbLTM5NjE4MjY4MCwxODM2ODk2NjgyLDE1ND
+EzNTI5MjgsMTE4NjEyMzI0MSwxMjYzMzE0OTU1LDE3NDg4OTcz
+MDksLTU5NzYwNjA4Ml19
 -->
