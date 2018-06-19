@@ -49,9 +49,10 @@ class Singleton private constructor() {
 }
 ```
 
-
+为什么要延迟初始化呢？？
+在《Java设计模式》(Steven)一书中
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNzU4NjkwLC0xMjkxNTc1OTI1LC02MD
-k5NDc4NjksNzIxMzczMzI3LC0yNDUzNzg3NjUsMTU1MTU5MDc2
-MF19
+eyJoaXN0b3J5IjpbMTc0NzE3MjUxNSw5OTA3NTg2OTAsLTEyOT
+E1NzU5MjUsLTYwOTk0Nzg2OSw3MjEzNzMzMjcsLTI0NTM3ODc2
+NSwxNTUxNTkwNzYwXX0=
 -->
