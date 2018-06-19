@@ -23,8 +23,19 @@ object关键字使用的几种不同的场景：
 ```Kotlin
 object Factory
 ```
-这是最简单的单例声明方法。为了更方便的了解这是但里
+这是最简单的单例声明方法。为了更方便的了解这是单例，完整的demo代码来看下。
+```Kotlin
+object Factory {
+    val name: String = "object single"
+}
+
+fun main(args: Array<String>) {
+    val factorySingle : Factory = Factory
+    println(factorySingle.name)
+}
+```
+在object类中
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzY0MzUyMywxMjYzMzE0OTU1LDE3ND
+eyJoaXN0b3J5IjpbLTczMjYzMjg5MCwxMjYzMzE0OTU1LDE3ND
 g4OTczMDksLTU5NzYwNjA4Ml19
 -->
