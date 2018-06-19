@@ -176,9 +176,9 @@ view.setOnClickListener(
 );
 ```
 
-这里object关键字后冒号以及接口名的组成方式即是Kotlin的对象表达式
+这里object关键字后冒号以及接口名的组成方式即是Kotlin的对象表达式。对象表达式声明了一个类的同时创建了该来的一个实例。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTg5MDQxMCwtNTQwMjY0NDQ5LC01OT
+eyJoaXN0b3J5IjpbMTI2MjAyMjk0MiwtNTQwMjY0NDQ5LC01OT
 EwMTMwMzQsMjkwNDE1NDc1LDEyMjU3NDUzNjcsLTE3OTU2NDA3
 MDddfQ==
 -->
