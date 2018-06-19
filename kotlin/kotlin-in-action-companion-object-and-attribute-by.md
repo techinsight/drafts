@@ -1,4 +1,4 @@
-title: Kotlin——object关键字（单例，般的和）
+title: Kotlin——object关键字（单例，伴生对象，内部类）
 tags:
   - Kotlin
 
@@ -117,7 +117,7 @@ class User private constructor(val name: String) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxODYxMTE1LDEyMjc0NzE5MzQsLTg1OT
+eyJoaXN0b3J5IjpbNTk3MjEwNDMyLDEyMjc0NzE5MzQsLTg1OT
 k5MjcyNSwxNDI5MDYwOTIzLC0xNzEyNDc3NjY5LDE4MzY4OTY2
 ODIsMTU0MTM1MjkyOCwxMTg2MTIzMjQxLDEyNjMzMTQ5NTUsMT
 c0ODg5NzMwOSwtNTk3NjA2MDgyXX0=
