@@ -1,10 +1,13 @@
 title: Kotlin——object关键字（单例，伴生对象，内部类）
+
 tags:
   - Kotlin
 
 categories:
   - Kotlin
+
 author: 散人
+
 ---
 
 在我的前一篇文章[设计模式之单例模式]()中Kotlin实现中，有涉及到Kotlin中的伴生对象和属性委托的概念，这篇文章就来谈谈这两个概念。
@@ -117,5 +120,5 @@ class User private constructor(val name: String) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTU2NDA3MDddfQ==
+eyJoaXN0b3J5IjpbLTM0MTQ5MDkzNywtMTc5NTY0MDcwN119
 -->
