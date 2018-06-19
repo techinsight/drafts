@@ -143,11 +143,11 @@ fun main(args: Array<String>) {
     val user2: User = User.createUserById(54)
 }
 ```
-代码中可以看到，可以通过User.Factor
+代码中可以看到，可以通过User.Factory.xxx方式来调用方法，同时也可以直接使用User.xxx方式调用方法。因
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwMjYyNTkwLDEyMjU3NDUzNjcsLTE3OT
-U2NDA3MDddfQ==
+eyJoaXN0b3J5IjpbLTc4MTAzNTg1OCwxMjI1NzQ1MzY3LC0xNz
+k1NjQwNzA3XX0=
 -->
