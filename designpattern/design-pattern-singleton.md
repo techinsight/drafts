@@ -25,8 +25,9 @@ public class Singleton {
 object Singleton
 ```
 
-这里是最简单的实现方式，但是对于
+这里是最简单的实现方式，但对于不想一开始就创建是
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTk0Nzg2OSw3MjEzNzMzMjcsLTI0NT
-M3ODc2NSwxNTUxNTkwNzYwLDE4ODg4OTU2MjhdfQ==
+eyJoaXN0b3J5IjpbLTIwOTIzNTkzNjgsLTYwOTk0Nzg2OSw3Mj
+EzNzMzMjcsLTI0NTM3ODc2NSwxNTUxNTkwNzYwLDE4ODg4OTU2
+MjhdfQ==
 -->
