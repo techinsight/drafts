@@ -41,10 +41,13 @@ object single
 
 Process finished with exit code 0
 ```
-在函数main()中可以看到，引用创建时，等号右则直接是类名。Kotlin中使用object关键字修饰的类将一个类声明及该类的唯一实例创建结合在一起，这个功能也叫对象声明。这个对象声明的对象在声明时就已经创建。
+在函数main()中可以看到，引用创建时，等号右则直接是类名。Kotlin中使用object关键字修饰的类将一个类声明及该类的唯一实例创建结合在一起，这个功能也叫对象声明。
+
+##### 伴生对象
+吧
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzU5MDE5MCwxMjYzMzE0OTU1LDE3ND
+eyJoaXN0b3J5IjpbMTc2NTkxMDg1NSwxMjYzMzE0OTU1LDE3ND
 g4OTczMDksLTU5NzYwNjA4Ml19
 -->
