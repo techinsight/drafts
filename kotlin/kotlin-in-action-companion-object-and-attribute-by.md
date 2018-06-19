@@ -71,12 +71,12 @@ fun main(args: Array<String>) {
 静态成员的地盘这个描述相信通过上述的示例已经可以看出一二。
 
 下来看看工厂方法是如何来表现的呢？
-
+先看看在Java中类似的一个例子，
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI0Nzc2NjksMTgzNjg5NjY4MiwxNT
-QxMzUyOTI4LDExODYxMjMyNDEsMTI2MzMxNDk1NSwxNzQ4ODk3
-MzA5LC01OTc2MDYwODJdfQ==
+eyJoaXN0b3J5IjpbLTE0MzA3ODEwNCwtMTcxMjQ3NzY2OSwxOD
+M2ODk2NjgyLDE1NDEzNTI5MjgsMTE4NjEyMzI0MSwxMjYzMzE0
+OTU1LDE3NDg4OTczMDksLTU5NzYwNjA4Ml19
 -->
