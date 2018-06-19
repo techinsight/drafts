@@ -87,16 +87,17 @@ class User {
 
     private fun getNameBy(id: Int): String {
         // ...
-        r
+        return ".."
     }
 }
 ```
 
+可以使用相同逻辑，但使用工厂
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc5NDk3MjEsMTQyOTA2MDkyMywtMT
-cxMjQ3NzY2OSwxODM2ODk2NjgyLDE1NDEzNTI5MjgsMTE4NjEy
-MzI0MSwxMjYzMzE0OTU1LDE3NDg4OTczMDksLTU5NzYwNjA4Ml
-19
+eyJoaXN0b3J5IjpbNDE3NjY4OTUwLDE0MjkwNjA5MjMsLTE3MT
+I0Nzc2NjksMTgzNjg5NjY4MiwxNTQxMzUyOTI4LDExODYxMjMy
+NDEsMTI2MzMxNDk1NSwxNzQ4ODk3MzA5LC01OTc2MDYwODJdfQ
+==
 -->
