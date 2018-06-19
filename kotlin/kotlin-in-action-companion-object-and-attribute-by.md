@@ -61,11 +61,11 @@ class Factory {
 }
 
 fun main(args: Array<String>) {
-    val factorySingle : Factory = Factory()
+    val factory : Factory = Factory()
     println(Factory.name)
 }
 ```
-可以看到Factory对象创建依然是普
+可以看到Factory对象创建依然是普通类对象的创建方式，而对name成员的访问的形式使用的是类名. 方式访问，而不是具体实例
 
 在标题开始，写到
 
@@ -73,7 +73,7 @@ fun main(args: Array<String>) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjE4MjY4MCwxODM2ODk2NjgyLDE1ND
-EzNTI5MjgsMTE4NjEyMzI0MSwxMjYzMzE0OTU1LDE3NDg4OTcz
-MDksLTU5NzYwNjA4Ml19
+eyJoaXN0b3J5IjpbMjQ5NDExODIyLDE4MzY4OTY2ODIsMTU0MT
+M1MjkyOCwxMTg2MTIzMjQxLDEyNjMzMTQ5NTUsMTc0ODg5NzMw
+OSwtNTk3NjA2MDgyXX0=
 -->
