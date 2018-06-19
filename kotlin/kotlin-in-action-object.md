@@ -171,12 +171,14 @@ class User private constructor(val name: String) {
 ```Kotlin
 view.setOnClickListener(
     object: OnClickListener {
-        
+        // TODO
     }
 );
 ```
+
+这里object关键字后冒号以及接口名的组成方式即是Kotlin的对象表达式
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzU3MjkzNjksLTU0MDI2NDQ0OSwtNT
-kxMDEzMDM0LDI5MDQxNTQ3NSwxMjI1NzQ1MzY3LC0xNzk1NjQw
-NzA3XX0=
+eyJoaXN0b3J5IjpbLTU4MTg5MDQxMCwtNTQwMjY0NDQ5LC01OT
+EwMTMwMzQsMjkwNDE1NDc1LDEyMjU3NDUzNjcsLTE3OTU2NDA3
+MDddfQ==
 -->
