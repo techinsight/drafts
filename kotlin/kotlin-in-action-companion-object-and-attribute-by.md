@@ -20,7 +20,11 @@ object关键字使用的几种不同的场景：
 
 ##### 单例类
 先来看object关键字修饰下的类的形式。
+```Kotlin
+object Factory
+```
+这是最简单的单例声明方法。为了更方便的了解这是但里
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzMxNDk1NSwxNzQ4ODk3MzA5LC01OT
-c2MDYwODJdfQ==
+eyJoaXN0b3J5IjpbMTQ1NzY0MzUyMywxMjYzMzE0OTU1LDE3ND
+g4OTczMDksLTU5NzYwNjA4Ml19
 -->
