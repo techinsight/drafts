@@ -116,9 +116,10 @@ class User private constructor(val name: String) {
 ```
 工厂方法非常有用，它可以返回声明这个方法的类的子类。但如果需要在后期扩展相关的类，那么使用多个构造方法将是更好的选择，因为伴生对象成员在子类中是不可以被重写的。
 
-##### 
+###### 做为普通对象的伴生对象
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzQxMjc0NCwtMTc5NTY0MDcwN119
+eyJoaXN0b3J5IjpbLTM1NjUyMDM1MiwtMTc5NTY0MDcwN119
 -->
