@@ -143,11 +143,11 @@ fun main(args: Array<String>) {
     val user2: User = User.createUserById(54)
 }
 ```
-代码中可以看到，可以通过User.Factory.xxx方式来调用方法，同时也可以直接使用User.xxx方式调用方法。因
+代码中可以看到，可以通过User.Factory.xxx方式来调用方法，同时也可以直接使用User.xxx方式调用方法。因为companion修改的类随即就拥有了使其外部直接使用类名来访问半生
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTAzNTg1OCwxMjI1NzQ1MzY3LC0xNz
-k1NjQwNzA3XX0=
+eyJoaXN0b3J5IjpbLTE2Nzk0NTUzNzcsMTIyNTc0NTM2NywtMT
+c5NTY0MDcwN119
 -->
