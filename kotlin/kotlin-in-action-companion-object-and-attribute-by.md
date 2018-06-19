@@ -71,12 +71,13 @@ fun main(args: Array<String>) {
 静态成员的地盘这个描述相信通过上述的示例已经可以看出一二。
 
 下来看看工厂方法是如何来表现的呢？
-先看看在Java中类似的一个例子，
+创建一个User对象，根据不同的参数来获取User属性name。
+有
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA3ODEwNCwtMTcxMjQ3NzY2OSwxOD
-M2ODk2NjgyLDE1NDEzNTI5MjgsMTE4NjEyMzI0MSwxMjYzMzE0
-OTU1LDE3NDg4OTczMDksLTU5NzYwNjA4Ml19
+eyJoaXN0b3J5IjpbMTYwMDM4NjkxLC0xNzEyNDc3NjY5LDE4Mz
+Y4OTY2ODIsMTU0MTM1MjkyOCwxMTg2MTIzMjQxLDEyNjMzMTQ5
+NTUsMTc0ODg5NzMwOSwtNTk3NjA2MDgyXX0=
 -->
