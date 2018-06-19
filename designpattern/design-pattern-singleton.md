@@ -58,9 +58,9 @@ class Singleton private constructor() {
 换言之，采用延迟加载一般场景下均可以采用，而在某些场景下需要知道具体类型信息后才能创建对应对象时则必须采用延迟加载。而饿汉式加载方式在普通场景下均可以使用。
 
 #### 单例和多线程
-要在一个有多线程需求的项目中使用单例莫
+要在一个有多线程需求的项目中使用单例模式则需要小心，很可能因为线程运行调用流程造成系统下
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTIyMjkwMCwtMTI5MTU3NTkyNSwtNj
+eyJoaXN0b3J5IjpbMTgzMDc0Njk3NywtMTI5MTU3NTkyNSwtNj
 A5OTQ3ODY5LDcyMTM3MzMyNywtMjQ1Mzc4NzY1LDE1NTE1OTA3
 NjAsMTg4ODg5NTYyOF19
 -->
