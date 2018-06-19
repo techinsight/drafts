@@ -75,9 +75,9 @@ public class Singleton {
   }  
 }
 ```
-当线程A调用getInstance()并执行到if语句判断INSTANC额
+当线程A调用getInstance()并执行到if语句判断INSTANCE == null时，线程B也执行到此处，而事前并为针对此种情况添加访问锁，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODkyMDgxNywtMTI5MTU3NTkyNSwtNj
+eyJoaXN0b3J5IjpbMTY3OTY1NjU2NywtMTI5MTU3NTkyNSwtNj
 A5OTQ3ODY5LDcyMTM3MzMyNywtMjQ1Mzc4NzY1LDE1NTE1OTA3
 NjBdfQ==
 -->
