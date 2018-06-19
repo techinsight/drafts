@@ -34,8 +34,15 @@ fun main(args: Array<String>) {
     println(factorySingle.name)
 }
 ```
-在object类中定义一个name成员，然后在执行入口函数main()中引用这个单例，并且打印其成员name，实际的执行结果就是在控制台打印
+在object类中定义一个name成员，然后在执行入口函数main()中引用这个单例，并且打印其成员name，实际的执行结果就是在控制台打印“object single”.
+```
+...
+object single
+
+Process finished with exit code 0
+```
+在函数main()中欧
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2NTAzNTcwLDEyNjMzMTQ5NTUsMTc0OD
+eyJoaXN0b3J5IjpbNjM2OTcwMjg4LDEyNjMzMTQ5NTUsMTc0OD
 g5NzMwOSwtNTk3NjA2MDgyXX0=
 -->
