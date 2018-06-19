@@ -10,9 +10,9 @@ author: 散人
 
 ---
 
-在我的前一篇文章[设计模式之单例模式]()中Kotlin实现中，有涉及到Kotlin中的伴生对象和属性委托的概念，这篇文章就来谈谈这两个概念。
+在我的前一篇文章[设计模式之单例模式]()中Kotlin实现中，有涉及到Kotlin中的伴生对象和属性委托的概念，这篇文章先来说说object（包括伴生对象）。
 
-#### 伴生对象
+#### object
 
 在正式谈伴生对象之前，要先提及Kotlin中的一个关键字“object”。这个关键字与Java中的Object类不同，Kotlin中object关键字用以修饰类，在声明类的同时创建一个实例（即该类的一个对象）。可以理解成Java中的静态单例。
 
@@ -120,5 +120,5 @@ class User private constructor(val name: String) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwMDg2MTksLTE3OTU2NDA3MDddfQ==
+eyJoaXN0b3J5IjpbMTU2NzE1NTE3NiwtMTc5NTY0MDcwN119
 -->
