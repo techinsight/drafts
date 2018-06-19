@@ -41,8 +41,8 @@ object single
 
 Process finished with exit code 0
 ```
-在函数main()中可以看到，引用创建时，等号右则直接是类名。
+在函数main()中可以看到，引用创建时，等号右则直接是类名。Kotlin中使用object关键字将一个类声明及该类的唯一实例欻关键
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTUwNTYwMDgsMTI2MzMxNDk1NSwxNz
-Q4ODk3MzA5LC01OTc2MDYwODJdfQ==
+eyJoaXN0b3J5IjpbMTQ2NzY0MTI3MywxMjYzMzE0OTU1LDE3ND
+g4OTczMDksLTU5NzYwNjA4Ml19
 -->
