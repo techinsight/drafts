@@ -59,9 +59,9 @@ class Singleton private constructor() {
 
 #### 单例和多线程
 要在一个有多线程需求的项目中使用单例模式则需要小心，很可能因为线程运行调用流程造成系统死锁或者其他混乱情况。
-假设有线程A跟线程B，同时需要访问单例Singleton（）对象
+假设有线程A跟线程B，同时需要访问单例Singleton（以上述懒汉单例为例）对象来进行某项活动，获取Signleton对象斌
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzIwNzc4MSwtMTI5MTU3NTkyNSwtNj
-A5OTQ3ODY5LDcyMTM3MzMyNywtMjQ1Mzc4NzY1LDE1NTE1OTA3
-NjAsMTg4ODg5NTYyOF19
+eyJoaXN0b3J5IjpbLTEwOTY3ODc3MjgsLTEyOTE1NzU5MjUsLT
+YwOTk0Nzg2OSw3MjEzNzMzMjcsLTI0NTM3ODc2NSwxNTUxNTkw
+NzYwLDE4ODg4OTU2MjhdfQ==
 -->
