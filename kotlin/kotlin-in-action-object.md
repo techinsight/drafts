@@ -146,11 +146,14 @@ fun main(args: Array<String>) {
 代码中可以看到，可以通过User.Factory.xxx方式来调用方法，同时也可以直接使用User.xxx方式调用方法。因为companion修改的类随即就拥有了使其外部直接使用类名来访问伴生对象的成员，因此多数情况下，不需要关心伴生对象的名称。
 
 #### 伴生对象实现接口
-伴生对象跟其他对象声明一样，可以实现接口。其调用方式就是直接使用
+伴生对象跟其他对象声明一样，可以实现接口。其调用方式就是直接使用容器类来调用接口实现，就像容器类实现了相关接口一样。
+```Kotlin
+
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwNzUzNzEzLDI5MDQxNTQ3NSwxMjI1Nz
-Q1MzY3LC0xNzk1NjQwNzA3XX0=
+eyJoaXN0b3J5IjpbLTU5MTAxMzAzNCwyOTA0MTU0NzUsMTIyNT
+c0NTM2NywtMTc5NTY0MDcwN119
 -->
