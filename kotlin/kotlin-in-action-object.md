@@ -164,9 +164,10 @@ class User private constructor(val name: String) {
 ```
 在调用的时候，可以直接使用User.loadFromJson(json)方式来调用，就像是User实现了JSONFactory接口一样。
 
-#### 对i
+#### 对象表达式
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTI0NTMxNywtNTQwMjY0NDQ5LC01OT
+eyJoaXN0b3J5IjpbMTYwOTAxMjA5MiwtNTQwMjY0NDQ5LC01OT
 EwMTMwMzQsMjkwNDE1NDc1LDEyMjU3NDUzNjcsLTE3OTU2NDA3
 MDddfQ==
 -->
