@@ -96,11 +96,17 @@ public class Singleton {
 ```
 对应的Kotlin实现：
 ```Kotlin
-
+class Singleton private constructor() {
+    companion object {
+        val INSTANCE: Singleton by lazy(LazyThreadSafetyMode.SYNCHRONIZED) { Singleton() }
+    }
+}
 ```
 
+这样添加了锁之后，当先
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNTQ2MDY0OCw0OTA1MTg3MjUsNDYyNj
+eyJoaXN0b3J5IjpbMTk0MTkyODgzNCw0OTA1MTg3MjUsNDYyNj
 c5OTU3LDk5MDc1ODY5MCwtMTI5MTU3NTkyNSwtNjA5OTQ3ODY5
 LDcyMTM3MzMyNywtMjQ1Mzc4NzY1LDE1NTE1OTA3NjBdfQ==
 -->
