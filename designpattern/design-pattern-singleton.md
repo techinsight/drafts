@@ -14,7 +14,7 @@ categories:
 ```Java
 public class Singleton {  
     private static final Singleton INSTANCE = new Singleton();  
-  
+    private Singleton() {}
     public static Singleton getInstance() {  
         return INSTANCE;  
     }  
@@ -26,9 +26,22 @@ object Singleton
 ```
 
 这里是最简单的实现方式，但对于不想一开始就创建对象，即延迟创建，
-
+```Java
+public class Singleton {  
+    private static Singleton INSTANCE;  
+  
+    private Singleton() {}  
+  
+    public static Singleton getInstance() {  
+        if (INSTANCE == null) {  
+            INSTANCE = new Singleton();  
+        }  
+        return INSTANCE;  
+  }  
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAzMDIyMDgsLTYwOTk0Nzg2OSw3Mj
+eyJoaXN0b3J5IjpbLTEyOTE1NzU5MjUsLTYwOTk0Nzg2OSw3Mj
 EzNzMzMjcsLTI0NTM3ODc2NSwxNTUxNTkwNzYwLDE4ODg4OTU2
 MjhdfQ==
 -->
