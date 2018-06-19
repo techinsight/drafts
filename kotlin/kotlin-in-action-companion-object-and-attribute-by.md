@@ -111,12 +111,12 @@ class User private constructor(val name: String) {
     }
 }
 ```
-
+工厂方法
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzQ3MTkzNCwtODU5OTkyNzI1LDE0Mj
-kwNjA5MjMsLTE3MTI0Nzc2NjksMTgzNjg5NjY4MiwxNTQxMzUy
-OTI4LDExODYxMjMyNDEsMTI2MzMxNDk1NSwxNzQ4ODk3MzA5LC
-01OTc2MDYwODJdfQ==
+eyJoaXN0b3J5IjpbMTUwMTgyMjI0NSwxMjI3NDcxOTM0LC04NT
+k5OTI3MjUsMTQyOTA2MDkyMywtMTcxMjQ3NzY2OSwxODM2ODk2
+NjgyLDE1NDEzNTI5MjgsMTE4NjEyMzI0MSwxMjYzMzE0OTU1LD
+E3NDg4OTczMDksLTU5NzYwNjA4Ml19
 -->
