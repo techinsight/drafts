@@ -8,7 +8,7 @@ categories:
  author: 散人
 ---
 
-单例模式应该是所有设计模式中最有名的设计模式了，原理简单：一个类型的实力
+单例模式应该是所有设计模式中最有名的设计模式了，原理简单：一个类型的实例在全局中只有一个对象，要调用这个实例的方法必须经由这个单例来完成。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxMDk0ODcsMTU1MTU5MDc2MF19
+eyJoaXN0b3J5IjpbLTI0NTM3ODc2NSwxNTUxNTkwNzYwXX0=
 -->
