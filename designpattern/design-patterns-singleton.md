@@ -1,11 +1,14 @@
 title: 设计模式之单例模式
+
 tags:
   - Kotlin
   - 设计模式
 
 categories:
   - 设计模式
+  - 
  author: 散人
+ 
 ---
 
 单例模式应该是所有设计模式中最有名的设计模式了，原理简单：一个类型的实例在全局中只有一个对象，要调用这个实例的方法必须经由这个单例来完成。
@@ -108,6 +111,6 @@ class Singleton private constructor() {
 PS：延迟加载和同步锁即是单例模式的双重检查。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1NDI4MzU1LC0xNjUxODg2MzA0LC0xNj
-k1NDcyNDkwXX0=
+eyJoaXN0b3J5IjpbLTIxMDY4NDMwNjYsNzU1NDI4MzU1LC0xNj
+UxODg2MzA0LC0xNjk1NDcyNDkwXX0=
 -->
