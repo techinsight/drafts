@@ -77,8 +77,10 @@ public class Singleton {
 ```
 当线程A调用getInstance()并执行到if语句判断INSTANCE == null时，线程B也执行到此处，而事前并为针对此种情况添加访问锁，最终出现两个线程初始化同一个实例的情况。
 这时就需要添加锁机制来进行排他性执行，即当线程A调用方法getInstance()进行INSTANCE == null判断并可能实例化时，线程B进行等待，待线程A执行完毕后，释放锁，线程B再进行执行。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzQ5NDk4MywxNTA4NzY1NTMzLC0xMj
-kxNTc1OTI1LC02MDk5NDc4NjksNzIxMzczMzI3LC0yNDUzNzg3
-NjUsMTU1MTU5MDc2MCwxODg4ODk1NjI4XX0=
+eyJoaXN0b3J5IjpbNDYyNjc5OTU3LDE1MDg3NjU1MzMsLTEyOT
+E1NzU5MjUsLTYwOTk0Nzg2OSw3MjEzNzMzMjcsLTI0NTM3ODc2
+NSwxNTUxNTkwNzYwLDE4ODg4OTU2MjhdfQ==
 -->
