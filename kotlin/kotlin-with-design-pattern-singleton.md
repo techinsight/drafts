@@ -1,11 +1,12 @@
-title: 设计模式之单里
+title: 设计模式之单例模式
 tags:
   - Kotlin
+  - 设计模式
 
 categories:
-  - Kotlin
-author: 散人
+  - 设计模式
+ author: 散人
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDkzNzYyNywtMTMwMzExNDY0Ml19
+eyJoaXN0b3J5IjpbMTg4ODg5NTYyOCwtMTMwMzExNDY0Ml19
 -->
