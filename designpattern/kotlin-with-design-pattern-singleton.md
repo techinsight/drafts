@@ -25,8 +25,9 @@ public class Singleton {
 object Singleton
 ```
 
-这里是最简单的实现方式，但对于不想一开始就创建是
+这里是最简单的实现方式，但对于不想一开始就创建对象，即延迟创建，
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTIzNTkzNjgsLTYwOTk0Nzg2OSw3Mj
+eyJoaXN0b3J5IjpbLTExMjAzMDIyMDgsLTYwOTk0Nzg2OSw3Mj
 EzNzMzMjcsLTI0NTM3ODc2NSwxNTUxNTkwNzYwXX0=
 -->
