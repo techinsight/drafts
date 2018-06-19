@@ -145,11 +145,11 @@ fun main(args: Array<String>) {
 ```
 代码中可以看到，可以通过User.Factory.xxx方式来调用方法，同时也可以直接使用User.xxx方式调用方法。因为companion修改的类随即就拥有了使其外部直接使用类名来访问伴生对象的成员，因此多数情况下，不需要关心伴生对象的名称。
 
-#### 
+#### 伴生对象实现接口
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1MTIwNDM4LDEyMjU3NDUzNjcsLTE3OT
+eyJoaXN0b3J5IjpbMjkwNDE1NDc1LDEyMjU3NDUzNjcsLTE3OT
 U2NDA3MDddfQ==
 -->
