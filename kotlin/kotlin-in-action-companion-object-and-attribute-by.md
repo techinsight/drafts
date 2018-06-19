@@ -11,8 +11,8 @@ author: 散人
 
 #### 伴生对象
 
-在真是
+在正式谈伴生对象之前，要先提及Kotlin中的一个关键字“object”。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzg2MjQ5MywxNzQ4ODk3MzA5LC01OT
+eyJoaXN0b3J5IjpbMTQzODI5NDgwMSwxNzQ4ODk3MzA5LC01OT
 c2MDYwODJdfQ==
 -->
