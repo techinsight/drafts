@@ -41,8 +41,8 @@ object single
 
 Process finished with exit code 0
 ```
-在函数main()中欧
+在函数main()中可以看到，引用创建时，等号右则直接是类名。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2OTcwMjg4LDEyNjMzMTQ5NTUsMTc0OD
-g5NzMwOSwtNTk3NjA2MDgyXX0=
+eyJoaXN0b3J5IjpbLTIwOTUwNTYwMDgsMTI2MzMxNDk1NSwxNz
+Q4ODk3MzA5LC01OTc2MDYwODJdfQ==
 -->
