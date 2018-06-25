@@ -2,9 +2,12 @@ title: Kotlin基础
 tags:
   - Kotlin
   - Android
+ 
 categories:
   - Kotlin
+
 author: 散人
+
 ---
 
 Kotlin是一门静态类型语言且支持类型推导，允许维护正确性与性能的同时保持源码简洁。Kotlin支持面向对象和函数式两种编码风格，通过头等函数使更高级别的抽象成为可能，通过支持不可变值简化了测试和多线程开发。
@@ -213,7 +216,7 @@ enum class Color(val r: Int, val g: Int, val b: Int) {
 #### when
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzkxODczNywxMzA5NDU1MDUwLC0xNj
-E0NTY0MjIsMTI2ODk2MTUxMywxMzkzOTYyMDMxLDYwMjM3NDM0
-Miw3ODY3MzQzNjksMTE2OTA3Njk2NV19
+eyJoaXN0b3J5IjpbMjAwOTM5Mzk3OSwxMTczOTE4NzM3LDEzMD
+k0NTUwNTAsLTE2MTQ1NjQyMiwxMjY4OTYxNTEzLDEzOTM5NjIw
+MzEsNjAyMzc0MzQyLDc4NjczNDM2OSwxMTY5MDc2OTY1XX0=
 -->
