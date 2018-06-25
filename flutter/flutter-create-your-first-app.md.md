@@ -165,7 +165,7 @@ class MyApp extends StatelessWidget {
 		  ),
 		body:new Center(
 		  child:new Text(wordPair.asPascalCase),
-		),  
+		),
 	  ),
 	);
   }
@@ -794,5 +794,5 @@ class MyApp extends StatelessWidget {
 
 好了，这章的内容就是这些了。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTc3Njc0MiwtNDAyOTI5MDE4XX0=
+eyJoaXN0b3J5IjpbLTE3MjA4NjA5NjYsLTQwMjkyOTAxOF19
 -->
