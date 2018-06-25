@@ -2,10 +2,14 @@ title: Flutter(四) 搭建布局
 tags:
   - Flutter
   - Dart
+ 
 categories:
   - Flutter
+
 author: 散人
+
 date: 2018-04-11 08:19:00
+
 ---
 
 <table><tr><td bgcolor=#DCDCDC>
@@ -449,6 +453,6 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0MzAzODA3LDIwMDUyMjQzOTksNjA0Mj
-A2MDczLDYwNDIwNjA3M119
+eyJoaXN0b3J5IjpbLTUyNzI4ODM4Myw3NDQzMDM4MDcsMjAwNT
+IyNDM5OSw2MDQyMDYwNzMsNjA0MjA2MDczXX0=
 -->
