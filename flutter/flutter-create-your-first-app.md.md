@@ -160,12 +160,12 @@ class MyApp extends StatelessWidget {
 	  return new MaterialApp(  
 	    title:'Welcome to Flutter',  
 		home:new Scaffold(  
-		        appBar:new AppBar(  
-		          title:new Text('Welcome to Flutter'),  
-		        ),  
+		  appBar:new AppBar(  
+		    title:new Text('Welcome to Flutter'),  
+		  ),  
 		body:new Center(  
-		          child:new Text(wordPair.asPascalCase),  
-		      ),  
+		  child:new Text(wordPair.asPascalCase),  
+		),  
 		),  
 	 );  
   }  
@@ -794,5 +794,5 @@ class MyApp extends StatelessWidget {
 
 好了，这章的内容就是这些了。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjkyOTAxOF19
+eyJoaXN0b3J5IjpbLTg3OTgxMjQ3NCwtNDAyOTI5MDE4XX0=
 -->
