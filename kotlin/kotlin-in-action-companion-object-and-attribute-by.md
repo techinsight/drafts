@@ -39,7 +39,7 @@ fun main(args: Array<String>) {
 ```
 在object类中定义一个name成员，然后在执行入口函数main()中引用这个单例，并且打印其成员name，实际的执行结果就是在控制台打印“object single”.
 ```
-...
+...Kotlin
 object single
 
 Process finished with exit code 0
@@ -181,5 +181,5 @@ view.setOnClickListener(
 <font color='red'>与Java的匿名内部类只能扩展一个类或实现一个接口不同，Kotlin中匿名对象可以实现多个接口或者不实现接口。</font>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTA5NzE0NzBdfQ==
+eyJoaXN0b3J5IjpbMTQ4Nzk2NjE2MywtMjA1MDk3MTQ3MF19
 -->
