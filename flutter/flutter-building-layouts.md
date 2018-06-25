@@ -17,10 +17,8 @@ date: 2018-04-11 08:19:00
 > - 如何竖直或横向展示组件
 > - 如何搭建Flutter布局
 
-
 这篇文章说明Flutter搭建布局。
 <!-- more -->
-
 我们将学习搭建布局，做种效果如下截图：
 ![](https://flutter.io/tutorials/layout/images/lakes.jpg)
 
@@ -453,7 +451,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTEwOTg5MCwtNTI3Mjg4MzgzLDc0ND
+eyJoaXN0b3J5IjpbLTg0MjI4NDU0MiwtNTI3Mjg4MzgzLDc0ND
 MwMzgwNywyMDA1MjI0Mzk5LDYwNDIwNjA3Myw2MDQyMDYwNzNd
 fQ==
 -->
