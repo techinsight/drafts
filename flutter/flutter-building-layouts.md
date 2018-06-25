@@ -12,16 +12,16 @@ date: 2018-04-11 08:19:00
 
 ---
 
-<table><tr><td bgcolor=#DCDCDC>
-你将学习:
-<p>&nbsp;&nbsp;  - Flutter布局机制如何工作</p>
-<p>&nbsp;&nbsp;  - 如何竖直或横向展示组件</p>
-<p>&nbsp;&nbsp;  - 如何搭建Flutter布局</p>
-</td></tr></table>
+> 你将学习:
+> - Flutter布局机制如何工作
+> - 如何竖直或横向展示组件
+> - 如何搭建Flutter布局
 
+
+这篇文章说明Flutter搭建布局。
 <!-- more -->
 
-这篇文章说明Flutter搭建布局。我们将学习搭建布局，做种效果如下截图：
+我们将学习搭建布局，做种效果如下截图：
 ![](https://flutter.io/tutorials/layout/images/lakes.jpg)
 
 这篇引导退一步来解释Flutter进行布局的方式，以及展示如何在屏幕上放置一个单独的组件。在学习完如何横向或竖向展示组件之后，我们会再看到些常用的布局组件。
@@ -453,6 +453,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzI4ODM4Myw3NDQzMDM4MDcsMjAwNT
-IyNDM5OSw2MDQyMDYwNzMsNjA0MjA2MDczXX0=
+eyJoaXN0b3J5IjpbMTk1NTEwOTg5MCwtNTI3Mjg4MzgzLDc0ND
+MwMzgwNywyMDA1MjI0Mzk5LDYwNDIwNjA3Myw2MDQyMDYwNzNd
+fQ==
 -->
