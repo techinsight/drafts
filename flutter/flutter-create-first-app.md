@@ -1,11 +1,11 @@
 ---
 title: Flutter(二)  创建第一个Flutter APP
 tags: 
-- Flutter
-- Dart
+ - Flutter
+ - Dart
 
 categories:
-- Flutter
+ - Flutter
 
 date: 2018-03-29 11:36:22
 
@@ -795,5 +795,5 @@ class MyApp extends StatelessWidget {
 好了，这章的内容就是这些了。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDc5NzYzNl19
+eyJoaXN0b3J5IjpbNjUwNDg0MjAyXX0=
 -->
