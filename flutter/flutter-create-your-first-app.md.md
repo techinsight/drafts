@@ -155,20 +155,20 @@ void main() => runApp(new MyApp());
   
 class MyApp extends StatelessWidget {  
   @override  
-  Widget build(BuildContext context) {  
-    final wordPair = new WordPair.random();  
-	  return new MaterialApp(  
-	    title:'Welcome to Flutter',  
-		home:new Scaffold(  
-		  appBar:new AppBar(  
-		    title:new Text('Welcome to Flutter'),  
-		  ),  
-		body:new Center(  
-		  child:new Text(wordPair.asPascalCase),  
+  Widget build(BuildContext context) {
+    final wordPair = new WordPair.random();
+	  return new MaterialApp(
+	    title:'Welcome to Flutter',
+		home:new Scaffold(
+		  appBar:new AppBar(
+		    title:new Text('Welcome to Flutter'),
+		  ),
+		body:new Center(
+		  child:new Text(wordPair.asPascalCase),
 		),  
-		),  
-	 );  
-  }  
+	  ),
+	);
+  }
 }
 ```
 
@@ -794,5 +794,5 @@ class MyApp extends StatelessWidget {
 
 好了，这章的内容就是这些了。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTgxMjQ3NCwtNDAyOTI5MDE4XX0=
+eyJoaXN0b3J5IjpbLTc5NTc3Njc0MiwtNDAyOTI5MDE4XX0=
 -->
