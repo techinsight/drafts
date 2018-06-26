@@ -37,8 +37,10 @@ author: 散人
 ### 准备工作
 如果已经按[搭建布局](https://www.techlab.wang/2018/04/11/flutter/flutter-building-layouts/)一文构建过布局，那么可以跳过下面一步。
 
-- 确认[Flutter环境]()已经搭建完成；
+- 确认[Flutter环境](https://www.techlab.wang/2018/03/15/flutter/flutter-install/)已经搭建完成；
+- [创建了Flutter App](https://www.techlab.wang/2018/03/29/flutter/flutter-create-your-first-app/)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODk2NjM1OSwtMjM4OTUwNTEzLDE3MD
-U0MjQ0MDldfQ==
+eyJoaXN0b3J5IjpbLTE0NDQwMTgwMTksLTIzODk1MDUxMywxNz
+A1NDI0NDA5XX0=
 -->
