@@ -23,9 +23,9 @@ author: 散人
 >   - [Step 1: 确定管理组件状态的对象](#3)
 >   - [Step 2: 继承StatefulWidget](#4)
 >   - [Step 3: 继承State](#5)  
->   - [Step 4: ](#6)
-
+>   - [Step 4: 将组件加入到组件树形结构中](#6)
+> - [状态挂历](#7)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0ODE5NDYxLC0yMzg5NTA1MTMsMTcwNT
+eyJoaXN0b3J5IjpbLTg1MTA0ODI2LC0yMzg5NTA1MTMsMTcwNT
 QyNDQwOV19
 -->
