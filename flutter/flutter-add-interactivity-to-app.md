@@ -43,8 +43,9 @@ author: 散人
 
 以上资源拥有了，那么准备一台测试手机并且连接上它或者启动iOS模拟器，这样准备工作就完成了。
 
-[搭建布局](https://www.techlab.wang/2018/04/11/flutter/flutter-building-layouts/)一文中教会你
+[搭建布局](https://www.techlab.wang/2018/04/11/flutter/flutter-building-layouts/)一文中教会我们如何构建布局，达到如下的效果。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODkwMzg0MzIsLTIzODk1MDUxMywxNz
-A1NDI0NDA5XX0=
+eyJoaXN0b3J5IjpbMTcwNTE3OTQ1NCwtMjM4OTUwNTEzLDE3MD
+U0MjQ0MDldfQ==
 -->
