@@ -75,17 +75,17 @@ void main() => runApp(new MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-	return new MaterialApp(
-	  title : 'Welcome to Flutter',
-	  home:new Scaffold(
-		appBar:new AppBar(
-		  title:new Text('Welcome to Flutter'),
-		),
-		body:new Center(
-		  child:new Text('Hello World'),
-		),
-	  ),
-	);
+    return new MaterialApp(
+          title : 'Welcome to Flutter',
+          home:new Scaffold(
+    appBar:new AppBar(
+      title:new Text('Welcome to Flutter'),
+    ),
+    body:new Center(
+      child:new Text('Hello World'),
+    ),
+      ),
+    );
   }
 }
 ```
@@ -148,28 +148,7 @@ import 'package:english_words/english_words.dart';
 针对原有代码做出修改
 
 ```Dart
-import 'package:flutter/material.dart';  
-import 'package:english_words/english_words.dart';  
-  
-void main() => runApp(new MyApp());  
-  
-class MyApp extends StatelessWidget {  
-  @override  
-  Widget build(BuildContext context) {
-    final wordPair = new WordPair.random();
-	  return new MaterialApp(
-	    title:'Welcome to Flutter',
-		home:new Scaffold(
-		  appBar:new AppBar(
-		    title:new Text('Welcome to Flutter'),
-		  ),
-		body:new Center(
-		  child:new Text(wordPair.asPascalCase),
-		),
-	  ),
-	);
-  }
-}
+
 ```
 
 5. 如果App正在运行，使用热加载按钮![](/images/flutter/flutter-create-your-first-app/hot_reload_button.png)更新app。每次点击热加载按钮，或者进行保存时，你应该都能在运行的app上看到随机选取的不同的单词对。这是因为单词对是在build()方法中产生，build()方法每次在MaterialApp需要渲染或者在Flutter Inspector中打开Platform时被执行。
@@ -795,5 +774,5 @@ class MyApp extends StatelessWidget {
 好了，这章的内容就是这些了。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzY1NjA0MDZdfQ==
+eyJoaXN0b3J5IjpbLTE5MjkxMTI3NCwtMTg3NjU2MDQwNl19
 -->
