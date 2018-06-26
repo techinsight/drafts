@@ -67,7 +67,7 @@ date: 2018-03-29 11:36:22
 1.  替换模板的lib/main.dart
     移除原有工程中的模板代码lib/main.dart。输入如下代码，可以查看到UI中间显示的“Hello World”。
 
-```dart
+```Dart
 import 'package:flutter/material.dart';
 
 void main() => runApp(new MyApp());
@@ -147,7 +147,7 @@ import 'package:english_words/english_words.dart';
 
 针对原有代码做出修改
 
-```dart
+```Dart
 import 'package:flutter/material.dart';  
 import 'package:english_words/english_words.dart';  
   
@@ -795,5 +795,5 @@ class MyApp extends StatelessWidget {
 好了，这章的内容就是这些了。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwNDg0MjAyXX0=
+eyJoaXN0b3J5IjpbLTE4NzY1NjA0MDZdfQ==
 -->
