@@ -27,8 +27,9 @@ author: 散人
 >   - [问题？](#7)
 > - [状态管理](#8)
 >   - [组件管理自身状态](#9)
->   
+>   - [父组件管理当前组件状态](#10)
+>   - [话]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ5MzAzNDgsLTIzODk1MDUxMywxNz
-A1NDI0NDA5XX0=
+eyJoaXN0b3J5IjpbMTI1NTcxODAyLC0yMzg5NTA1MTMsMTcwNT
+QyNDQwOV19
 -->
