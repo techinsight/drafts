@@ -35,8 +35,8 @@ author: 散人
 > - [资源](#15)
 
 ### 准备工作
-如果已经
+如果已经在[搭建布局]()构建过布局
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk0MTkyODIsLTIzODk1MDUxMywxNz
-A1NDI0NDA5XX0=
+eyJoaXN0b3J5IjpbLTMxMjMzMzE4MywtMjM4OTUwNTEzLDE3MD
+U0MjQ0MDldfQ==
 -->
