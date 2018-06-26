@@ -20,9 +20,10 @@ author: 散人
 > #### 内容
 > - [stateful和stateless组件](#1)
 > - [创建stateful组件](#2)
->   -   
+>   - [Step 1: 确定管理组件状态的对象](#3)
+>   - [Step 2: 继承StatefulWidget](#4)  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyOTgwODcxLC0yMzg5NTA1MTMsMTcwNT
+eyJoaXN0b3J5IjpbLTE5NDE5MTU0LC0yMzg5NTA1MTMsMTcwNT
 QyNDQwOV19
 -->
