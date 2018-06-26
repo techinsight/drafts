@@ -1,3 +1,4 @@
+---
 title: Flutter(五) 为App增加交互
 
 tags:
@@ -47,6 +48,6 @@ author: 散人
 [搭建布局](https://www.techlab.wang/2018/04/11/flutter/flutter-building-layouts/)一文中教会我们如何构建布局，达到如下的效果。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0NTg2OTYwLC0yMzg5NTA1MTMsMTcwNT
-QyNDQwOV19
+eyJoaXN0b3J5IjpbLTE5NzY1NDg1NDEsLTIzODk1MDUxMywxNz
+A1NDI0NDA5XX0=
 -->
