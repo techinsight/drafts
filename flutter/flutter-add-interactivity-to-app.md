@@ -39,8 +39,10 @@ author: 散人
 
 - 确认[Flutter环境](https://www.techlab.wang/2018/03/15/flutter/flutter-install/)已经搭建完成；
 - [创建了Flutter App](https://www.techlab.wang/2018/03/29/flutter/flutter-create-your-first-app/)
-- 可以从官方提供的Demo中去获取相关源文件，快速放入App工程中，也可以根据前面几篇文章，将源码复制出来，最好还是自己已经敲过的代码。[main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/main.dart) [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/pubspec.yaml) []
+- 可以从官方提供的Demo中去获取相关源文件，快速放入App工程中，也可以根据前面几篇文章，将源码复制出来，最好还是自己已经敲过的代码。[main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/main.dart) [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/pubspec.yaml) [lake.jpg](https://github.com/flutter/website/blob/master/_includes/code/layout/lakes/images/lake.jpg)
+
+以上资源拥有了，那么准备一台已经里
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzA5Nzc5OSwtMjM4OTUwNTEzLDE3MD
+eyJoaXN0b3J5IjpbLTEzMjQzODYzMiwtMjM4OTUwNTEzLDE3MD
 U0MjQ0MDldfQ==
 -->
