@@ -28,8 +28,10 @@ author: 散人
 > - [状态管理](#8)
 >   - [组件管理自身状态](#9)
 >   - [父组件管理当前组件状态](#10)
->   - [话]
+>   - [混搭方式管理状态](#11)
+> - [其他交互组建](#12)
+>   - [标准库组建]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTcxODAyLC0yMzg5NTA1MTMsMTcwNT
+eyJoaXN0b3J5IjpbNDc1Mzg0NjIyLC0yMzg5NTA1MTMsMTcwNT
 QyNDQwOV19
 -->
