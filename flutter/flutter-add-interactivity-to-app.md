@@ -35,8 +35,8 @@ author: 散人
 > - [资源](#15)
 
 ### 准备工作
-如果已经在[搭建布局]()构建过布局
+如果已经按[搭建布局](https://www.techlab.wang/2018/04/11/flutter/flutter-building-layouts/)一文构建过布局，那么可以跳过下面一步。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjMzMzE4MywtMjM4OTUwNTEzLDE3MD
+eyJoaXN0b3J5IjpbMjA4MTc2ODc3NiwtMjM4OTUwNTEzLDE3MD
 U0MjQ0MDldfQ==
 -->
