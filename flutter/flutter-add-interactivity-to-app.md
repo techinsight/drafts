@@ -39,8 +39,8 @@ author: 散人
 
 - 确认[Flutter环境](https://www.techlab.wang/2018/03/15/flutter/flutter-install/)已经搭建完成；
 - [创建了Flutter App](https://www.techlab.wang/2018/03/29/flutter/flutter-create-your-first-app/)
-- 
+- 可以从官方提供的Demo中去获取相关源文件，快速放入App工程中，可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQwMTgwMTksLTIzODk1MDUxMywxNz
-A1NDI0NDA5XX0=
+eyJoaXN0b3J5IjpbLTkzOTY1MjMzOCwtMjM4OTUwNTEzLDE3MD
+U0MjQ0MDldfQ==
 -->
