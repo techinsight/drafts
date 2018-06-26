@@ -13,8 +13,10 @@ author: 散人
 > 这篇文章将会学习：
 > - 如何响应点击
 > - 如何创建自定义组件
-> - 无状态与优化状态
+> - 无状态与有状态组件的差异
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwMTU0NDk3LC0yMzg5NTA1MTMsMTcwNT
-QyNDQwOV19
+eyJoaXN0b3J5IjpbLTE0NjIyNTk5ODAsLTIzODk1MDUxMywxNz
+A1NDI0NDA5XX0=
 -->
