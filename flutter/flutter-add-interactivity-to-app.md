@@ -41,8 +41,10 @@ author: 散人
 - [创建了Flutter App](https://www.techlab.wang/2018/03/29/flutter/flutter-create-your-first-app/)
 - 可以从官方提供的Demo中去获取相关源文件，快速放入App工程中，也可以根据前面几篇文章，将源码复制出来，最好还是自己已经敲过的代码。[main.dart](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/main.dart) [pubspec.yaml](https://raw.githubusercontent.com/flutter/website/master/_includes/code/layout/lakes/pubspec.yaml) [lake.jpg](https://github.com/flutter/website/blob/master/_includes/code/layout/lakes/images/lake.jpg)
 
-以上资源拥有了，那么准备一台已经里
+以上资源拥有了，那么准备一台测试手机并且连接上它或者启动iOS模拟器，这样准备工作就完成了。
+
+[搭建布局](https://www.techlab.wang/2018/04/11/flutter/flutter-building-layouts/)一文中教会你
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQzODYzMiwtMjM4OTUwNTEzLDE3MD
-U0MjQ0MDldfQ==
+eyJoaXN0b3J5IjpbLTEzODkwMzg0MzIsLTIzODk1MDUxMywxNz
+A1NDI0NDA5XX0=
 -->
