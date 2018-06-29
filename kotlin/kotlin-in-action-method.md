@@ -8,6 +8,8 @@ categories:
  
 author: 散人
 
+date: 2018-06-08 20:15:47
+
 ---
 
 #### 前言
@@ -17,7 +19,7 @@ author: 散人
 我们知道的是Java中的方法定义离不开类，即所定义的方法必须在某个类中，即使一个类中只有一个单一的方法。
 
 有时会遇到这样的情况，针对两个不同对象的处理方式相差无几，这样的方法定义不想依赖于具体的示例对象，这个时候一般的做法是将对应的方法定义到一个Util方法中。
-
+<!-- more -->
 Kotlin针对这种情况，则提供了顶层函数的定义，即无需将函数定义到某一个类中，直接定义在代码文件的顶层。
 
 如下的示例代码：
@@ -87,8 +89,9 @@ fun sayHelloWorld() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDMzNzk2NjksMTg0MTkwNDc1OCwxMz
-k2NjU2OTE4LDEzODQxNzc3MTQsMTEwODkxMTE3OCwtMTA0MDA2
-OTk4NiwtMjc5MDIwODQ5LDEyODEyODQzMDMsMTY1MzMwNDA4MC
-wtMTYwNTc1MDUwNSwtNzU2NDMwODgyXX0=
+eyJoaXN0b3J5IjpbLTExNjM2OTk1MDksLTE3MDMzNzk2NjksMT
+g0MTkwNDc1OCwxMzk2NjU2OTE4LDEzODQxNzc3MTQsMTEwODkx
+MTE3OCwtMTA0MDA2OTk4NiwtMjc5MDIwODQ5LDEyODEyODQzMD
+MsMTY1MzMwNDA4MCwtMTYwNTc1MDUwNSwtNzU2NDMwODgyXX0=
+
 -->
