@@ -10,7 +10,7 @@ categories:
   
 author: 散人
 
- date: 2018-06-15 07:19:00
+date: 2018-06-15 07:19:00
  
 ---
 
@@ -114,7 +114,7 @@ class Singleton private constructor() {
 PS：延迟加载和同步锁即是单例模式的双重检查。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3MTgyMzk0LDM3NDQ4NTMyMSwtMTcxOT
-AwNTUxMSw3NTU0MjgzNTUsLTE2NTE4ODYzMDQsLTE2OTU0NzI0
-OTBdfQ==
+eyJoaXN0b3J5IjpbLTY3Mzc5OTgzMiwzNzQ0ODUzMjEsLTE3MT
+kwMDU1MTEsNzU1NDI4MzU1LC0xNjUxODg2MzA0LC0xNjk1NDcy
+NDkwXX0=
 -->
