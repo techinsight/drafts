@@ -29,7 +29,8 @@ Kotlin在服务器应用程序上也可以运行的很好，全面支持所有�
 ### 函数和变量
 #### 函数
 首先看著名的hello world代码：
-```kotlin
+
+```Kotlin
 fun main(args: Array<String>) {
     println("Hello World!")
 }
@@ -41,7 +42,8 @@ fun main(args: Array<String>) {
 - Kotlin中每行代码结尾省略了分号。
 
 再看一段函数声明：
-```kotlin
+
+```Kotlin
 fun compare(a: Int, b: Int): Int {
     return if (a > b) a else b
 }
@@ -52,9 +54,11 @@ fun compare(a: Int, b: Int): Int {
 这里可以看到，if是一个表达式，而不是语句。语句与表达式的区别在于，表达式有值，语句并没有自己的值。在Kotlin中，除了循环（for, while, do..while）之外，大多数控制结构都是表达式。
 
 提到函数，Kotlin中有一个表达式函数体的概念。 即函数体由单个表达式构成，可以用这个表达式作为完整的函数体，并去掉花括号和return语句。
-```kotlin
+
+```Kotlin
 fun compare(a: Int, b: Int): Int = if (a > b) a else b
 ```
+
 如果函数体在花括号中，这个函数是代码块体函数。
 
 这里的compare函数还可以进一步简化，如下:
@@ -216,7 +220,7 @@ enum class Color(val r: Int, val g: Int, val b: Int) {
 #### when
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzMzk2NjIzLDExNzM5MTg3MzcsMTMwOT
-Q1NTA1MCwtMTYxNDU2NDIyLDEyNjg5NjE1MTMsMTM5Mzk2MjAz
-MSw2MDIzNzQzNDIsNzg2NzM0MzY5LDExNjkwNzY5NjVdfQ==
+eyJoaXN0b3J5IjpbMTgzNDk0Nzg1MSwxMTczOTE4NzM3LDEzMD
+k0NTUwNTAsLTE2MTQ1NjQyMiwxMjY4OTYxNTEzLDEzOTM5NjIw
+MzEsNjAyMzc0MzQyLDc4NjczNDM2OSwxMTY5MDc2OTY1XX0=
 -->
