@@ -23,6 +23,7 @@ date: 2018-06-08 20:15:47
 Kotlin针对这种情况，则提供了顶层函数的定义，即无需将函数定义到某一个类中，直接定义在代码文件的顶层。
 
 如下的示例代码：
+
 ```Kotlin
 package kt  
   
@@ -89,9 +90,9 @@ fun sayHelloWorld() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjM2OTk1MDksLTE3MDMzNzk2NjksMT
-g0MTkwNDc1OCwxMzk2NjU2OTE4LDEzODQxNzc3MTQsMTEwODkx
-MTE3OCwtMTA0MDA2OTk4NiwtMjc5MDIwODQ5LDEyODEyODQzMD
-MsMTY1MzMwNDA4MCwtMTYwNTc1MDUwNSwtNzU2NDMwODgyXX0=
+eyJoaXN0b3J5IjpbLTI1NjI3MTg3OSwtMTcwMzM3OTY2OSwxOD
+QxOTA0NzU4LDEzOTY2NTY5MTgsMTM4NDE3NzcxNCwxMTA4OTEx
+MTc4LC0xMDQwMDY5OTg2LC0yNzkwMjA4NDksMTI4MTI4NDMwMy
+wxNjUzMzA0MDgwLC0xNjA1NzUwNTA1LC03NTY0MzA4ODJdfQ==
 
 -->
