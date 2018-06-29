@@ -1,4 +1,6 @@
+---
 title: Flutter(四) 搭建布局
+
 tags:
   - Flutter
   - Dart
@@ -451,7 +453,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjI4NDU0MiwtNTI3Mjg4MzgzLDc0ND
-MwMzgwNywyMDA1MjI0Mzk5LDYwNDIwNjA3Myw2MDQyMDYwNzNd
-fQ==
+eyJoaXN0b3J5IjpbLTEyNjk2MDA2ODUsLTUyNzI4ODM4Myw3ND
+QzMDM4MDcsMjAwNTIyNDM5OSw2MDQyMDYwNzMsNjA0MjA2MDcz
+XX0=
 -->
