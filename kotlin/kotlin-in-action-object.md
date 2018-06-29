@@ -25,10 +25,13 @@ object关键字使用的几种不同的场景：
 <!-- more -->
 ### 单例
 先来看object关键字修饰下的类的形式。
+
 ```Kotlin
 object Factory
 ```
+
 这是最简单的单例声明方法。为了更方便的了解这是单例，完整的demo代码来看下。
+
 ```Kotlin
 object Factory {
     val name: String = "object single"
@@ -39,6 +42,7 @@ fun main(args: Array<String>) {
     println(factorySingle.name)
 }
 ```
+
 在object类中定义一个name成员，然后在执行入口函数main()中引用这个单例，并且打印其成员name，实际的执行结果就是在控制台打印“object single”.
 ```
 ...Kotlin
@@ -46,6 +50,7 @@ object single
 
 Process finished with exit code 0
 ```
+
 在函数main()中可以看到，引用创建时，等号右则直接是类名。Kotlin中使用object关键字修饰的类将一个类声明及该类的唯一实例创建结合在一起，这个功能也叫对象声明。
 
 ### 伴生对象
@@ -58,6 +63,7 @@ Process finished with exit code 0
 在类中定义一个用特殊关键字标记的对象：companion。companion修饰的对象，使得外部可以直接通过companion容器类来访问这个对象（companion object）的属性和方法，就像Java中对静态方法和静态成员的访问形式，不需要再通过具体实例来访问。
 
 下来看下Factory类的另外一个写法，并同样打印Factory成员name的值。
+
 ```Kotlin
 class Factory {
     companion object {
@@ -70,6 +76,7 @@ fun main(args: Array<String>) {
     println(Factory.name)
 }
 ```
+
 可以看到Factory对象创建依然是普通类对象的创建方式，而对name成员的访问的形式使用的是类名. 方式访问，而不是具体实例factory.name方式访问。
 
 在标题开始，写到伴生对象的另外一种描述是：工厂方法和静态成员的地盘。
@@ -78,6 +85,7 @@ fun main(args: Array<String>) {
 下来看看工厂方法是如何来表现的呢？
 创建一个User对象，根据不同的参数来获取User属性name。
 学习过Java的程序员首先想到的只怕是通过不同的构造方法，传入不同参数类型来实现。相应的Kotlin中也可以采用此种方式去实现。
+
 ```Kotlin
 class User {
     val name: String
@@ -98,6 +106,7 @@ class User {
 ```
 
 可以使用相同逻辑，但使用工厂方法来实现。
+
 ```Kotlin
 class User private constructor(val name: String) {
     companion object {
@@ -116,11 +125,13 @@ class User private constructor(val name: String) {
     }
 }
 ```
+
 工厂方法非常有用，它可以返回声明这个方法的类的子类。但如果需要在后期扩展相关的类，那么使用多个构造方法将是更好的选择，因为伴生对象成员在子类中是不可以被重写的。
 
 #### 做为普通对象的伴生对象
 伴生对象是一个类声明中定义的普通对象。它同样有名字，可以继承类，实现接口及扩展函数和属性。
 拿上述的User的伴生对象为例，为其定义一个名字。
+
 ```Kotlin
 class User private constructor(val name: String) {
     companion object Factory {
@@ -145,10 +156,12 @@ fun main(args: Array<String>) {
     val user2: User = User.createUserById(54)
 }
 ```
+
 代码中可以看到，可以通过User.Factory.xxx方式来调用方法，同时也可以直接使用User.xxx方式调用方法。因为companion修改的类随即就拥有了使其外部直接使用类名来访问伴生对象的成员，因此多数情况下，不需要关心伴生对象的名称。
 
 #### 伴生对象实现接口
 伴生对象跟其他对象声明一样，可以实现接口。其调用方式就是直接使用容器类来调用接口实现，就像容器类实现了相关接口一样。
+
 ```Kotlin
 interface JSONFactory<T> {
     fun loadFromJson(json: String): T
@@ -164,12 +177,14 @@ class User private constructor(val name: String) {
     }
 }
 ```
+
 在调用的时候，可以直接使用User.loadFromJson(json)方式来调用，就像是User实现了JSONFactory接口一样。
 
 #### 对象表达式
 对象表达式就功能来说就是改变写法的匿名内部类。
 这种用法取代Java的匿名内部类的写法。
 熟悉Android的同志肯定了解UI事件监听写法。
+
 ```Kotlin
 view.setOnClickListener(
     object: OnClickListener {
@@ -183,7 +198,7 @@ view.setOnClickListener(
 <font color='red'>与Java的匿名内部类只能扩展一个类或实现一个接口不同，Kotlin中匿名对象可以实现多个接口或者不实现接口。</font>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzI0NTY4MzUsMTQ4Nzk2NjE2MywtMT
+eyJoaXN0b3J5IjpbLTIwNDY5NDkxMjUsMTQ4Nzk2NjE2MywtMT
 EzMzU4Njk5MiwxNDg3OTY2MTYzLC0xODkyMjU3NjgxLC0yMDUw
 OTcxNDcwLC0xODkyMjU3NjgxLC0yMDUwOTcxNDcwLC01NDQ4Nj
 Y2ODcsMTI2MjAyMjk0MiwtNTQwMjY0NDQ5LC01OTEwMTMwMzQs
