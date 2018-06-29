@@ -1,11 +1,15 @@
 ---
 title: Flutter简述
+
 tags:
   - Flutter
   - Dart
+
 categories:
   - Flutter
+
 date: 2018-03-12 08:36:00
+
 ---
 
 Flutter是Google移动UI框架，用以创建高质量的native接口，真正跨平台，同时在iOS和Android上运行。Flutter是免费开源的，全球开发者及组织均可以使用。
@@ -147,5 +151,5 @@ Flutter拥有工具及库帮助你简单快速地在iOS和Android上实现你的
 [原文地址](https://flutter.io/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjYzNjc4Nl19
+eyJoaXN0b3J5IjpbMTA0ODY0OTY0MiwtMjEyNjM2Nzg2XX0=
 -->
