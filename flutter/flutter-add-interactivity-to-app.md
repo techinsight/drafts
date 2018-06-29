@@ -10,6 +10,8 @@ categories:
 
 author: 散人
 
+date: 2018-04-13 22:56:00
+
 ---
 
 > 这篇文章将会学习：
@@ -48,6 +50,6 @@ author: 散人
 [搭建布局](https://www.techlab.wang/2018/04/11/flutter/flutter-building-layouts/)一文中教会我们如何构建布局，达到如下的效果。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY1NDg1NDEsLTIzODk1MDUxMywxNz
-A1NDI0NDA5XX0=
+eyJoaXN0b3J5IjpbMTcyNzk4MjE2NywtMTk3NjU0ODU0MSwtMj
+M4OTUwNTEzLDE3MDU0MjQ0MDldfQ==
 -->
