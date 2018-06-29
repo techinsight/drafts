@@ -132,6 +132,7 @@ class User private constructor(val name: String) {
 工厂方法非常有用，它可以返回声明这个方法的类的子类。但如果需要在后期扩展相关的类，那么使用多个构造方法将是更好的选择，因为伴生对象成员在子类中是不可以被重写的。
 
 #### 做为普通对象的伴生对象
+
 伴生对象是一个类声明中定义的普通对象。它同样有名字，可以继承类，实现接口及扩展函数和属性。
 拿上述的User的伴生对象为例，为其定义一个名字。
 
@@ -163,6 +164,7 @@ fun main(args: Array<String>) {
 代码中可以看到，可以通过User.Factory.xxx方式来调用方法，同时也可以直接使用User.xxx方式调用方法。因为companion修改的类随即就拥有了使其外部直接使用类名来访问伴生对象的成员，因此多数情况下，不需要关心伴生对象的名称。
 
 #### 伴生对象实现接口
+
 伴生对象跟其他对象声明一样，可以实现接口。其调用方式就是直接使用容器类来调用接口实现，就像容器类实现了相关接口一样。
 
 ```Kotlin
@@ -184,6 +186,7 @@ class User private constructor(val name: String) {
 在调用的时候，可以直接使用User.loadFromJson(json)方式来调用，就像是User实现了JSONFactory接口一样。
 
 #### 对象表达式
+
 对象表达式就功能来说就是改变写法的匿名内部类。
 这种用法取代Java的匿名内部类的写法。
 熟悉Android的同志肯定了解UI事件监听写法。
@@ -201,7 +204,7 @@ view.setOnClickListener(
 <font color='red'>与Java的匿名内部类只能扩展一个类或实现一个接口不同，Kotlin中匿名对象可以实现多个接口或者不实现接口。</font>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDkyMzI2OCwtMjA0Njk0OTEyNSwxND
+eyJoaXN0b3J5IjpbMTE5OTI3MjQ5OCwtMjA0Njk0OTEyNSwxND
 g3OTY2MTYzLC0xMTMzNTg2OTkyLDE0ODc5NjYxNjMsLTE4OTIy
 NTc2ODEsLTIwNTA5NzE0NzAsLTE4OTIyNTc2ODEsLTIwNTA5Nz
 E0NzAsLTU0NDg2NjY4NywxMjYyMDIyOTQyLC01NDAyNjQ0NDks
