@@ -1,5 +1,6 @@
 ---
 title: Flutter(一) 环境准备
+
 tags:
  - Flutter
  - Dart
@@ -79,5 +80,5 @@ Dart SDK也需要手动安装，直接下载zip包免安装。
 至此，Flutter，Dart环境均准备结束了。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4OTU4MjA3NF19
+eyJoaXN0b3J5IjpbMTU0NjA2MzA1Ml19
 -->
