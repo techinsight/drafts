@@ -117,7 +117,8 @@ if (isMain) {
 ```
 
 另外还有与Java类似的是，val引用本身是不可变的，但其指向的对象是可以改变的。
-```kotlin
+
+```Kotlin
 val programs = arrayListOf("Java")
 programs.add("Kotlin")
 ```
@@ -238,7 +239,7 @@ enum class Color(val r: Int, val g: Int, val b: Int) {
 #### when
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjAwNzM0Nyw1OTQ4NjU3NzEsMTE3Mz
+eyJoaXN0b3J5IjpbMTc2OTAwOTU3Myw1OTQ4NjU3NzEsMTE3Mz
 kxODczNywxMzA5NDU1MDUwLC0xNjE0NTY0MjIsMTI2ODk2MTUx
 MywxMzkzOTYyMDMxLDYwMjM3NDM0Miw3ODY3MzQzNjksMTE2OT
 A3Njk2NV19
