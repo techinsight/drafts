@@ -14,7 +14,7 @@ date: 2018-06-29 00:18:14
 
 ---
 
-每次安装ubuntu之后，需要查找如何安装常用软件，现在整理一下常用的软件方式。我的ubuntu版本是ubuntu mate 17.10，整理的软件也是安装成功的。
+每次安装ubuntu之后，需要查找安装常用软件，现在整理一下常用软件及其安装。我的ubuntu版本是ubuntu mate 17.10，整理的软件也是安装成功的。
 
 > [google拼音输入法](#1)
 > [美化终端，安装zsh](#2)
@@ -160,5 +160,5 @@ sudo apt-get install google-chrome-stable
 
 ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDI3NDIwNjBdfQ==
+eyJoaXN0b3J5IjpbMTg0ODMwMzg4NywtMTE0Mjc0MjA2MF19
 -->
