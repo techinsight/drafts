@@ -24,6 +24,7 @@ object关键字使用的几种不同的场景：
 - 伴生对象（可以持有工厂方法和其他与这个类相关，但在调用时不依赖于容器类的方法。他们的成员可以通过容器类的类名来访问即相当与Java中的静态成员形式）;
 - 对象表达式（Java的匿名内部类）;
 <!-- more -->
+
 ### 单例
 先来看object关键字修饰下的类的形式。
 
@@ -45,8 +46,9 @@ fun main(args: Array<String>) {
 ```
 
 在object类中定义一个name成员，然后在执行入口函数main()中引用这个单例，并且打印其成员name，实际的执行结果就是在控制台打印“object single”.
-```
-...Kotlin
+
+```Kotlin
+...
 object single
 
 Process finished with exit code 0
@@ -199,7 +201,7 @@ view.setOnClickListener(
 <font color='red'>与Java的匿名内部类只能扩展一个类或实现一个接口不同，Kotlin中匿名对象可以实现多个接口或者不实现接口。</font>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTU2ODQ3OCwtMjA0Njk0OTEyNSwxND
+eyJoaXN0b3J5IjpbLTU2MDkyMzI2OCwtMjA0Njk0OTEyNSwxND
 g3OTY2MTYzLC0xMTMzNTg2OTkyLDE0ODc5NjYxNjMsLTE4OTIy
 NTc2ODEsLTIwNTA5NzE0NzAsLTE4OTIyNTc2ODEsLTIwNTA5Nz
 E0NzAsLTU0NDg2NjY4NywxMjYyMDIyOTQyLC01NDAyNjQ0NDks
