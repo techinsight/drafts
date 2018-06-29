@@ -62,16 +62,19 @@ fun compare(a: Int, b: Int): Int = if (a > b) a else b
 如果函数体在花括号中，这个函数是代码块体函数。
 
 这里的compare函数还可以进一步简化，如下:
-```kotlin
+
+```Kotlin
 fun compare(a: Int, b: Int) = if (a > b) a else b
 ```
+
 即省略函数返回类型。那么会有疑问，为什么函数可以不要返回值类型？？作为一门静态语言，Kotlin应该要求所有的表达式应该在编译期间就有类型？事实上，Kotlin的每个变量和表达式独有类型，每个函数也都有返回类型。而对表达式函数体来说，编译器会分析作为函数体的表达式，并把它的类型作为函数的返回类型，即使没有显示地显示出来。这种分析叫类型推导。
 
 #### 变量
 了解Java的开发人员度知道，java在声明变量的时候会以类型开始。Kotlin中不需要这么麻烦，许多的变量声明的类型都可以省略。Kotlin中变量的声明是以关键字开始，变量名称最后加上类型（不加也可以）。
 
 例如：
-```kotlin
+
+```Kotlin
 val number = 3
 val literal = "Hello World!"
 ```
@@ -81,12 +84,14 @@ val literal = "Hello World!"
 <font color=red size=4>但是不是所有的情况都可以省略变量类型，最直接的情况就是在没有对变量进行初始化的情况下，这个时候就需要在声明中加上变量的类型。</font>
 
 例如：
-```kotlin
+
+```Kotlin
 val number
 number = 4
 ```
 上边这样的声明方式，编译器会提示错误
-```
+
+```Kotlin
 Error: This vairable must either have a type annotation or be initialized.
 ```
 
@@ -101,7 +106,8 @@ Kotlin中的变量可分为可变变量和不可变量：
 默认情况下，Kotlin中尽可能的将变量声明为val，只在需要的时候换成var。
 
 另外，声明了val变量的代码块中，如果编译器分析后可以确保变量在整个执行过程中只会有唯一一次的赋值行为，那么也是可以的。
-```kotlin
+
+```Kotlin
 val average: Int
 if (isMain) {
     average = 8
@@ -118,17 +124,21 @@ programs.add("Kotlin")
 
 val关键字目前就是这么些注意的内容，再来谈谈var。
 var声明的变量虽然是可变的，但是变量的类型是不可变的。 编译器只会根据变量初始化器来推导变量的类型，在确认类型之后不会再考虑后续赋值操作。
-```kotlin
+
+```Kotlin
 var count = 1
 count = "hello"
 ```
+
 这段变量声明是不合法的，变量count的类型在初始化为1的时候已经确认了是Int类型，再去给其赋值为String类型，这是编译器回给出错误提示。
-```
+
+```Kotlin
 Type mismatch: Infer type is String but Int was expected
 ```
 
 顺便提下，Kotlin中的字符串格式化：字符串模板
 先看一段简单的代码
+
 ```kotlin
 fun main(args: Array<String>) {
     val language = if (args.size > 0) args[0] else "Kotlin"
@@ -220,7 +230,7 @@ enum class Color(val r: Int, val g: Int, val b: Int) {
 #### when
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDk0Nzg1MSwxMTczOTE4NzM3LDEzMD
+eyJoaXN0b3J5IjpbLTgyMDgxNTg2OSwxMTczOTE4NzM3LDEzMD
 k0NTUwNTAsLTE2MTQ1NjQyMiwxMjY4OTYxNTEzLDEzOTM5NjIw
 MzEsNjAyMzc0MzQyLDc4NjczNDM2OSwxMTY5MDc2OTY1XX0=
 -->
