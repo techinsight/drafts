@@ -1,4 +1,6 @@
+---
 title: Kotlin基础
+
 tags:
   - Kotlin
   - Android
@@ -18,13 +20,11 @@ Kotlin在服务器应用程序上也可以运行的很好，全面支持所有�
 <!-- more -->
 它是免费和开源的，全面支持主流的IDE和构建系统。
 
-<table><tr><td bgcolor=#A9A9A9>
-本文内容：
-<br/>- 声明函数、变量、类、枚举以及属性
-<br/>- Kotlin中的控制结构
-<br/>- 智能转换
-<br/>- 抛出和异常处理
-</td></tr></table>
+> 本文内容：
+> - 声明函数、变量、类、枚举以及属性
+> - Kotlin中的控制结构
+> - 智能转换
+> - 抛出和异常处理
 
 ### 函数和变量
 #### 函数
@@ -238,7 +238,8 @@ enum class Color(val r: Int, val g: Int, val b: Int) {
 #### when
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0ODY1NzcxLDExNzM5MTg3MzcsMTMwOT
-Q1NTA1MCwtMTYxNDU2NDIyLDEyNjg5NjE1MTMsMTM5Mzk2MjAz
-MSw2MDIzNzQzNDIsNzg2NzM0MzY5LDExNjkwNzY5NjVdfQ==
+eyJoaXN0b3J5IjpbMTgxNjAwNzM0Nyw1OTQ4NjU3NzEsMTE3Mz
+kxODczNywxMzA5NDU1MDUwLC0xNjE0NTY0MjIsMTI2ODk2MTUx
+MywxMzkzOTYyMDMxLDYwMjM3NDM0Miw3ODY3MzQzNjksMTE2OT
+A3Njk2NV19
 -->
