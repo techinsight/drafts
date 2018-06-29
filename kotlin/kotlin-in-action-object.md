@@ -8,6 +8,8 @@ categories:
 
 author: 散人
 
+date: 2018-06-19 22:34:47
+
 ---
 
 在我的前一篇文章[设计模式之单例模式]()中Kotlin实现中，有涉及到Kotlin中的伴生对象和属性委托的概念，这篇文章先来说说object（包括伴生对象）。
@@ -20,7 +22,7 @@ object关键字使用的几种不同的场景：
 - 用以声明一个单例类;
 - 伴生对象（可以持有工厂方法和其他与这个类相关，但在调用时不依赖于容器类的方法。他们的成员可以通过容器类的类名来访问即相当与Java中的静态成员形式）;
 - 对象表达式（Java的匿名内部类）;
-
+<!-- more -->
 ### 单例
 先来看object关键字修饰下的类的形式。
 ```Kotlin
@@ -181,8 +183,8 @@ view.setOnClickListener(
 <font color='red'>与Java的匿名内部类只能扩展一个类或实现一个接口不同，Kotlin中匿名对象可以实现多个接口或者不实现接口。</font>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Nzk2NjE2MywtMTEzMzU4Njk5MiwxND
-g3OTY2MTYzLC0xMTMzNTg2OTkyLC0xODkyMjU3NjgxLC0yMDUw
+eyJoaXN0b3J5IjpbLTE5NzI0NTY4MzUsMTQ4Nzk2NjE2MywtMT
+EzMzU4Njk5MiwxNDg3OTY2MTYzLC0xODkyMjU3NjgxLC0yMDUw
 OTcxNDcwLC0xODkyMjU3NjgxLC0yMDUwOTcxNDcwLC01NDQ4Nj
 Y2ODcsMTI2MjAyMjk0MiwtNTQwMjY0NDQ5LC01OTEwMTMwMzQs
 MjkwNDE1NDc1LDEyMjU3NDUzNjcsLTE3OTU2NDA3MDddfQ==
