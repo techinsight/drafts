@@ -1,3 +1,4 @@
+---
 title: Kotlin——object（单例，伴生对象，内部类）
 
 tags:
@@ -198,9 +199,10 @@ view.setOnClickListener(
 <font color='red'>与Java的匿名内部类只能扩展一个类或实现一个接口不同，Kotlin中匿名对象可以实现多个接口或者不实现接口。</font>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDY5NDkxMjUsMTQ4Nzk2NjE2MywtMT
-EzMzU4Njk5MiwxNDg3OTY2MTYzLC0xODkyMjU3NjgxLC0yMDUw
-OTcxNDcwLC0xODkyMjU3NjgxLC0yMDUwOTcxNDcwLC01NDQ4Nj
-Y2ODcsMTI2MjAyMjk0MiwtNTQwMjY0NDQ5LC01OTEwMTMwMzQs
-MjkwNDE1NDc1LDEyMjU3NDUzNjcsLTE3OTU2NDA3MDddfQ==
+eyJoaXN0b3J5IjpbMTQ2OTU2ODQ3OCwtMjA0Njk0OTEyNSwxND
+g3OTY2MTYzLC0xMTMzNTg2OTkyLDE0ODc5NjYxNjMsLTE4OTIy
+NTc2ODEsLTIwNTA5NzE0NzAsLTE4OTIyNTc2ODEsLTIwNTA5Nz
+E0NzAsLTU0NDg2NjY4NywxMjYyMDIyOTQyLC01NDAyNjQ0NDks
+LTU5MTAxMzAzNCwyOTA0MTU0NzUsMTIyNTc0NTM2NywtMTc5NT
+Y0MDcwN119
 -->
