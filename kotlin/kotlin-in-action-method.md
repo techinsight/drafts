@@ -25,23 +25,23 @@ Kotlin针对这种情况，则提供了顶层函数的定义，即无需将函�
 如下的示例代码：
 
 ```Kotlin
-package kt  
-  
-fun sayHelloWorld() {  
-    println("hello world!")  
+package kt
+
+fun sayHelloWorld() {
+    println("hello world!")
 }
 ```
 
 这就是一个最基本的顶层函数的定义。相应的，它被编译成Java就变成了
 
 ```Java
-package kt;  
+package kt;
 
-public final class TopMethodKt {  
-   public static final void sayHelloWorld() {  
-      String var0 = "hello world!";  
-      System.out.println(var0);  
-  }  
+public final class TopMethodKt {
+   public static final void sayHelloWorld() {
+      String var0 = "hello world!";
+      System.out.println(var0);
+  }
 }
 ```
 
@@ -90,9 +90,9 @@ fun sayHelloWorld() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjI3MTg3OSwtMTcwMzM3OTY2OSwxOD
-QxOTA0NzU4LDEzOTY2NTY5MTgsMTM4NDE3NzcxNCwxMTA4OTEx
-MTc4LC0xMDQwMDY5OTg2LC0yNzkwMjA4NDksMTI4MTI4NDMwMy
-wxNjUzMzA0MDgwLC0xNjA1NzUwNTA1LC03NTY0MzA4ODJdfQ==
-
+eyJoaXN0b3J5IjpbLTQyMjY3NTU5MSwtMjU2MjcxODc5LC0xNz
+AzMzc5NjY5LDE4NDE5MDQ3NTgsMTM5NjY1NjkxOCwxMzg0MTc3
+NzE0LDExMDg5MTExNzgsLTEwNDAwNjk5ODYsLTI3OTAyMDg0OS
+wxMjgxMjg0MzAzLDE2NTMzMDQwODAsLTE2MDU3NTA1MDUsLTc1
+NjQzMDg4Ml19
 -->
