@@ -139,7 +139,7 @@ Type mismatch: Infer type is String but Int was expected
 顺便提下，Kotlin中的字符串格式化：字符串模板
 先看一段简单的代码
 
-```kotlin
+```Kotlin
 fun main(args: Array<String>) {
     val language = if (args.size > 0) args[0] else "Kotlin"
     println("Hello $language!")
@@ -150,7 +150,8 @@ fun main(args: Array<String>) {
 
 字符串模板可以有更加复杂的表达方式——${表达式语句}
 可以将上述代码进行一定的修改
-```kotlin
+
+```Kotlin
 fun main(args: Array<String>) {
     println("Hello ${if (args.size > 0) args[0] else "Kotlin"}!")
 }
@@ -161,7 +162,8 @@ fun main(args: Array<String>) {
 ### 类和属性
 但凡了解Java的开发人员对这两个概念不会陌生。下来看看Kotlin中如何来声明类的。
 先看看Java中的声明方式。
-```java
+
+```Java
 public class Person {
     private final String name;
     
@@ -174,10 +176,13 @@ public class Person {
     }
 }
 ```
+
 这是最典型的的JavaBean类。再看看对应的Kotlin是怎么声明的。
-```kotlin
+
+```Kotlin
 class Person(val name: String)
 ```
+
 使用Kotlin声明这样一个类，就只有一行。Kotlin中这种类（只有数据没有其他代码）被称为<font color=red>值对象</font>。同样也应该注意到了，Java声明中的public访问修饰符到Kotlin对应的声明中就不见了，这是因为Kotlin中public是默认的可见性。
 
 #### 属性
@@ -185,15 +190,17 @@ class Person(val name: String)
 我们知道Java中的属性是由字段及其对应的getter，setter方法组成。Kotlin中<font color=red>属性是头等的语言特性</font>，其完全地取代了字段和对应的访问器。
 
 在Kotlin中声明一个属性跟声明一个变量使用同样的关键字val和var。声明val的属性是只读的，var属性是可变的。
-```kotlin
+
+```Kotlin
 class Person(val name: Strinig, var isMerried: Boolean)
 ```
+
 Kotlin中在声明一个属性的时候，同时也就声明了访问器。Kotlin中访问器的默认实现很简单，创建一个存储值得字段，以及getter和setter方法。同样可以自定义访问器，及自己的getter和setter方法。
 
 #### 自定义访问器
 先看看如何来判断一个矩形是否是正方形的程序。
 
-```kotlin
+```Kotlin
 class Rectangle(val height: Int, val width: Int) {
     val isSquare: Boolean
         get() {
@@ -217,7 +224,8 @@ Kotlin中的枚举声明需要使用两个关键字：enum class。这也是Kotl
 Kotlin中的enum是一个<font color=red>软关键字</font>。即enum只有出现在class之前才有意义，平时使用可以当做一般名称使用。
 
 枚举类不只是值得列表，可以为其声明方法。
-```kotlin
+
+```Kotlin
 enum class Color(val r: Int, val g: Int, val b: Int) {
     RED(255, 0, 0), GREEN(0, 255, 0), BLUE(0, 0, 255);
 
@@ -230,7 +238,7 @@ enum class Color(val r: Int, val g: Int, val b: Int) {
 #### when
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDgxNTg2OSwxMTczOTE4NzM3LDEzMD
-k0NTUwNTAsLTE2MTQ1NjQyMiwxMjY4OTYxNTEzLDEzOTM5NjIw
-MzEsNjAyMzc0MzQyLDc4NjczNDM2OSwxMTY5MDc2OTY1XX0=
+eyJoaXN0b3J5IjpbNTk0ODY1NzcxLDExNzM5MTg3MzcsMTMwOT
+Q1NTA1MCwtMTYxNDU2NDIyLDEyNjg5NjE1MTMsMTM5Mzk2MjAz
+MSw2MDIzNzQzNDIsNzg2NzM0MzY5LDExNjkwNzY5NjVdfQ==
 -->
