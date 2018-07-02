@@ -1,3 +1,5 @@
+
+
 ---
 title: Ubuntu常用软件安装流程整理
 
@@ -20,6 +22,9 @@ date: 2018-06-29 00:18:14
 > [美化终端，安装zsh](#2)
 > [安装shadowsocks](#3)
 > [安装Chrome浏览器](#4)
+> [Oracle JDK安装](#5)
+> [Nodejs](#6)
+> [Vim强化方案](#7)
 
 <!-- more -->
 
@@ -161,7 +166,198 @@ sudo apt-get install google-chrome-stable
 这样就安装成功了。
 
 ----------
+
+### <span id='5'>Oracle JDK安装</span>
+
+1\. 到Oracle官网上下载下载教稳定的JDK版本。  
+
+![](/images/linux-ubuntu-common-softwares/ubuntu_jdk.png)  
+
+2\. 选择自己想要将jdk安装到的目录，建立一个java文件夹，将jdk包复制进去。我自己选择的是在/usr目录下，然后使用tar命令，将安装包减压到java目录。
+
+```Shell
+sodu tar xzvf jdk-8u171-linux-x64.tar.gz
+```
+
+这样就可以完成安装了。
+
+路径：
+  
+```Shell
+/usr/java/jdk1.8.0_171  
+```
+
+![](/images/linux-ubuntu-common-softwares/ubuntu_jdk_install_dir.png)
+ 
+3\. 配置环境变量。
+
+```Shell
+sudo vim /etc/profile
+```
+
+打开文件，在文件末尾添加如下几行：  
+
+```Shell
+export JAVA\_HOME=/usr/java/jdk1.8.0\_171  
+export JRE\_HOME=$JAVA\_HOME/jre  
+export CLASSPATH=.:$JAVA\_HOME/lib/dt.jar:$JAVA\_HOME/lib/tools.jar  
+export PATH=$PATH:$JAVA_HOME/bin  
+```
+
+退出编辑器，source /etc/profile
+
+4\. 设置系统默认JDK。  
+Ubuntu系统可能有提前安装openJDK，因此需要设置默认的JDK，即使系统没有事先安装openJDK，这样设置一次也是好的。
+
+```Shell
+sudo update-alternatives --install /usr/bin/java java /usr/java/jdk1.8.0_171/bin/java 300  
+
+sudo update-alternatives --install /usr/bin/javac javac /usr/java/jdk1.8.0_171/bin/javac 300  
+
+sudo update-alternatives --config java  
+```
+
+这里需要注意的是路径“/usr/java/jdk1.8.0_171”替换成自己的JDK安装目录。
+
+第三条命令是列出系统当前安装的JDK类型。
+
+由于我安装的ubuntu并没有事先安装openJDK，因此没法罗列出openJDK版本。
+
+如果系统有安装，那么会罗列出openJDK和自己安装的JDK版本，按照提示选择需要设为默认JDK版本需要，如果有openJDK的话，一般是2。
+
+这样，默认的JDK安装及设置就完成了，可以在终端中
+
+```Shell
+java -version  
+```
+
+来检查安装。
+
+----------
+
+### <span id='6'>Nodejs</span>
+
+**1\. 使用默认ubuntu的软件源。**
+
+ubuntu mate 17.10默认有nodejs的源，可以直接通过命令
+
+```Shell
+sudo apt-get install nodejs  
+```
+  
+
+进行安装，可以通过命令  
+
+```Shell
+node -v
+```
+
+查看版本号是 6.11.4 是比较旧的版本。
+
+**2\. 自己安装Nodejs。**
+
+\> 安装python依赖库。
+
+```Shell
+sudo apt-get install python-software-properties  
+```
+  
+  \> 添加PPA源
+
+```Shell
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -  
+```
+
+\> 安装nodejs
+
+```Shell
+sudo apt-get install nodejs  
+```
+
+**3\. 升级Nodejs。**
+
+如果已经有安装了系统原有的版本较低的Nodejs， 那么就通过n模块对node进行升级。
+
+```Shell
+sudo npm cache clean -f  
+sudo npm install -g n  
+//安装官方最新版本  
+sudo n latest  
+//安装官方稳定版本  
+sudo n stable  
+//安装官方最新LTS版本  
+sudo n lts  
+```
+
+\> 首先清理下缓存，不管是否有，清理下不会有错的。
+
+\> 安装node的n模块，通过n模块来管理版本。
+
+\> 通过n模块来安装指定版本。
+
+----------
+
+### <span id='7'>Vim强化方案</span>
+
+[强化具体方案](https://github.com/techinsight/vim)  
+
+\> 安装vim
+
+```Shell
+sudo apt-get install vim  
+```
+
+\> 安装ctags
+
+```Shell
+sudo apt-get install ctags  
+```
+
+\> 安装一些必备程序
+
+```Shell
+sudo apt-get install xclip vim-gnome astyle python-setuptools  
+```
+
+\> python代码格式化工具
+
+```Sell
+sudo easy_install -ZU autopep8  
+```
+
+\> 建立ctags软链接
+
+```Shell
+sudo ln -s /usr/bin/ctags /usr/local/bin/ctags`
+```
+
+\> clone配置文件
+
+```Shell
+cd ~/ && git clone git://github.com/ma6174/vim.git  
+```
+
+\> 重命名vim并移动配置文件
+
+```Shell
+mv ~/vim ~/.vim  
+mv ~/.vim/.vimrc ~/  
+```
+
+\> clone bundle 程序
+
+```Shell
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle  
+```
+
+\> 打开vim并执行bundle程序
+
+```Shell
+:BundleInstall  
+```
+
+\> 退出编辑器，重新打开vim后就可以看到效果了。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI1MzM1NjcsMTg0ODMwMzg4NywtMT
-E0Mjc0MjA2MF19
+eyJoaXN0b3J5IjpbLTI0MzYzMTI0OSwxODQ4MzAzODg3LC0xMT
+QyNzQyMDYwXX0=
 -->
