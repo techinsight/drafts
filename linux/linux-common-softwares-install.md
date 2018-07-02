@@ -1,5 +1,3 @@
-
-
 ---
 title: Ubuntu常用软件安装流程整理
 
@@ -350,8 +348,6 @@ mv ~/.vim/.vimrc ~/
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle  
 ```
 
-    enter code here
-
 \> 打开vim并执行bundle程序
 
 ```Shell
@@ -360,6 +356,6 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 \> 退出编辑器，重新打开vim后就可以看到效果了。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxNjA5MTQ2LDE4NDgzMDM4ODcsLTExND
-I3NDIwNjBdfQ==
+eyJoaXN0b3J5IjpbMTA0MjQ2ODYyNywxODQ4MzAzODg3LC0xMT
+QyNzQyMDYwXX0=
 -->
